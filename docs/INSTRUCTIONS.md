@@ -3,24 +3,18 @@ De conventie voor naamgeving is sprintnaam-(sub)taaknaam
 Topics: (sub)task semester-naam, semesternummer, sprint-naam, sprint-nummer
 -->
 
-# Naam
+# The Client Case
 
-Beschrijving van de leertaak
+Ontwerp en maak een component / website voor een opdrachtgever op basis van een bestaande Headless CMS API 
 
 ## Context
-Deze leertaak hoort bij [sprint # "titel van de sprint"]. Dit is een [niveau van de opdracht] die je [individueel, in team] uitvoert voor [opdrachtgever]
+Deze leertaak hoort bij sprint 14 Lose your Head. Dit is een opdracht die je individueel uitvoert voor een opdrachtgever.
 
 ## Doel van deze opdracht
-*Wat leer je in deze taak.*
 
-beschrijf de taak in actieve taal: Je leert hoe...
+Je leert hoe je ...
 
 ## Werkwijze
-![Opdrachtomschrijving](opdrachtomschrijving.png)
-
-*De werkwijze volgt de fasering van de DLC*
-
-
 Bij elke leertaak wordt de development-lifecycle doorlopen. Hierdoor ontwikkel je een standaard aanpak voor frontend praktijkvraagstukken, werk je systematisch aan leertaken, ervaar je de relevantie van het geleerde en verwerf je de kennis, houding en vaardigheden die de beroepspraktijk van je vraagt.
 De development lifecycle kent de volgende stappen:
 
@@ -31,10 +25,13 @@ De development lifecycle kent de volgende stappen:
 5. Testen - bijvoorbeeld: Unit testing (TDD), System test, User test, device lab test, A\B testing.
 
 ### Aanpak
-1. Kies een user story uit de backlog van het project waar je aan gaat werken. De projecten staan bij [FDND Agency](https://github.com/fdnd-agency).  
-2. Fork de leertaak
-3. Hou je proces bij in de Wiki van de geforkte repository
-4. En schrijf een goede readme
+
+1. Kies een user story uit de backlog van het project waar je aan gaat werken. De projecten staan bij FDND Agency.
+2. Fork deze leertaak
+3. Kopieer/plak de user story waar jij aan gaat werken naar de Wiki van de geforkte repository, dit ga je ontwerpen en maken
+4. Documenteer je proces a.h.v de development life cycle
+5. En schrijf een goede readme
+
 
 ## Criteria
 
