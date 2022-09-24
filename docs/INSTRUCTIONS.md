@@ -12,7 +12,7 @@ Deze leertaak hoort bij sprint 14 Lose your Head. Dit is een opdracht die je ind
 
 ## Doel van deze opdracht
 
-Je leert hoe je ...
+Je leert hoe je aan de hand van een user story een (gedeelte van een) website kan ontwerpen en bouwen.
 
 ## Werkwijze
 Bij elke leertaak wordt de development-lifecycle doorlopen. Hierdoor ontwikkel je een standaard aanpak voor frontend praktijkvraagstukken, werk je systematisch aan leertaken, ervaar je de relevantie van het geleerde en verwerf je de kennis, houding en vaardigheden die de beroepspraktijk van je vraagt.
