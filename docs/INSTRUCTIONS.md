@@ -5,14 +5,14 @@ Topics: (sub)task semester-naam, semesternummer, sprint-naam, sprint-nummer
 
 # The Client Case
 
-Ontwerp en maak een component / website voor een opdrachtgever op basis van een bestaande Headless CMS API 
+Ontwerp en maak een component en/of website voor een opdrachtgever op basis van een bestaande Headless CMS API. 
 
 ## Context
-Deze leertaak hoort bij sprint 14 Lose your Head. Dit is een opdracht die je individueel uitvoert voor een opdrachtgever.
+Deze leertaak hoort bij sprint 14 :Lose your Head. Dit is een opdracht die je individueel uitvoert voor een opdrachtgever.
 
 ## Doel van deze opdracht
 
-Je leert hoe je aan de hand van een user story een (gedeelte van een) website kan ontwerpen en bouwen.
+Je leert hoe je aan de hand van een user story een (gedeelte van een) website kan ontwerpen en bouwen op basis van een headless CMS.
 
 ## Werkwijze
 Bij elke leertaak wordt de development-lifecycle doorlopen. Hierdoor ontwikkel je een standaard aanpak voor frontend praktijkvraagstukken, werk je systematisch aan leertaken, ervaar je de relevantie van het geleerde en verwerf je de kennis, houding en vaardigheden die de beroepspraktijk van je vraagt.
@@ -26,11 +26,13 @@ De development lifecycle kent de volgende stappen:
 
 ### Aanpak
 
-1. Kies een user story uit de backlog van het project waar je aan gaat werken. De projecten staan bij FDND Agency.
-2. Fork deze leertaak
-3. Kopieer/plak de user story waar jij aan gaat werken naar de Wiki van de geforkte repository, dit ga je ontwerpen en maken
-4. Documenteer je proces a.h.v de development life cycle
-5. En schrijf een goede readme
+1. Kies een user story uit de backlog van het project waar je aan gaat werken. De projecten staan bij [FDND Agency](https://github.com/fdnd-agency).
+2. Maak een fork van [deze leertaak](https://github.com/fdnd-task/lose-your-head-the-client-case).
+3. Kopieer de user story waar jij aan gaat werken naar de Wiki van de geforkte repository. Deze user story ga je gedurende deze sprint beantwoorden/ verwerkelijken/ realiseren. **NB: Een user-story moet vaak nog opgesplitst worden in taken!** 
+4. Plan een gesprek met de opdrachtgever, maak verkennende schetsen en bereid vragen voor en zorg dat je de opdracht helder hebt voor je aan de slag gaat.
+5. Hanteer de fases uit de dev-lifecycle om jouw project in te richten, bespreek vooraf met een docent welke stappen je denkt te gaan hanteren.
+6. Documenteer doorlopend jouw proces aan de hand van de dev-lifecycle, alle (technische en ontwerp) beslissingen dienen onderbouwd te worden en je verwijst naar alle bronnen die je bij de verschillende fases gebruikt hebt.
+7. Schrijf tenslotte een goede `Readme.md` waarme je: 1) kort inzicht geeft in het hoe en waarom van jouw project en 2) developers instructies geeft over hoe jouw project te gebruiken is.
 
 
 ## Criteria
