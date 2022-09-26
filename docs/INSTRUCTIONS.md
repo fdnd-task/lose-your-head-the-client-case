@@ -41,7 +41,7 @@ Focus sprint # - De focus in deze sprint ligt op het realiseren van een opdracht
 
 Voor deze leertaak gelden de gedragscriteria voor sprint 14: 
 * Richt in overleg projecten in volgens de development-lifecycle.
-* Kan omgaan met diversiteit binnen teams en handelt respectvol naar anderen.
+* ~~Kan omgaan met diversiteit binnen teams en handelt respectvol naar anderen.~~
 * Luistert, vat samen, verifieert en vraagt door tot een boodschap helder is.
 * Documenteert op professionele wijze en bespreekt voortgang binnen het team.
 * Analyseert een vraag, signaleert knelpunten en kiest onderbouwd een oplossingsrichting.
