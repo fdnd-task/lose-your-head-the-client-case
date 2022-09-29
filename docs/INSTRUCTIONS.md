@@ -26,7 +26,7 @@ De development lifecycle kent de volgende stappen:
 
 ### Aanpak
 
-1. Kies een user story uit de backlog van het project waar je aan gaat werken. De projecten staan bij [FDND Agency](https://github.com/fdnd-agency).
+1. Kies een user story uit de backlog van het project waar je aan gaat werken, of schrijf een nieuwe user story.  De projecten staan bij [FDND Agency](https://github.com/fdnd-agency).
 2. Maak een fork van [deze leertaak](https://github.com/fdnd-task/lose-your-head-the-client-case).
 3. Kopieer de user story waar jij aan gaat werken naar de Wiki van de geforkte repository. Deze user story ga je gedurende deze sprint beantwoorden/ verwerkelijken/ realiseren. **NB: Een user-story moet vaak nog opgesplitst worden in taken!** 
 4. Plan een gesprek met de opdrachtgever, maak verkennende schetsen en bereid vragen voor en zorg dat je de opdracht helder hebt voor je aan de slag gaat.
