@@ -1,0 +1,48 @@
+* {
+    font-family: Open Sans,sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    text-shadow: #FFF021 0.1em 0em;
+}
+
+div {
+    display: block;
+}
+
+body {
+    background-color: #EEEEEE;
+    margin-inline: 8em;
+    color: black;
+    max-width: 650rem;
+}
+main {
+    background-color: white;
+    height: fit-content;
+}
+
+/* Navigation */
+
+#Navigation {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: #FFF021;
+    height: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#Navigation a {
+    text-decoration: none;
+    margin: 1em;
+    color: black;
+}
+
+#Main-content {
+    height: 10em;
+}
