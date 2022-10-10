@@ -3,7 +3,11 @@
 </script>
 
 <section>
-	<h2>{heroTitle}</h2>
+	<span>1.0</span>
+
+	<div>
+		<h2>{heroTitle}</h2>
+	</div>
 </section>
 
 <style>
@@ -13,10 +17,23 @@
 		background-size: cover;
 		background-position: center;
 		height: 15rem;
-		color: #fff;
-		padding: 1rem;
+		color: var(--color-white);
+		padding: 1rem 3rem;
 		display: flex;
-		flex-direction: column;
-		justify-content: center;
+		align-items: center;
+	}
+
+	h2 {
+		font-size: 2rem;
+	}
+
+	span {
+		font-size: 6rem;
+		margin-right: 1rem;
+		font-weight: 600;
+	}
+
+	p {
+		color: var(--color-white);
 	}
 </style>

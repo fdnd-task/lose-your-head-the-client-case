@@ -10,4 +10,5 @@ body {
     box-sizing: border-box;
     max-width: 60rem;
     margin: 0 auto;
+    background-color: var(--color-grey);
 }
