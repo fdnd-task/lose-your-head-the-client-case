@@ -3,8 +3,6 @@
 </script>
 
 <section>
-	<span>1.0</span>
-
 	<div>
 		<h2>{heroTitle}</h2>
 	</div>
@@ -18,22 +16,26 @@
 		background-position: center;
 		height: 15rem;
 		color: var(--color-white);
-		padding: 1rem 3rem;
+		padding: 1rem;
 		display: flex;
-		align-items: center;
+		flex-direction: column;
+		justify-content: center;
 	}
 
 	h2 {
-		font-size: 2rem;
+		max-width: 45rem;
+		text-align: center;
 	}
 
-	span {
-		font-size: 6rem;
-		margin-right: 1rem;
-		font-weight: 600;
-	}
+	@media (min-width: 60rem) {
+		section {
+			height: 25rem;
+			padding: 0 3rem;
+		}
 
-	p {
-		color: var(--color-white);
+		h2 {
+			font-size: 3rem;
+			text-align: left;
+		}
 	}
 </style>
