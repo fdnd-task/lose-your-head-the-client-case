@@ -1,47 +1,27 @@
 <script>
-	import Hero from "$lib/Hero.svelte";
-    import Header from "..//lib/Header.svelte";
-    import Chapter from "../lib/Chapter.svelte";
-  import Content from "../lib/Content.svelte";
-    import Footer from "../lib/Footer.svelte";
+	import Hero from "$lib/components/IndexComponents/Hero.svelte";
+	import Introduction from "$lib/components/IndexComponents/Introduction.svelte";
+	import Standard from "../lib/components/IndexComponents/Standard.svelte";
+	import StandardChapter from "../lib/components/IndexComponents/StandardChapter.svelte";
+	import StandardSection from "../lib/components/IndexComponents/StandardSection.svelte";
 </script>
 
-<body>
-    <Header></Header>
 <main>
-	<Hero heroTitle="Beoogde leerresultaten" />
-    <Chapter></Chapter>
-    <Content></Content>
+	<Hero heroTitle="Communication and Multimedia Design Midterm" />
+	<Introduction />
+	<StandardSection>
+		<Standard>
+			<StandardChapter />
+		</Standard>
+		<Standard>
+			<StandardChapter />
+		</Standard>
+		<Standard>
+			<StandardChapter />
+		</Standard>
+		<Standard>
+			<StandardChapter />
+		</Standard>
+	</StandardSection>
 </main>
-    <Footer></Footer>
-</body>
-
-
-
-<style>
-    * {
-        font-family: Open Sans,sans-serif;
-    }
-
-    div {
-        display: block; 
-    }
-
-    main {
-    background-color: white;
-    height: 60em;
-    }
-
-    body {
-    background-color: #EEEEEE;
-    color: black;
-    max-width: 60rem;
-    align-content: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-</style>
-
 
