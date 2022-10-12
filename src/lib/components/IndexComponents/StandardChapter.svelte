@@ -1,8 +1,8 @@
-<li><a href="#">Link</a></li>
-<li><a href="#">Link</a></li>
-<li><a href="#">Link</a></li>
-<li><a href="#">Link</a></li>
-<li><a href="#">Link</a></li>
+<script>
+	export let chapterTitle;
+</script>
+
+<li><a href="#">{chapterTitle}</a></li>
 
 <style>
 	a {

@@ -1,5 +1,9 @@
+<script>
+	export let standardTitle;
+</script>
+
 <section>
-	<a href="#">Title</a>
+	<a href="#">{standardTitle}</a>
 	<ul><slot /></ul>
 </section>
 
