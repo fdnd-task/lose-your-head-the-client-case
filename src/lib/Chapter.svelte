@@ -9,5 +9,5 @@
     padding: 20px;
     float: left;
     position: sticky;
-}
+    }
 </style>

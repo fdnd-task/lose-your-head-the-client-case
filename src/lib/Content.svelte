@@ -8,15 +8,12 @@
         </a>
 </section>
 
+
 <style>
     #Main-content {
     margin: 6em;
     margin-top: 3em;
     padding: 2rem 5rem;
-    }
-
-    #Main-content {
     height: 10em;
-}
-
+    }
 </style>

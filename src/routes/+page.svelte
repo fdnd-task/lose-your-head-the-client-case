@@ -13,10 +13,10 @@
     <Chapter></Chapter>
     <Content></Content>
 </main>
-
-
-<Footer></Footer>
+    <Footer></Footer>
 </body>
+
+
 
 <style>
     * {

@@ -10,5 +10,7 @@
     color: white;
     text-align: center;
     padding: 3rem 0;
+    position: relative;
+    bottom: 5px;
     }
 </style>
