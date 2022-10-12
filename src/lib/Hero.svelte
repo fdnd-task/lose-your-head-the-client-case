@@ -8,6 +8,9 @@
 </section>
 
 <style>
+	.intro {
+    color: #EEEEEE;
+	}
 	section {
 		background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://cmd-mid-term.netlify.app/assets/images/detail-hero-image.jpg");
 		background-size: cover;
@@ -18,5 +21,6 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+		padding: 2rem 5rem;
 	}
 </style>
