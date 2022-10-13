@@ -2,10 +2,12 @@
 
 <header>
   <nav>
-    <a href="" class="">Beoogde leerresultaten</a>
-    <a href="" class="">Onderwijsleeromgeving</a>
-    <a href="" class="">Toetsing</a>
-    <a href="" class="">Gerealiseerde leerresultaten</a>
+    <a href="/beoogde-leerresultaten" class="">Beoogde leerresultaten</a>
+    <a href="/onderwijsleeromgeving" class="">Onderwijsleeromgeving</a>
+    <a href="/toetsing" class="">Toetsing</a>
+    <a href="/gerealiseerde-leerresultaten" class=""
+      >Gerealiseerde leerresultaten</a
+    >
   </nav>
 </header>
 
@@ -14,6 +16,7 @@
     text-align: center;
     color: black;
     text-shadow: #fff021 0.1em 0em;
+    margin: 0.5em;
   }
 
   header {
