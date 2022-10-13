@@ -4,9 +4,12 @@
 	import Standard from "../lib/components/IndexComponents/Standard.svelte";
 	import StandardChapter from "../lib/components/IndexComponents/StandardChapter.svelte";
 	import StandardSection from "../lib/components/IndexComponents/StandardSection.svelte";
+	import Header from "$lib/components/Header.svelte";
 
 	export let data;
 </script>
+
+<Header />
 
 <main>
 	<Hero heroTitle={data.page.title} />
@@ -30,4 +33,3 @@
 		{/each}
 	</StandardSection>
 </main>
-

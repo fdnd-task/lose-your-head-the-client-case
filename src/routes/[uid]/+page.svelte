@@ -1,32 +1,20 @@
 <script>
-	import Hero from "$lib/Hero.svelte";
-    import Header from "$lib/Header.svelte";
-    import Chapter from "$lib/Chapter.svelte";
-    import Content from "$lib/Content.svelte";
-    import Footer from "$lib/Footer.svelte";
+	import ChapterSection from "$lib/components/DetailComponents/ChapterSection.svelte";
+	import ChapterContentLeft from "$lib/components/DetailComponents/ChapterContentLeft.svelte";
+	import ChapterContentRight from "$lib/components/DetailComponents/ChapterContentRight.svelte";
+	import StandardHero from "$lib/components/DetailComponents/StandardHero.svelte";
+	import StandardNavigation from "$lib/components/DetailComponents/StandardNavigation.svelte";
+	import StandardNavigationLink from "$lib/components/DetailComponents/StandardNavigationLink.svelte";
+
+	export let data;
+
+	// console.log(data.standard.data.chapters[0].data.title);
+
+	// console.log(data.standard.data.title);
 </script>
 
-    <Header></Header>
-	<Hero heroTitle="Beoogde leerresultaten" />
-    <Chapter />
-    <Content />
-    <Footer />
-
-
-
-<style>
-    div {
-        display: block; 
-    }
-
-    body {
-    background-color: #EEEEEE;
-    color: black;
-    max-width: 60rem;
-    align-content: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-</style>
+<StandardHero
+	standardHeaderTitle={data.standard.data.title}
+	standardHeaderIntroduction={data.standard.data.introduction}
+	standardNumber={data.standard.data.standardnumber}
+/>
