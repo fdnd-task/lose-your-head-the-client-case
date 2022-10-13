@@ -1,7 +1,11 @@
+<script>
+  export let ChapterContentLeft;
+  export let ChapterContentRight;
+</script>
+
 <section id="Main-content">
-  <h2>Humanity-centered digital designers</h2>
+  <h2>{ChapterContentLeft}</h2>
   <!-- svelte-ignore a11y-missing-attribute -->
-  <p />
 </section>
 
 <style>

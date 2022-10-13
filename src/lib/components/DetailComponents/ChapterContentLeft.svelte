@@ -5,7 +5,7 @@
 </script>
 
 <div>
-  {@html helpers.asHTML(contentLeft)}
+  <h1>{@html helpers.asHTML(contentLeft)}</h1>
 </div>
 
 <style>
