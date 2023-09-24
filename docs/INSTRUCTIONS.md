@@ -35,14 +35,7 @@ De development lifecycle kent de volgende stappen:
 7. Schrijf tenslotte een goede `Readme.md` waarme je: 1) kort inzicht geeft in het hoe en waarom van jouw project en 2) developers instructies geeft over hoe jouw project te gebruiken is.
 
 
-## Criteria
+## Definitions of Done
+Focus sprint 14 - De focus van deze sprint ligt op het grip krijgen van de informatie architectuur van een website.
 
-Focus sprint # - De focus in deze sprint ligt op het realiseren van een opdracht voor een opdrachtgever met een content-first approach
-
-Voor deze leertaak gelden de gedragscriteria voor sprint 14: 
-* M: je richt in overleg projecten in volgens de development-lifecycle.
-* ~~S: Je kan omgaan met diversiteit binnen teams en handelt respectvol naar anderen.~~
-* C: Je luistert, vat samen, verifieert en vraagt door tot een boodschap helder is.
-* C: Je documenteert op professionele wijze en bespreekt voortgang binnen het team.
-* P: Je analyseert een vraag, signaleert knelpunten en kiest onderbouwd een oplossingsrichting.
-* P: Je Schetst om gedachten en processen te verkennen, abstracte begrippen over te brengen en de oplossingsrichting inzichtelijk te maken.
+Deze opdracht is done als:
