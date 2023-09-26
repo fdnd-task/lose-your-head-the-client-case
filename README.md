@@ -30,7 +30,7 @@ Wil je dit project lokaal starten? Volg dan de volgende stappen. Let op! NodeJS 
 
 1. Open je terminal. Zorg dat je in het pad zit van het project.
 ```bash
-pad_naar_het_project/fdnd-sprint-13-l2 %
+pad_naar_het_project/fdnd-sprint-14-l1 %
 ```
 
 3. Voordat je de applicatie kunt starten moet je alle modules installeren.
