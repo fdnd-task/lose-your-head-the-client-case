@@ -1,8 +1,8 @@
 <h1>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/luukbrauckmann/fdnd-s14-l1/assets/47314813/9b9ec3c8-590a-4a9c-9a31-714868751cf8" height="75" alt="Ulti.tv">
-    <img src="https://github.com/luukbrauckmann/fdnd-s14-l1/assets/47314813/0529b2e0-05c5-4555-866e-c1972e330ca2" height="75" alt="Ulti.tv">
-  </picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/luukbrauckmann/fdnd-s14-l1/assets/47314813/8525c7c2-09d4-4089-a1e1-6cf44bfad8fc" alt="ULTI.TV" height="100">
+      <img alt="logo" src="https://github.com/luukbrauckmann/fdnd-s14-l1/assets/47314813/4805fd5e-a5fa-4177-a3d8-8a6977fad32b" alt="ULTI.TV" height="100">
+    </picture>
 </h1>
 
 <h2 id="contents">📦 Contents</h2>
