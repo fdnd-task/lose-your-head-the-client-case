@@ -1,6 +1,8 @@
 <h1>
-  <img src="" style="height: 1em;">
-  <span> Ulti.tv</span>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/luukbrauckmann/fdnd-s14-l1/assets/47314813/9b9ec3c8-590a-4a9c-9a31-714868751cf8" height="75" alt="Ulti.tv">
+    <img src="https://github.com/luukbrauckmann/fdnd-s14-l1/assets/47314813/0529b2e0-05c5-4555-866e-c1972e330ca2" height="75" alt="Ulti.tv">
+  </picture>
 </h1>
 
 <h2 id="contents">📦 Contents</h2>
