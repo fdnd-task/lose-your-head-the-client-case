@@ -1,38 +1,63 @@
-# create-svelte
+<h1>
+  <img src="" style="height: 1em;">
+  <span> Ulti.tv</span>
+</h1>
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+<h2 id="inhoud">📦 Inhoud</h2>
 
-## Creating a project
+1. [Beschrijving](#beschrijving)
+2. [Gebruik](#gebruik)
+3. [Kenmerken](#kenmerken)
+4. [Installatie](#installatie)
+5. [Bronnen](#bronnen)
+6. [Licenties](#licenties)
 
-If you're seeing this, you've probably already done this step. Congrats!
+<h2 id="beschrijving">ℹ️ Beschrijving</h2>
 
+@Todo
+
+<h2 id="gebruik">🖥️ Gebruik</h2>
+
+@Todo
+
+<h2 id="kenmerken">✨ Kenmerken</h2>
+
+@Todo
+
+<h2 id="installatie">📥 Installatie</h2>
+
+Wil je dit project lokaal starten? Volg dan de volgende stappen. Let op! NodeJS moet geïnstalleerd zijn om npm commando's uit te kunnen voeren. In het kopje bronnen staat een link naar de NodeJS website.
+
+1. Open je terminal. Zorg dat je in het pad zit van het project.
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
+# Windows
+pad_naar_het_project/fdnd-sprint-13-l2 >
 
-# create a new project in my-app
-npm create svelte@latest my-app
+# MacOS
+pad_naar_het_project/fdnd-sprint-13-l2 %
 ```
 
-## Developing
+3. Voordat je de applicatie kunt starten moet je alle modules installeren.
+```bash
+npm install
+```
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
+3. Wanneer de installatie klaar is kun je de applicatie starten met de volgende commando.
 ```bash
 npm run dev
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+# Of wanneer je de browser direct wilt openen met de juiste URL.
+npm run dev --open
 ```
 
-## Building
 
-To create a production version of your app:
+<h2 id="bronnen">🌍 Bronnen</h2>
 
-```bash
-npm run build
-```
+- [Instructies](docs/INSTRUCTIONS.md)
+- [Sveltekit](https://kit.svelte.dev/)
+- [Supabase](https://supabase.com/)
+- [Vercel](https://vercel.com/)
 
-You can preview the production build with `npm run preview`.
+<h2 id="licenties">🪪 Licenties</h2>
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+This project is licensed under the terms of the [MIT license](./LICENSE).
