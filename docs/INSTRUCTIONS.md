@@ -10,6 +10,11 @@ Ontwerp en maak een component en/of website voor een opdrachtgever op basis van 
 ## Context
 Deze leertaak hoort bij sprint 14 :Lose your Head. Dit is een opdracht die je individueel uitvoert voor een opdrachtgever.
 
+Bij deze leertaak hoort de deeltaak:
+- [Content First](https://github.com/fdnd-task/lose-your-head-content-first)
+
+
+
 ## Doel van deze opdracht
 
 Je leert hoe je aan de hand van een user story een (gedeelte van een) website kan ontwerpen en bouwen op basis van een headless CMS.
