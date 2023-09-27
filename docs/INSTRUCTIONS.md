@@ -1,9 +1,4 @@
-<!--
-De conventie voor naamgeving is sprintnaam-(sub)taaknaam
-Topics: (sub)task semester-naam, semesternummer, sprint-naam, sprint-nummer
--->
-
-# The Client Case
+# Lose Your Head - the Client Case
 
 Ontwerp en maak een component en/of website voor een opdrachtgever op basis van een bestaande Headless CMS API. 
 
