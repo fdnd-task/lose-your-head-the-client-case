@@ -21,7 +21,13 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Inter', sans-serif;
 }
+
+/* @font-face {
+    font-family: inter-semibold;
+    src: url('$lib/assets/Inter-semiBold.ttf');
+} */
 
 /* Text styles */
 
