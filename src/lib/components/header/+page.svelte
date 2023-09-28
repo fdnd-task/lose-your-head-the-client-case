@@ -43,7 +43,7 @@
 		appearance: none;
 		padding: 1em 0.6em;
 
-        padding-right: 3em;
+        padding-right: 4em;
 		border-radius: 0.5em;
 		font-size: 1em;
 		background-color: #2c2c2c;
