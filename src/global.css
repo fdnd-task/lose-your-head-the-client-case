@@ -1,10 +1,60 @@
+:root {
+
+    /* Main Colors */
+    --c-magenta: rgb(185, 0, 95);
+    --c-pink: rgb(227, 0, 89);
+
+    /* Text */
+    --c-white: rgb(255, 255, 255);
+
+    /* Containers */
+    --c-container: rgb(44, 44, 44);
+    --c-container-stroke: rgb(69, 69, 69);
+
+    /* Contrast Colors */
+    --c-green: rgb(82, 255, 0);
+    --c-orange: rgb(255, 153, 0);
+    --c-red: rgb(247, 44, 44);
+
+}
+
 *{
     padding: 0;
     margin: 0;
-    font-family: inter-semibold, sans-serif;
+    /* font-family: inter-semibold, sans-serif; */
 }
 
-@font-face {
+/* @font-face {
     font-family: inter-semibold;
     src: url('$lib/assets/Inter-semiBold.ttf');
+} */
+
+/* Text styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;900&display=swap');
+
+h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
 }
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Default layout */
