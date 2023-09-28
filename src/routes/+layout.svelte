@@ -1,3 +1,8 @@
+<script>
+	import Header from '$lib/components/header/+page.svelte';
+</script>
+
 <main>
-    <slot />
+    <Header />
+	<slot />
 </main>
