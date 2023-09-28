@@ -15,7 +15,7 @@
 	</section>
 
 	<section class="header-icons">
-		<img src={informationIcon} alt="information icon" />
+		<a href="/info"><img class="information-icon-img" src={informationIcon} alt="information icon" /></a>
 		<img src={darkmodeIcon} alt="darkmode icon" />
 	</section>
 </header>
@@ -41,7 +41,7 @@
         background-position: center right 0.6em;
         
 		appearance: none;
-		padding: 0.9em 0.6em;
+		padding: 1em 0.6em;
 
         padding-right: 3em;
 		border-radius: 0.5em;
@@ -54,5 +54,8 @@
 	.header-icons {
 		display: flex;
 		gap: 1em;
+        align-items: center;
 	}
+
+    .information-icon-img{display: block;}
 </style>
