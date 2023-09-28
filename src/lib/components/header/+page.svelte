@@ -29,16 +29,27 @@
 		border-bottom: 2px solid #454545;
 	}
 
-    .logo-select{
-        display: flex;
-        gap: 1.5em;
-    }
+	.logo-select {
+		display: flex;
+		gap: 1.5em;
+	}
 
-    select{
-        padding: 0.9em 0.6em;
-        border-radius: 0.5em;
-        font-size: 0.8em;
-    }
+	select {
+        background-image: url('$lib/assets/select_arrow_down.svg');
+        background-repeat: no-repeat;
+        background-size: 0.8em;
+        background-position: center right 0.6em;
+        
+		appearance: none;
+		padding: 0.9em 0.6em;
+
+        padding-right: 3em;
+		border-radius: 0.5em;
+		font-size: 1em;
+		background-color: #2c2c2c;
+		color: #ffffff;
+		border: none;
+	}
 
 	.header-icons {
 		display: flex;
