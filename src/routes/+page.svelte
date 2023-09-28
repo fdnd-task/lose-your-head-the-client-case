@@ -1,5 +1,6 @@
 <script>
     export let data
+    import global from '../global.css'
 </script>
 
 <h1>Welcome to SvelteKit</h1>
