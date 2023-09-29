@@ -1,6 +1,6 @@
 export default function getQueryWebsite(slug){
     return `query Website {
-        website(where: {id: "${slug}"}) {
+        website(where: {slug: "${slug}"}) {
           titel
           urls {
             url
