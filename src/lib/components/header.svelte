@@ -25,6 +25,10 @@
 	</section>
 </header>
 
+<section class="container-heading-1">
+	<h1>Test</h1>
+</section>
+
 <style>
 	header {
 		display: flex;
@@ -68,5 +72,20 @@
 
 	.information-icon-img {
 		display: block;
+	}
+
+	/* container heading 1 */
+	.container-heading-1{
+		background-color: var(--c-container);
+		padding: 2em 1em;
+		border-top: 12px solid var(--c-pink);
+		margin: 0.75em;
+		border-radius: 0.5em
+	}
+
+	h1{
+		font-size: 4em;
+		color: var(--c-white);
+		padding-left: 0.25em;
 	}
 </style>

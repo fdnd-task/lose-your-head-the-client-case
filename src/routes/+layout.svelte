@@ -19,8 +19,7 @@
 </script>
 
 
-
+<Header />
 <main>
-    <Header />
 	<slot />
 </main>
