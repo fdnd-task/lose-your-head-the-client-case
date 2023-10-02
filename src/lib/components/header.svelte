@@ -8,7 +8,9 @@
 
 <header>
 	<section class="logo-select">
-		<img src={logo} alt="logo vervoerregio" />
+		<a href="/">
+			<img src={logo} alt="logo vervoerregio" />
+		</a>
 			<select>
 				<option value="/">Selecteer Partner</option>
 				<option value="gvb">GVB</option>
@@ -35,6 +37,10 @@
 	.logo-select {
 		display: flex;
 		gap: 1.5em;
+	}
+
+	.logo-select a{
+		display: flex;
 	}
 
 	select {
