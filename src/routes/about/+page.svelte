@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
     export let data
 </script>
 
@@ -7,7 +7,7 @@
     <p>{quote.text}</p>
     <cite>{quote.author}</cite>
     </blockquote>
-{/each}
+{/each} -->
 
 <style>
 
