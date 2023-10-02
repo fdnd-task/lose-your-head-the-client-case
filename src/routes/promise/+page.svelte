@@ -10,13 +10,5 @@
 {/each}
 
 <style>
-  blockquote {
-    color: hotpink;
-  }
-  cite {
-    color: dodgerblue;
-  }
-  blockquote + blockquote {
-    margin-top: 3rem;
-  }
+
 </style>
