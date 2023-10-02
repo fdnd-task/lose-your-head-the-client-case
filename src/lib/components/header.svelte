@@ -26,7 +26,7 @@
 </header>
 
 <section class="container-heading-1">
-	<h1>Test</h1>
+	<h1>Partners</h1>
 </section>
 
 <style>
@@ -84,8 +84,6 @@
 	}
 
 	h1{
-		font-size: 4em;
-		color: var(--c-white);
 		padding-left: 0.25em;
 	}
 </style>
