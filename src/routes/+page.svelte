@@ -12,8 +12,10 @@
             <h5>Create your team</h5>
         </div>
         <div>
-            <h3>Create Player</h3>
-            <h5>Create your player</h5>
+            <a href="/players/new">
+                <h3>Create Player</h3>
+                <h5>Create your player</h5>
+            </a>
         </div>
     </section>
     <section>
@@ -33,7 +35,6 @@
 
     h2{
         width: 50%;
-        line-height: 6vh;
         margin-bottom: 0.5rem;
     }
         
@@ -53,7 +54,7 @@
 
     section, div{
         border-radius: 25px;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        box-shadow: var(--box-shadow);
         padding: 4vh 3vw;
     }
 
@@ -106,6 +107,13 @@
 
     /*RESPONSIVE KLOPT NOG NIET HELEMAAL*/
 
+    @media only screen and (min-width: 1400px){
+        main{
+            padding: 2rem 3rem;
+        }
+    }
+
+
     @media only screen and (max-width: 580px){
         main{
             display: grid;
@@ -131,6 +139,8 @@
             grid-area: 4 / 1;
         }
     }
+
+
 
 </style>
 

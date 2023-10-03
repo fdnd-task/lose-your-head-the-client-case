@@ -3,25 +3,25 @@
 
 <nav>
     <div class="nav-content">
-        <a href="#players" class="nav-item">
-            <img src="./src/lib/assets/home-icon.svg" alt="home button">
+        <a href="/" class="nav-item">
+            <img src="/src/lib/assets/home-icon.svg" alt="home button">
             <p>Home</p>
         </a>
         <a href="#players" class="nav-item">
-            <img src="./src/lib/assets/all-players-icon.svg" alt="all players button">
+            <img src="/src/lib/assets/all-players-icon.svg" alt="all players button">
             <p>All Players</p>
         </a>
         <a href="#players" class="nav-item">
-            <img src="./src/lib/assets/all-teams-icon.svg" alt="all teams button">
+            <img src="/src/lib/assets/all-teams-icon.svg" alt="all teams button">
             <p>All Teams</p>
         </a>
         <a href="#players" class="nav-item">
-            <img src="./src/lib/assets/all-tournaments-icon.svg" alt="all tournaments button">
-            <p>All Tournaments</p>
+            <img src="/src/lib/assets/all-tournaments-icon.svg" alt="all tournaments button">
+            <p>All <br> Tournaments</p>
         </a>
         <a href="#players" class="nav-item">
-            <img src="./src/lib/assets/current-tournament-icon.svg" alt="all players button">
-            <p>Current Tournament</p>
+            <img src="/src/lib/assets/current-tournament-icon.svg" alt="all players button">
+            <p>Current <br> Tournament</p>
         </a>
     </div>
 </nav>
@@ -52,6 +52,7 @@
         width: 100%;
         border-radius: 10px;
         gap: 3rem;
+        box-shadow: var(--box-shadow);
     }
 
     .nav-item{
@@ -69,6 +70,10 @@
 
     .nav-item img{
         max-width: 2rem;
+    }
+
+    a p {
+        font-size: clamp(0.4rem, 1vw, 1rem);
     }
 
 
