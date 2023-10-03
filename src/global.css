@@ -32,6 +32,10 @@ body{
     color: var(--c-white);
 }
 
+main{
+    margin: 0 0.75em 0.75em 0.75em;
+}
+
 /* @font-face {
     font-family: inter-semibold;
     src: url('$lib/assets/Inter-semiBold.ttf');

@@ -1,7 +1,7 @@
 <script>
     export let data
+    
+    import Partners from '$lib/components/partnersOverzicht.svelte'
 </script>
 
-<pre>
-    {JSON.stringify(data, null, 2)}
-</pre>
+<Partners {data}/>
