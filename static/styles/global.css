@@ -1,0 +1,93 @@
+/* --GLOBAL-- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* COLORS */
+    --background-color: #F4F5FA;
+    --input-background-color: #FFFFFF;
+    --element-background-color: #FFFFFF;
+    --primary-font-color: #444D7B;
+    --button-background-color: #63C6A7;
+    --button-font-color: #FFFFFF;
+    --selected-background-color: #D6DCFF;
+    --hover-background-color: #E7FFF7;
+
+    /* FONTS */
+    --primary-font-family: 'Sora', sans-serif;
+    --secondary-font-family: 'Quicksand', sans-serif;
+    --tertiary-font-family: 'Inter', sans-serif;
+  }
+
+
+body{
+    background-color: var(--background-color);
+}  
+
+main{
+    padding: 6rem 3.5rem;
+}
+
+button{
+    background-color: var(--button-background-color);
+    color: var(--button-font-color);
+    border-radius: 25px;
+    padding: 0.7rem 1rem;
+    cursor: pointer;
+    border: none;
+    font-family: var(--secondary-font-family);
+    font-weight: 700;
+}
+
+h1, 
+h2 {
+    font-family: var(--primary-font-family);
+    font-size: clamp(1rem, 4.2vw, 4rem);
+    font-weight: 900;
+    line-height: 3.8rem;
+    color: var(--primary-font-color)
+}
+
+h3{
+    font-family: var(--primary-font-family);
+    font-size: clamp(0.8rem, 2vw, 3.5rem);
+    font-weight: 900;
+    color: var(--primary-font-color);
+}
+
+h4 {
+    font-family: var(--secondary-font-family);
+    font-size: clamp(0.7rem, 2vw, 3rem);
+    font-weight: 400;
+    color: var(--primary-font-color);
+}
+
+h5 {
+    font-family: var(--secondary-font-family);
+    font-size: clamp(0.6rem, 1.5vw, 2.5rem);
+    font-weight: 400;
+    color: var(--primary-font-color);
+}
+
+/* UTILITY CLASSES - NOG EVEN OVERLEGGEN MET TEAM*/
+
+
+/* .placeholder-text{
+    font-family: var(--tertiary-font-family);
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-style: italic;
+    color: var(--primary-font-color);
+}
+
+.player-name{
+    font-family: var(--primary-font-family);
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--primary-font-color);
+} */
+
