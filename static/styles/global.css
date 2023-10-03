@@ -66,19 +66,22 @@ button{
     font-weight: 700;
 }
 
+a{
+    text-decoration: none;
+}
+
 h1, 
 h2 {
     font-family: var(--primary-font-family);
     font-size: clamp(1rem, 4.2vw, 4rem);
-    font-weight: 900;
-    line-height: 3.8rem;
+    font-weight: 800;
     color: var(--primary-font-color)
 }
 
 h3{
     font-family: var(--primary-font-family);
     font-size: clamp(0.8rem, 2vw, 3.5rem);
-    font-weight: 900;
+    font-weight: 800;
     color: var(--primary-font-color);
 }
 

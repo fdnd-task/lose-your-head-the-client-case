@@ -12,8 +12,10 @@
             <h5>Create your team</h5>
         </div>
         <div>
-            <h3>Create Player</h3>
-            <h5>Create your player</h5>
+            <a href="/players/new">
+                <h3>Create Player</h3>
+                <h5>Create your player</h5>
+            </a>
         </div>
     </section>
     <section>
@@ -33,7 +35,6 @@
 
     h2{
         width: 50%;
-        line-height: 6vh;
         margin-bottom: 0.5rem;
     }
         
