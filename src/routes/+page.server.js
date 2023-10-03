@@ -1,12 +1,10 @@
-import { client } from '$lib/utils/client'
+import { gql } from 'graphql-request'
+import { hygraph } from '$lib/utils/hygraph.js'
+
 import getQueryPartner from '$lib/queries/partner'
 
-export const load = async () => {
-    const queryProgram = getQueryPartner()
-
-    const data = await client({ query: queryProgram, fetch: fetch, endpoint: 'https://api-eu-central-1-shared-euc1-02.hygraph.com/v2/clbe0zp4u2fkz01uj486xdza4/master'})
-
-    return {
-        ...data.websites
-    }
+export async function load() {
+    let query = getQueryPartner(gql)
+    
+    return await hygraph.request(query)
 }

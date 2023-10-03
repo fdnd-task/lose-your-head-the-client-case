@@ -1,11 +1,11 @@
-import { client } from '$lib/utils/client'
+import { gql } from 'graphql-request'
+import { hygraph } from '$lib/utils/hygraph.js'
+
 import getQueryWebsite from '$lib/queries/website'
 
-export const load = async ({ params }) => {
+export async function load({params}) {
     const { websiteUID } = params;
-    const queryWebsite = getQueryWebsite(websiteUID)
+    let query = getQueryWebsite(gql, websiteUID)
     
-    const dataWebsite = await client({ query: queryWebsite, variables: { slug: websiteUID }, fetch: fetch, endpoint: 'https://api-eu-central-1-shared-euc1-02.hygraph.com/v2/clbe0zp4u2fkz01uj486xdza4/master' })
-
-    return { ...dataWebsite.website }
+    return await hygraph.request(query)
 }
