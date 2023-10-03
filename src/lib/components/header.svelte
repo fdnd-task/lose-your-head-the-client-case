@@ -3,34 +3,41 @@
 	import logo from '$lib/assets/vervoerregio_amsterdam_logo.svg';
 	import informationIcon from '$lib/assets/information_icon.svg';
 	import darkmodeIcon from '$lib/assets/dark_mode_icon.svg';
-	
 </script>
 
 <header>
-	<section class="logo-select">
-		<a href="/">
-			<img src={logo} alt="logo vervoerregio" />
-		</a>
+	<nav>
+		<section class="logo-select">
+			<a href="/">
+				<img src={logo} alt="logo vervoerregio" />
+			</a>
 			<select>
 				<option value="/">Selecteer Partner</option>
 				<option value="gvb">GVB</option>
 			</select>
-	</section>
+		</section>
 
-	<section class="header-icons">
-		<a href="/info"
-			><img class="information-icon-img" src={informationIcon} alt="information icon" /></a
-		>
-		<img src={darkmodeIcon} alt="darkmode icon" />
-	</section>
+		<section class="header-icons">
+			<a href="/info">
+				<img class="information-icon-img" src={informationIcon} alt="information icon" />
+			</a>
+			<img src={darkmodeIcon} alt="darkmode icon" />
+		</section>
+	</nav>
+
+	<section class="container-heading-1">
+		<h1>Partners</h1>
+	</section>	
 </header>
 
-<section class="container-heading-1">
-	<h1>Partners</h1>
-</section>
 
 <style>
-	header {
+	header{
+		display: flex;
+		flex-direction: column;
+	}
+	
+	nav {
 		display: flex;
 		justify-content: space-between;
 		background-color: #202020;
@@ -43,7 +50,7 @@
 		gap: 1.5em;
 	}
 
-	.logo-select a{
+	.logo-select a {
 		display: flex;
 	}
 
@@ -75,15 +82,15 @@
 	}
 
 	/* container heading 1 */
-	.container-heading-1{
+	.container-heading-1 {
 		background-color: var(--c-container);
 		padding: 2em 1em;
 		border-top: 12px solid var(--c-pink);
 		margin: 0.75em;
-		border-radius: 0.5em
+		border-radius: 0.5em;
 	}
 
-	h1{
+	h1 {
 		padding-left: 0.25em;
 	}
 </style>
