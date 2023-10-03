@@ -54,7 +54,7 @@
 
     section, div{
         border-radius: 25px;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        box-shadow: var(--box-shadow);
         padding: 4vh 3vw;
     }
 
@@ -107,6 +107,13 @@
 
     /*RESPONSIVE KLOPT NOG NIET HELEMAAL*/
 
+    @media only screen and (min-width: 1400px){
+        main{
+            padding: 2rem 3rem;
+        }
+    }
+
+
     @media only screen and (max-width: 580px){
         main{
             display: grid;
@@ -132,6 +139,8 @@
             grid-area: 4 / 1;
         }
     }
+
+
 
 </style>
 

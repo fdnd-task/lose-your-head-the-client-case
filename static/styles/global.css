@@ -50,6 +50,9 @@
     --primary-font-family: 'Sora', sans-serif;
     --secondary-font-family: 'Quicksand', sans-serif;
     --tertiary-font-family: 'Inter', sans-serif;
+
+    /* BOX SHADOW */
+    --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
 
 
@@ -59,6 +62,22 @@ body{
 
 main{
     padding: 6rem 3.5rem;
+}
+
+input{
+    outline: none;
+    padding: 1.8rem;
+    border-radius: 20px;
+    border: none;
+    box-shadow: var(--box-shadow);
+}
+
+input::placeholder{
+    font-size: 1.5rem;
+    font-style: italic;
+    font-family: var(--tertiary-font-family);
+    font-weight: 300;
+    color: var(--primary-font-color)
 }
 
 button{
