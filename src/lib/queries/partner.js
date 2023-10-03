@@ -1,5 +1,5 @@
-export default function getQueryPartner(){
-    return `
+export default function getQueryPartner(gql){
+    return gql`
     query Program {
         websites {
             id
