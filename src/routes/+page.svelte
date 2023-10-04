@@ -8,8 +8,10 @@
             <p class="subtitle-medium">Create your tournament</p>
         </div>
         <div>
-            <p class="subtitle-large">Create Team</p>
-            <p class="subtitle-small">Create your team</p>
+            <a href="/teams/new">
+                <p class="subtitle-large">Create Team</p>
+                <p class="subtitle-small">Create your team</p>
+            </a>
         </div>
         <div>
             <a href="/players/new">
