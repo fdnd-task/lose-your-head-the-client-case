@@ -12,7 +12,7 @@
             <h5>Create your team</h5>
         </div>
         <div>
-            <a href="/players/new">
+            <a href="/teams">
                 <h3>Create Player</h3>
                 <h5>Create your player</h5>
             </a>
