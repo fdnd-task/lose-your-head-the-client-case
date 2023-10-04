@@ -18,7 +18,7 @@
 
     <div class="title-logo"> 
 
-<img class="logo-about-ink" src="src/routes/about/assets/smallInkLogo 2.png">
+<img class="logo-about-ink" src="src/routes/about/assets/smallInkLogo 2.png" alt="logo">
 
     </div>
 </section>
