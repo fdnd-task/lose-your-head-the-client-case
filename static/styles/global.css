@@ -67,18 +67,17 @@ main{
 
 input, textarea{
     outline: none;
-    padding: 1.6rem;
+    padding: 2vh;
     border-radius: 20px;
     border: none;
     box-shadow: var(--box-shadow);
 }
 
-form div{
-    display: flex;
-    gap: 1rem;
-}
-
-input[type="text"], input[type="number"], input[type="date"], textarea{
+input[type="text"], 
+input[type="number"], 
+input[type="date"],
+input[type="search"], 
+textarea{
     font-size: 1.2rem;
     font-family: var(--tertiary-font-family);
     color: var(--primary-font-color)

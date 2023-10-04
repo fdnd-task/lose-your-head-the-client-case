@@ -50,7 +50,7 @@
         height: 100vh;
         width: 100vw;
         gap: 2rem;
-        padding-right: 12%;
+        padding-right: calc(10% + 2rem);
     }
 
     section, div{
@@ -110,7 +110,7 @@
 
     @media only screen and (min-width: 1400px){
         main{
-            padding: 2rem 3rem;
+            padding: 2rem calc(10% + 2rem) 2rem 2rem;
         }
     }
 
@@ -140,8 +140,6 @@
             grid-area: 4 / 1;
         }
     }
-
-
 
 </style>
 
