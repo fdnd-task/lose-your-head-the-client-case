@@ -3,12 +3,16 @@ import { hygraph } from '$lib/utils/hygraph.js'
 
 export async function load() {
     let query = gql`
-    query Homepage {
+    query MyQuery {
         homepages {
-            headTitle
-            bgContentVideo {
-                    url
+            header {
+                inkLogo {
+                url
                 }
+            }
+            introMain {
+                title
+            }
             }
         }
     `

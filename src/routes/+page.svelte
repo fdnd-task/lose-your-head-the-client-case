@@ -5,11 +5,11 @@
     console.log(data)
 </script>
 
-<!-- {#each data.assets as asset }
-<blockquote>
-    <p>{asset.homepages.headtitle}</p>
-</blockquote>
-{/each} -->
+{#each data.homepages as homepage }
 
-Where the real legends begin.
+    <h1>{homepage.introMain.title}</h1>
+    <img src={homepage.header.inkLogo.url} alt="logo">
+
+{/each}
+
 
