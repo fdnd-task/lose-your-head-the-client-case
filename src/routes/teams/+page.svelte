@@ -1,3 +1,8 @@
+<script>
+    export let data
+    const { teams } = data
+</script>
+
 <main>
     <h2>All Teams</h2>
     <h4>View all teams</h4>
@@ -8,18 +13,12 @@
         <button>Create your tournament</button>
     </section>
     <section class="all-teams">
-        <div>
-            <img src="/src/lib/assets/raimon.png" alt="Raimon Logo">
-            <p>Raimon</p>
-        </div>
-        <div>
-            <img src="/src/lib/assets/big-waves.png" alt="Big Waves Logo">
-            <p>Big Waves</p>
-        </div>
-        <div>
-            <img src="/src/lib/assets/chaos-angel-zero.png" alt="Chaos Angel Zero Logo">
-            <p>Chaos Angel Zero</p>
-        </div>
+        {#each teams as team}
+            <div>
+                <img src="/src/lib/assets/raimon.png" alt="Raimon Logo">
+                <p>{team.name}</p>
+            </div>
+        {/each}
     </section>
 </main>
 
