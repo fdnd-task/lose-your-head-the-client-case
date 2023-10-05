@@ -5,26 +5,28 @@
     <section>
         <div>
             <h2>Create Tournament</h2>
-            <h4>Create your tournament</h4>
+            <p class="subtitle-medium">Create your tournament</p>
         </div>
         <div>
-            <h3>Create Team</h3>
-            <h5>Create your team</h5>
+            <a href="/teams/new">
+                <p class="subtitle-large">Create Team</p>
+                <p class="subtitle-small">Create your team</p>
+            </a>
         </div>
         <div>
-            <a href="/teams">
-                <h3>Create Player</h3>
-                <h5>Create your player</h5>
+            <a href="/players/new">
+                <p class="subtitle-large">Create Player</p>
+                <p class="subtitle-small">Create your player</p>
             </a>
         </div>
     </section>
     <section>
         <h2>Completed Tournaments</h2>
-        <h4>View the completed tournaments</h4>
+        <p class="subtitle-medium">View the completed tournaments</p>
     </section>
     <section>
         <h2>Current Tournament</h2>
-        <h4>Check the current tournament</h4>
+        <p class="subtitle-medium">Check the current tournament</p>
     </section>
     <section>
     </section>
@@ -38,7 +40,7 @@
         margin-bottom: 0.5rem;
     }
         
-    h3{
+    .subtitle-large{
         width: 50%;
         margin-bottom: 0.2rem;
     }
@@ -50,6 +52,7 @@
         height: 100vh;
         width: 100vw;
         gap: 2rem;
+        padding-right: calc(10% + 2rem);
     }
 
     section, div{
@@ -109,7 +112,7 @@
 
     @media only screen and (min-width: 1400px){
         main{
-            padding: 2rem 3rem;
+            padding: 2rem calc(10% + 2rem) 2rem 2rem;
         }
     }
 
@@ -139,8 +142,6 @@
             grid-area: 4 / 1;
         }
     }
-
-
 
 </style>
 
