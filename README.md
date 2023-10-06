@@ -2,11 +2,8 @@
 Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. 
 De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# INK - LAMA LAMA 
-We ontwikkelen een dynamische website voor INK - Lama Lama's voetbalclub in Rio de Janeiro om sponsoren aan te trekken en het inspirerende verhaal van de club te delen, met als doel jongeren te beschermen tegen negatieve invloeden op straat.
-
-![MicrosoftTeams-image (6)](https://github.com/ArexanK/INK-the-client-case-S14/assets/94745953/8c88fe0b-171b-4c70-a57b-719c49402479)
-
+# Titel
+<!-- Geef je project een titel en schrijf in één zin wat het is -->
 
 ## Inhoudsopgave
 
@@ -17,23 +14,16 @@ We ontwikkelen een dynamische website voor INK - Lama Lama's voetbalclub in Rio 
   * [Bronnen](#bronnen)
   * [Licentie](#licentie)
 
-## Beschrijving 📝
+## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
-## Kenmerken 📌
-* 🖥 VScode
-* 🖥 Hygraph CMS
-* 🖥 Sveltekit
-* 🖥 HTML, CSS, JAVASCRIPT
-* 🖥 Github
+## Kenmerken
+<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
 
-## Installatie 📲
-* Clone deze repository.
-* Open de repository in je code-editor
-* Open een live server door middel van Visual studio code
-* Om je project online te zetten, kun je gebruik maken van 'Github Pages'
+## Installatie
+
 
 * CMS - Hygraph
 * Framework- Sveltekit
@@ -50,4 +40,8 @@ npm run dev
 
 ## Gebruik
 
-## Bronnen 📚
+## Bronnen
+
+## Licentie
+
+This project is licensed under the terms of the [MIT license](./LICENSE).
