@@ -13,7 +13,7 @@
         <li><a href="/promise">Promise</a></li>
         <li><a href="/about">About</a></li>
       </ul>
-      <!-- <img src={data.homepages.header.inkLogo.url} alt="logo"> -->
+      <!-- <img src={data.homepages[0].header.inkLogo.url} alt="logo"> -->
       <a href="/sponsor">Sponsor</a>
     </nav>
 
