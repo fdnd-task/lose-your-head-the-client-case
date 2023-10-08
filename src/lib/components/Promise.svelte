@@ -1,6 +1,6 @@
 <script>
     export let data;
-    console.log(data.promisePages)
+    // console.log(data.promisePages)
 </script>
 
 
