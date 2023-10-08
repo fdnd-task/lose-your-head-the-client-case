@@ -62,7 +62,7 @@ import { onMount } from 'svelte';
             <a href="/" class="top-nav-link"> 🇵🇹 </a>
             <a class="sponsor-button" id="top-nav-sponsor-button" href="./becomeSponsor">
                 Become a sponsor 
-                <svg width="6" height="11" viewBox="0 0 6 11" fill="none"
+                <svg class="sponsor-icon" width="6" height="11" viewBox="0 0 6 11" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path d="M1.1417 0.25L0 1.48375L3.7085 5.5L0 9.51625L1.1417 10.75L6 5.5L1.1417 0.25Z"
                         fill="#051A1A" />
@@ -191,12 +191,18 @@ import { onMount } from 'svelte';
     }
 
     .sponsor-button{
-        background-color: var(--pictonBlue);
-        color: var(--charcoal);
+        background-color: var(--plantGreen);
+        color: var(--justWhite);
     }
 
     .sponsor-button:hover{
-        background-color: var(--justWhite);
+        background-color: var(--candelLight);
+    }
+
+    .sponsor-icon path{
+        stroke: currentColor;
+        fill: currentColor;
+        color: var(--justWhite);
     }
 
     #top-nav-sponsor-button {
