@@ -3,7 +3,7 @@
     import Footer from "$lib/components/Footer.svelte";
 
     export let data
-    console.log(data.aboutPages)
+    // console.log(data.aboutPages)
 </script>
 
 <Header />
@@ -29,6 +29,11 @@
 <Footer />
 
 <style>
+
+    h1{
+        margin: 1em;
+    }
+    
     p{
         padding: 1em;
     }

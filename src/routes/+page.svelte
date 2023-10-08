@@ -3,7 +3,7 @@
     import Footer from "../lib/components/Footer.svelte";
 
     export let data
-    console.log(data.homepages)
+    // console.log(data.homepages)
 </script>
 
 <svelte:head>
