@@ -3,7 +3,7 @@
     import Footer from "$lib/components/Footer.svelte";
 
     export let data
-    console.log(data.sponsorPages)
+    // console.log(data.sponsorPages)
 </script>
 
 <Header />
