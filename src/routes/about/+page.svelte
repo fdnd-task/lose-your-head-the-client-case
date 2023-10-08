@@ -30,11 +30,23 @@
 
 <style>
 
-    h1{
-        margin: 1em;
+    h1, h2{
+        font-size: 5em;
+        display: inline-block;
+    }
+
+    h2{
+        color: var(--candelLight);
+        font-family: 'Kirang Haerang';
+    }
+
+    img{
+        display: block;
+        float: right
     }
     
     p{
         padding: 1em;
     }
+
 </style>

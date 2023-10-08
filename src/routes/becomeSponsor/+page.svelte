@@ -70,7 +70,7 @@
 
 <style>
     h1{
-        padding: 1em;
+        font-size: 5em;
     }
 
     p{

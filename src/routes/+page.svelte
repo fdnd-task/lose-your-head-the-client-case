@@ -21,3 +21,15 @@
 </main>
 
 <Footer />
+
+<style>
+
+
+h1 {
+    font-size: 5em;
+    color: var(--justWhite);
+    text-transform: uppercase;
+    margin: 2em 0;
+}
+
+</style>
