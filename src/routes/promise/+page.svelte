@@ -17,9 +17,9 @@
 
         <img src="{promisePage.promiseIntro.contentImg.url}" alt="content">
 
-        <p> {promisePage.promiseIntro.contentText}</p>
+        <p class="text1"> {promisePage.promiseIntro.contentText}</p>
 
-        <p> {promisePage.promiseIntro.contentText2}</p>
+        <p class="text2"> {promisePage.promiseIntro.contentText2}</p>
 
     {/each}
 
@@ -52,6 +52,8 @@
 
     p{
         padding: 1em;
+        width:30em;
+
     }
 
 </style>
