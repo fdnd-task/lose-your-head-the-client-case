@@ -15,12 +15,11 @@
 
         <h1>{promisePage.promiseIntro.title}</h1>
 
-        <img src="{promisePage.promiseIntro.contentImg.url}" alt="content">
-
         <p class="text1"> {promisePage.promiseIntro.contentText}</p>
 
         <p class="text2"> {promisePage.promiseIntro.contentText2}</p>
-
+       
+        <img src="{promisePage.promiseIntro.contentImg.url}" alt="content" class="responsive">
     {/each}
 
 
@@ -30,7 +29,7 @@
 
         <p class="text3"> {promisePage.promiseMain.contentText}</p>
 
-        <img src="{promisePage.promiseMain.imgContent.url}" alt="content">
+        <img src="{promisePage.promiseMain.imgContent.url}" alt="content" class="responsive">
 
     {/each}
 
@@ -62,14 +61,28 @@
     /*mobile first*/
     h1{
         font-size: 5em;
+        width:30em;
+        padding: 1rem;
     }
 
    .text1, .text2, .text3{
         padding: 1em;
-        width:30em;
+        width: 30em;
         font-size: 2em;
     }
 
+  .responsive{
+    padding:4rem;
    
+       
+   }
+
+   @media only screen (max-width: 600px) {
+  .responsive {
+   display:none;
+   width:100%;
+  }
+}
+
 
 </style>
