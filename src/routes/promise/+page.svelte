@@ -1,7 +1,7 @@
 <script>
     import Header from "$lib/components/Header.svelte";
     import Footer from "$lib/components/Footer.svelte";
-    import Promise from "$lib/components/Promise.svelte";
+    // import Promise from "$lib/components/Promise.svelte";
 
     export let data
     // console.log(data.promisePages)
@@ -23,7 +23,19 @@
 
     {/each}
 
-    <Promise {data}/>
+
+    {#each data.promisePages as promisePage }
+
+        <h1>{promisePage.promiseMain.title}</h1>
+
+        <p class="text3"> {promisePage.promiseMain.contentText}</p>
+
+        <img src="{promisePage.promiseMain.imgContent.url}" alt="content">
+
+    {/each}
+
+
+<!-- <Promise {data}/> -->
 
 </main>
 
@@ -46,14 +58,18 @@
         --top-nav-sponsor-button-hover-color: #051A1A;
     } */
 
+
+    /*mobile first*/
     h1{
         font-size: 5em;
     }
 
-    p{
+   .text1, .text2, .text3{
         padding: 1em;
         width:30em;
-
+        font-size: 2em;
     }
+
+   
 
 </style>
