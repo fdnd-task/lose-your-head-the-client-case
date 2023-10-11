@@ -86,6 +86,7 @@
 
 /* ============== FOOTER START ============== */
 
+
 footer ul {
     list-style-type: none;
     margin: 0;
@@ -110,8 +111,7 @@ footer a {
 }
 
 .link-container:hover a {
-    font-family: var(--header-font);
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     line-height: .8;
     color: var(--candelLight);
 }
@@ -120,8 +120,8 @@ footer a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 4em 6em;
-    align-items: flex-start;
+    padding: 5em 6em 0em 6em;
+    align-items: end;
     justify-content: space-between;
 }
 
