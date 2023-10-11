@@ -16,13 +16,14 @@
     
         <h1>{promisePage.promiseIntro.title}</h1>
         
+        <div class="block-text-2">
 <section class="block-text" >
 <!-- <div class="block"> -->
         <p class="text1"> {promisePage.promiseIntro.contentText}</p>
         <p class="text2"> {promisePage.promiseIntro.contentText2}</p>
 <!-- </div> -->
 </section>
-
+</div>
  <img src="{promisePage.promiseIntro.contentImg.url}" alt="content" class="img">
        
     {/each}
@@ -70,28 +71,34 @@
 
     /*mobile first*/
     h1{
-        font-size: 3em;
-        /* width:30em; */
-        padding: 1rem;
+        font-size: 2em;
+        padding: 3em;
     }
     h2{
         font-size: 2em;;
+        padding:1em;
+        max-width:30em;
+    
     }
 
-   .text1, .text2, .text3{
-        padding: 1em;
+   .text1, .text2{
+        padding: 1em 1em;
         font-size: 1em;
-        /* width: 30em; */
+        max-width: 30em;
         align-items: center;
        
     }
+
+    .text3{
+        padding: 2em 2em;
+        font-size: 1em;
+        max-width: 30em;
+        align-items: center;
+       
+
+    }
     section{
-        /* background-color: var(--jungleGreen);
-        clip-path: polygon(16% 0, 100% 13%, 100% 41%, 100% 83%, 0 98%, 0 25%);
-        margin-top: 7em;
-        background: #163A3A;
-        border: 23px  solid #0D2323; */
-        display:grid;
+    display:grid;
 	grid-template-rows:auto 8em auto;
     grid-row-start:1;
 	grid-row-end:3;
@@ -102,17 +109,17 @@
 			0% 4em,
 			30% 0,
 			100% 4.5em,
-			100% calc(100% - 5em),
+			100% calc(100% - 2em),
 			0% 100%,
 			0% 4em
 		);
 	z-index:10;
     margin:0;
-	padding:5em 2em;
+	padding:5em 3em;
+    
 
     }
      .img{
-    /* clip-path: polygon(19% 9%, 100% 0, 100% 41%, 100% 83%, 0 98%, 0 11%); */
     max-width:100%;
     width:100%;
 	grid-row-start:2;
@@ -131,11 +138,17 @@
 }
 
 .block-text-2 {
-    background-image: url("/substract.png");
+    background-image: url("/Subtract.png");
+    width:100%;
+    height:-50%;
+    /* opacity: .5; */
+    object-fit: contain;
+   
+
 }
 
 
-   @media only screen and (min-width: 1200px) {
+   @media only screen and (min-width: 768px) and (max-width: 1200px) {
     .responsive {
    width:100%;
    height:auto;
@@ -146,15 +159,18 @@
 
   .text1, .text2, .text3{
     margin: 0 auto;
-    width:30em;
-    font-size: 2em;
+    font-size: 1em;
   }
 
 
   h1{
     margin: 0 auto;
+    align-items:center;
   }
-   
+   h2{
+    margin: 0 auto;
+    align-items:center;
+   }
   
    .block{
     padding-bottom: 50px;
@@ -163,6 +179,11 @@
 
    }
 
+   .block-text-2{
+    padding-bottom: 50px;
+        padding-top:30px;
+
+   }
    }
 
 </style>
