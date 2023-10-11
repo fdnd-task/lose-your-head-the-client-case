@@ -21,6 +21,20 @@ export async function load() {
                         url
                     }
                 }
+                growingNumbers {
+                    titleNumbers
+                    titleNumbers2
+                    titleNumbers3
+                    textNumbers
+                    numberChilderenSaved
+                    titleChilderSaved
+                    numberTalents
+                    titleTalents
+                    numberPartners
+                    titlePartners
+                    numberClubs
+                    titleClubs
+                }
             }
         }
     `
