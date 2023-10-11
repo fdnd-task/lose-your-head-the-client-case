@@ -65,6 +65,12 @@
                 </div>
             </h1>
         </div>
+        <div class="hero-video">
+            <video class="hero-video video" playsinline autoplay muted loop>
+                <source src="/Temporary-video.mp4" type="video/mp4">
+            </video>
+        </div>
+
     </section>
 
     <section>
@@ -1297,25 +1303,35 @@ footer svg:hover {
     }
 
     .hero-video {
-        position: static;
-        width: 100%;
-        right: 0;
-        margin: -40px -80px 0 auto;
-        z-index: -1;
-    }
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45%;
+    height: 65vw;
+    overflow: hidden;
 
+    }
     .hero-video video {
-        overflow: hidden;
-        -webkit-mask-image: url(/hero-pattern-transparant.svg);
-        mask-image: url(/hero-pattern-transparant.svg);
-        -webkit-mask-repeat: no-repeat;
-        mask-repeat: no-repeat;
-        -webkit-mask-size: contain;
-        mask-size: contain;
-        -webkit-mask-position: right;
-        mask-position: right;
-        width: 100%;
-        aspect-ratio: 16 / 9;
+    width: fit-content;
+    -webkit-mask-image: url(/hero-pattern.svg);
+    mask-image: url(/hero-pattern.svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translateX(100%);
+
+    }
+    .hero-pattern-filled {
+    position: absolute;
+    right: 0;
+    top: -80vw;
+    right: -60vw;
+    width: 50vw;
+    overflow: hidden;
     }
 
     .hero-play-button {
