@@ -183,7 +183,7 @@
     /* HEADER END */
 
     /* MAIN INTRO */
-    
+
     .intro {
         width: 100%;
         height: 75vw;
@@ -218,6 +218,60 @@
         background-color: var(--justWhite);
         border-radius: 40px;
         padding: 10px 20px;
+        margin: 1em 0;
+    }
+
+    @media (min-width: 600px){
+
+        .intro-text  {
+            font-size: 1.5em;
+        }
+
+    }
+
+
+    @media (min-width: 800px){
+
+        .intro-text {
+            font-size: 1.7em;
+        }
+    }
+
+    @media (min-width: 1000px){
+
+        .intro-text {
+            font-size: 2em;
+            padding: 0px 10vw;
+        }
+
+    }
+
+    @media (min-width: 1000px){
+
+        .intro-text {
+            font-size: 2.7em;
+        }
+
+        .intro-about-button {
+            font-size: 20px;
+            margin: 2em 0;
+        }
+    }
+
+    @media (min-width: 1500px){
+
+        .header-main{
+            margin: 5em;
+        }
+
+        .intro-text {
+            font-size: 2.5em;
+        }
+
+        .intro-about-button {
+            font-size: 22px;
+            margin: 2.2em 0;
+        }
     }
 
 </style>
