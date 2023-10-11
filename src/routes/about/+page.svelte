@@ -28,13 +28,15 @@
         </div>
         
       <br><br>
-
-        <div class="info2"> 
     
             <p> {aboutpage.aboutIntro.aboutInfo2}</p>
             <br><br>
             <hr color="#FFDA1D">
-        </div>
+
+            <div class="info2"> 
+                <img class="background-info2" src="/mask2-group.png" alt="background">
+            </div>
+        
 
     </section>
     {/each}
@@ -117,11 +119,16 @@
     }
 
     .info2 {
-        /* background-image: url("/mask2-group.png") ; */
+
         align-items: center;
-        margin-top: 2em;
+        margin-top: -12em;
         height: 800px;
-        width: auto;
+        width: 600;
+    }
+
+    img.background-info2 {
+        width: 90em;
+
     }
 
     hr {
