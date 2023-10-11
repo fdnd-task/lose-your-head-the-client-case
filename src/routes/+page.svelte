@@ -2,7 +2,7 @@
     import Header from "../lib/components/Header.svelte";
     import Footer from "../lib/components/Footer.svelte";
 
-    // export let data
+    export let data
     // console.log(data.homepages)
 </script>
 
@@ -67,6 +67,8 @@
         </div>
     </section>
 
+    <!-- /* HEADER END */ -->
+
     <section>
         <div class="intro">
             <p class="intro-text">
@@ -76,11 +78,18 @@
                 
                 <button class="intro-about-button">ABOUT US</button>
             </p>
-
-            
         </div>
     </section>
 
+    <!-- /* INTRO END */ -->
+
+    {#each data.homepages as homepage }
+
+    <section class="playerCards">
+        <h1>{homepage.playerCards.title}</h1>
+    </section>
+
+    {/each}
 </main>
 
 <Footer />

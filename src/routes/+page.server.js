@@ -6,12 +6,16 @@ export async function load() {
         query HomeQuery {
             homepages {
                 introMain {
-                    title
-                    subTitle
-                    subTitle2
                     bgVideo {
                         url
                     }
+                }
+                mainIntroAboutUs {
+                    introTextAbout
+                    aboutUsLink
+                }
+                playerCards {
+                    title
                 }
             }
         }

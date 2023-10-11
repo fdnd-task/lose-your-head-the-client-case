@@ -86,6 +86,9 @@
 
 /* ============== FOOTER START ============== */
 
+footer{
+    padding: 3em;
+}
 
 footer ul {
     list-style-type: none;
