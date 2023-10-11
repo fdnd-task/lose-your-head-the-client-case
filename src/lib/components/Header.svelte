@@ -1,40 +1,5 @@
 <script>
 
-import gsap from 'gsap';
-import { onMount } from 'svelte';
-
-	onMount(() => {
-
-//-----------------OPEN & CLOSE MENU-------------------------//
-    document
-    .querySelector(".open-menu-button-wrapper")
-    .addEventListener("click", () => {
-        document.querySelector(".mobile-menu").classList.add("mobile-menu-slider");
-        document.querySelector("body").style.overflow = "hidden";
-        gsap.to(".menu-stagger", {
-            y: 0,
-            opacity: 1,
-            delay: 0.4,
-            ease: "none",
-            stagger: { each: 0.2,},
-        });
-    });
-
-    document.querySelector(".close-menu-button").addEventListener("click", () => {
-    document.querySelector(".mobile-menu").classList.remove("mobile-menu-slider");
-    document.querySelector("body").style.overflow = "scroll";
-        gsap.to(".menu-stagger", {
-            y: -30,
-            opacity: 0,
-            duration: 0.2,
-            delay: 0.4,
-            stagger: {
-            each: 0.1,
-            },
-        });
-    });
-});
-
 </script>
 
 <header>
@@ -57,9 +22,9 @@ import { onMount } from 'svelte';
             </button>
         </div>
         <div class="nav-right-links">
-            <a href="/" class="top-nav-link starting-link"> 🇬🇧 </a>
+            <a href="/" class="top-nav-link starting-link"> ENG 🇬🇧 </a>
             <span class="top-nav-link">/</span>
-            <a href="/" class="top-nav-link"> 🇵🇹 </a>
+            <a href="/" class="top-nav-link"> POR 🇵🇹 </a>
             <a class="sponsor-button" id="top-nav-sponsor-button" href="./becomeSponsor">
                 Become a sponsor 
                 <svg class="sponsor-icon" width="6" height="11" viewBox="0 0 6 11" fill="none"

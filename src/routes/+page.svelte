@@ -3,7 +3,7 @@
     import Footer from "../lib/components/Footer.svelte";
 
     export let data
-    // console.log(data.homepages)
+    console.log(data.homepages)
 </script>
 
 <svelte:head>
@@ -64,13 +64,11 @@
     <section class="intro-about">
         <div class="intro">
             <p class="intro-text">
-
                 We are dedicated to providing these children with a second chance in life,ensuring
                 they have access to education, shelter, nutrition, and an opportunity to pursue their dreams of
                 becomingtop football players.
-                
-                <button class="intro-about-button">ABOUT US</button>
             </p>
+            <a href="/about" class="intro-about-button">ABOUT US</a>
         </div>
     </section>
 
@@ -78,10 +76,41 @@
 
     <section class="playerCards">
         {#each data.homepages as homepage }
-            <h1>{homepage.playerCards.title} </h1>
-            <h1>{homepage.playerCards.subTitle}</h1>
+            <div class="playerHead">
+                <h2 class="legendsTitle">{homepage.playerCards.title} 
+                    <span>{homepage.playerCards.subTitle}</span>
+                </h2>
+            </div>
         {/each}
+
+        <ul>
+            {#each data.homepages as homepage }
+            <li>
+                <img src="{homepage.playerCards.imgPlayer[0].url}"  alt="player1">
+            </li>
+            <li>
+                <img src="{homepage.playerCards.imgPlayer[0].url}"  alt="player1">
+            </li>
+            <li>
+                <img src="{homepage.playerCards.imgPlayer[0].url}"  alt="player1">
+            </li>
+            <li>
+                <img src="{homepage.playerCards.imgPlayer[0].url}"  alt="player1">
+            </li>
+            <li>
+                <img src="{homepage.playerCards.imgPlayer[0].url}"  alt="player1">
+            </li>
+            <li>
+                <img src="{homepage.playerCards.imgPlayer[0].url}"  alt="player1">
+            </li>
+            <li>
+                <img src="{homepage.playerCards.imgPlayer[0].url}"  alt="player1">
+            </li>
+            {/each}
+        </ul>
+
     </section>
+
 
 <!-- NUMBER STATS-->
 
@@ -374,13 +403,17 @@
         width: 100%;
         height: 75vw;
         display: flex;
+        flex-direction: column;
         justify-content: center;
-        align-items: center;
-        margin: 12vw 0 0 0;
+        align-items: flex-start;
+
         background-image: url(/intro-mask.svg);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center center;
+
+        margin: 12vw 0 0 0;
+        padding: 0 14vw;
     }
 
     .intro-text {
@@ -389,7 +422,6 @@
         color: var(--charcoal);
         font-family: 'Jubilat';
         font-size: clamp(2vw, 4vw, 57px);
-        padding: 0 14vw;
         line-height: 96%;
     }
 
@@ -397,14 +429,23 @@
         font-family: 'Apercu';
         font-weight: 700;
         line-height: 140%;
+        font-size: 16px;
         width: fit-content;
         border: none;
         text-decoration: none;
         outline: none;
+        color: var(--charcoal);
         background-color: var(--justWhite);
         border-radius: 40px;
-        padding: 10px 20px;
+        padding: 5px 10px;
         margin: 1em 0;
+        transition: 0.2s ease-in-out;
+    }
+
+    .intro-about-button:hover{
+        background-color: var(--pictonBlue);
+        color: var(--justWhite);
+        transform: scale(1.02);
     }
 
     @media (min-width: 600px){
@@ -427,7 +468,6 @@
 
         .intro-text {
             font-size: 2em;
-            padding: 0px 10vw;
         }
 
     }
@@ -461,6 +501,35 @@
     }
 
 /* ============== PLAYER CARDS - SECTION START ============== */
+
+    .playerHead{
+        display: flex;
+        flex-direction: row;
+        color: var(--justWhite);
+        font-size: 2.5em;
+        font-weight: normal;
+        justify-content: center;
+
+        padding: 2em 0;
+    }
+
+    .legendsTitle{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .legendsTitle span{
+        padding-left: .2em;
+        color: var(--candelLight);
+    }
+
+
+    .playerCards ul{
+        display: flex;
+        gap: .5em;
+        padding: 0 2em ;
+    }
 
 /* ============== NUMBERS - SECTION START ============== */
 

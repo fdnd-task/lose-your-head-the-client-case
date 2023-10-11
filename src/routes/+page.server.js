@@ -17,6 +17,9 @@ export async function load() {
                 playerCards {
                     title
                     subTitle
+                    imgPlayer {
+                        url
+                    }
                 }
             }
         }
