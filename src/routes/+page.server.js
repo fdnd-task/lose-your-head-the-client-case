@@ -7,6 +7,8 @@ export async function load() {
             homepages {
                 introMain {
                     title
+                    subTitle
+                    subTitle2
                     bgVideo {
                         url
                     }
