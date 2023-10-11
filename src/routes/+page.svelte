@@ -289,7 +289,7 @@
     } */
 
 
-    /* HEADER - SECTION START */
+    /* ============== HEADER - SECTION START ============== */
 
     .header-main {
         display: flex;
@@ -366,9 +366,9 @@
         font-size: clamp(32px, 7.8vw, 112px);
     }
 
-    /* HEADER END */
+    /* ============== HEADER END ============== */
 
-    /* INTRO ABOUT - SECTION START */
+    /* ============== INTRO ABOUT - SECTION START ==============*/
 
     .intro {
         width: 100%;
@@ -462,9 +462,6 @@
 
 /* ============== PLAYER CARDS - SECTION START ============== */
 
-
-
-
 /* ============== NUMBERS - SECTION START ============== */
 
     .numbers {
@@ -554,7 +551,6 @@
         top: 14%;
         left: 7%;
         min-width: 20em;
-        /* background-color: #FFDA1D; */
     }
 
     .nr358 {
@@ -646,7 +642,6 @@
         clip-path: inset(calc(var(--variable) * 100%) 0 0 0);
     }
 
-/* ============== NUMBERS SECTION START MOBILE ============== */
 
     @media only screen and (max-width: 600px) {
 
@@ -697,7 +692,6 @@
             left: 7%;
             min-height: 10em;
             min-width: 8em;
-            /* background-color: #FFDA1D; */
         }
 
         .nr358 {
@@ -768,26 +762,6 @@
         padding-bottom: 2rem;
     }
 
-    /* .sponsors>.sponsor-center-text>a {
-        background-color: var(--candelLight);
-        font-family: Apercu;
-        border-radius: 5em;
-        padding: 1em 1.8em;
-        font-weight: 600;
-        font-size: 0.75em;
-        margin-top: 2em;
-        border: 0px;
-        text-decoration: none;
-        width: fit-content;
-    }
-
-
-    .sponsors>.sponsor-center-text>a:hover {
-        background-color: var(--justWhite);
-        color: var(--charcoal);
-
-    } */
-
 
     @media only screen and (min-width: 1441px) {
 
@@ -801,12 +775,9 @@
             height: 75vw;
             width: 100vw;
         }
-
     }
 
-
 /* ============== SPONSORS - SECTION END ============== */
-
 
 /* ============== STORY - SECTION START ============== */
 
@@ -861,8 +832,6 @@
         width: fit-content;
         width: 75vw;
     }
-
-    /* marquee*/
 
     .scroll-marquee-wrapper {
         --x: 0;
@@ -965,8 +934,8 @@
 
 /* ============== STORY SECTION END MOBILE ============== */
 
-
 /* ============== UP TO DATE NEWS - SECTION START ============== */
+
     .news>h2 {
         font-family: var(--paragraph-font);
         font-weight: 200;
