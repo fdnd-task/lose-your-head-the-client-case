@@ -30,6 +30,7 @@
       <br><br>
 
         <div class="info2"> 
+    
             <p> {aboutpage.aboutIntro.aboutInfo2}</p>
             <br><br>
             <hr color="#FFDA1D">
@@ -116,10 +117,11 @@
     }
 
     .info2 {
-        background-image: url("/static/mask2-group.png");
+        /* background-image: url("/mask2-group.png") ; */
         align-items: center;
         margin-top: 2em;
         height: 800px;
+        width: auto;
     }
 
     hr {
