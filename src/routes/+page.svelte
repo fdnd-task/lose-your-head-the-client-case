@@ -949,6 +949,8 @@
     .scroll-marquee-wrapper {
         --x: 0;
         max-width: 100vw;
+        overflow: hidden;
+
     }
 
     #legends-marquee {
