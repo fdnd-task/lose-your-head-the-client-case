@@ -17,6 +17,11 @@
 
     <section class="information">
 
+        <div class="info"> 
+            <img class="background-info" src="/Mask-group.png" alt="background">
+        </div>
+        
+
         <div class="info1"> 
 <br> <br>
             <hr color="#FFDA1D"><br><br>
@@ -112,18 +117,24 @@
     }
 
     .info1 {
-        background-image: url("/Mask-group.png");
+        /* background-image: url("/Mask-group.png"); */
         height: 800px;
         align-items: center;
         padding: 4em;
+        margin-top: -50em;
     }
 
+   
     .info2 {
 
         align-items: center;
         margin-top: -12em;
         height: 800px;
         width: 600;
+    }
+
+    img.background-info {
+        width: 100em;
     }
 
     img.background-info2 {
@@ -137,6 +148,7 @@
         display: flex;
         height: 4px;
         margin: auto;
+        
     }
 
     @media  (min-width: 560px) {
