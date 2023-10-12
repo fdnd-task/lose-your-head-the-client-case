@@ -22,20 +22,22 @@
         </div>
         
 
-        <div class="info1"> 
-<br> <br>
-            <hr color="#FFDA1D"><br><br>
-            <p> {aboutpage.aboutIntro.aboutInfo}</p>
-        </div>
+        <article class="info1"> 
+             
+            <div class="lijn"> </div>
+          
+            <p class="tekst1"> {aboutpage.aboutIntro.aboutInfo}</p>
+            
+        </article>
 
         <div class="story-image">
             <img src="{aboutpage.aboutIntro.contentImg.url}" alt="content">
         </div>
         
-      <br><br>
+    
     
             <p> {aboutpage.aboutIntro.aboutInfo2}</p>
-            <br><br>
+          
             <hr color="#FFDA1D">
 
             <div class="info2"> 
@@ -74,10 +76,6 @@
     } */
 
 
-    /* h1,h2{
-        font-size: 5em;
-        display: inline-block;
-    } */
 
     h1, h2{
         font-size: 7em;
@@ -116,12 +114,21 @@
         margin: auto;
     }
 
+    .lijn {
+        border-top: 3px var(--candelLight) solid;
+        padding-top: 3em;
+        width: 390px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
     .info1 {
-        /* background-image: url("/Mask-group.png"); */
         height: 800px;
         align-items: center;
         padding: 4em;
         margin-top: -50em;
+        z-index: 10;
     }
 
    
@@ -147,7 +154,10 @@
         width: 390px;
         display: flex;
         height: 4px;
-        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3em;
+
         
     }
 
