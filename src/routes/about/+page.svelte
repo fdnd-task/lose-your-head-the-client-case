@@ -17,24 +17,33 @@
 
     <section class="information">
 
-        <div class="info1"> 
-<br> <br>
-            <hr color="#FFDA1D"><br><br>
-            <p> {aboutpage.aboutIntro.aboutInfo}</p>
+        <div class="info"> 
+            <img class="background-info" src="/Mask-group.png" alt="background">
         </div>
+        
+
+        <article class="info1"> 
+             
+            <div class="lijn"> </div>
+          
+            <p class="tekst1"> {aboutpage.aboutIntro.aboutInfo}</p>
+            
+        </article>
 
         <div class="story-image">
             <img src="{aboutpage.aboutIntro.contentImg.url}" alt="content">
         </div>
         
-      <br><br>
-
-        <div class="info2"> 
+    
     
             <p> {aboutpage.aboutIntro.aboutInfo2}</p>
-            <br><br>
+          
             <hr color="#FFDA1D">
-        </div>
+
+            <div class="info2"> 
+                <img class="background-info2" src="/mask2-group.png" alt="background">
+            </div>
+        
 
     </section>
     {/each}
@@ -67,10 +76,6 @@
     } */
 
 
-    /* h1,h2{
-        font-size: 5em;
-        display: inline-block;
-    } */
 
     h1, h2{
         font-size: 7em;
@@ -109,19 +114,39 @@
         margin: auto;
     }
 
+    .lijn {
+        border-top: 3px var(--candelLight) solid;
+        padding-top: 3em;
+        width: 390px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
     .info1 {
-        background-image: url("/Mask-group.png");
         height: 800px;
         align-items: center;
         padding: 4em;
+        margin-top: -50em;
+        z-index: 10;
     }
 
+   
     .info2 {
-        /* background-image: url("/mask2-group.png") ; */
+
         align-items: center;
-        margin-top: 2em;
+        margin-top: -12em;
         height: 800px;
-        width: auto;
+        width: 600;
+    }
+
+    img.background-info {
+        width: 100em;
+    }
+
+    img.background-info2 {
+        width: 90em;
+
     }
 
     hr {
@@ -129,7 +154,11 @@
         width: 390px;
         display: flex;
         height: 4px;
-        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3em;
+
+        
     }
 
     @media  (min-width: 560px) {
