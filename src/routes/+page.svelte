@@ -880,6 +880,7 @@
 
         .sponsors {
             background-repeat: no-repeat;
+
             background-position: center center;
             align-items: center;
             display: flex;
