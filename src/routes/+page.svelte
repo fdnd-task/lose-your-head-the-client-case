@@ -880,8 +880,6 @@
 
         .sponsors {
             background-repeat: no-repeat;
-            background-size: contain;
-            justify-content: center;
             background-position: center center;
             align-items: center;
             display: flex;
@@ -939,8 +937,6 @@
 
     .story-video video {
         background-image: url(./story-shape.svg);
-        background-image: no-repeat;
-        background-image: contain;
         margin-bottom: 12em;
         width: fit-content;
         width: 75vw;
