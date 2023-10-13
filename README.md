@@ -5,8 +5,7 @@ De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 # INK - LAMA LAMA 
 We ontwikkelen een dynamische website voor INK - Lama Lama's voetbalclub in Rio de Janeiro om sponsoren aan te trekken en het inspirerende verhaal van de club te delen, met als doel jongeren te beschermen tegen negatieve invloeden op straat.
 
-![MicrosoftTeams-image (6)](https://github.com/ArexanK/INK-the-client-case-S14/assets/94745953/8c88fe0b-171b-4c70-a57b-719c49402479)
-
+<img width="1527" alt="Scherm­afbeelding 2023-10-13 om 11 34 04" src="https://github.com/jtoufik/INK-client-case/assets/112856590/64e369de-3b42-4710-b346-03203a663eba">
 
 ## Inhoudsopgave
 
