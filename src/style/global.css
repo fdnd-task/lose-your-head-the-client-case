@@ -12,6 +12,8 @@
 
 * {
     box-sizing: border-box;
+
+    list-style: none;
     margin: 0;
     padding: 0;
 }
@@ -41,12 +43,16 @@ body {
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
+
+    overflow-y: scroll; 
+    overflow-x: scroll;
 }
 
 main{
     margin-top: 6em;
 }
 
-h1 {
+h1,h2 {
     font-family: 'Kirang Haerang';
 }

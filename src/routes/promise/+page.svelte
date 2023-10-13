@@ -10,29 +10,10 @@
 <Header />
 
 <main>
-
-    {#each data.promisePages as promisePage }
-   
-    
-        <h1>{promisePage.promiseIntro.title}</h1>
-        
-        <div class="block-text-2">
-<section class="block-text" >
-<!-- <div class="block"> -->
-        <p class="text1"> {promisePage.promiseIntro.contentText}</p>
-        <p class="text2"> {promisePage.promiseIntro.contentText2}</p>
-<!-- </div> -->
-</section>
-</div>
- <img src="{promisePage.promiseIntro.contentImg.url}" alt="content" class="img">
-       
-    {/each}
-
   
 
     {#each data.promisePages as promisePage }
-
-   <div class="block-text-2">
+  
         <h2>{promisePage.promiseMain.title}</h2>
         <p class="text3"> {promisePage.promiseMain.contentText}</p>
     </div>
@@ -88,18 +69,9 @@
         align-items: center;
        
     }
-
-    .text3{
-        padding: 2em 2em;
-        font-size: 1em;
-        max-width: 30em;
-        align-items: center;
-       
-
-    }
     section{
     display:grid;
-	grid-template-rows:auto 8em auto;
+	grid-template-rows:auto 10em auto;
     grid-row-start:1;
 	grid-row-end:3;
 	grid-column-start:1;
@@ -137,13 +109,48 @@
 
 }
 
-.block-text-2 {
-    background-image: url("/Subtract.png");
-    width:100%;
-    height:-50%;
-    /* opacity: .5; */
-    object-fit: contain;
    
+  }
+  
+
+
+  h1{
+    margin: 0 auto;
+    font-size: 4em;
+    
+  }
+   h2{
+    margin: 0 auto;
+  
+   
+   }
+  
+   .block{
+    padding-bottom: 50px;
+        padding-top:30px;
+        width:100%;
+        /* clip-path: polygon(19% 9%, 100% 0, 100% 41%, 100% 83%, 0 98%, 0 15%); */
+        clip-path: 
+        polygon(
+			0% 4em,
+			30% 0,
+			100% 4.5em,
+			100% calc(100% - 2em),
+			0% 100%,
+			0% 4em
+		);
+   
+   }
+   .grid-block{
+       margin: 0 auto;
+   }
+
+   /* .block-text-2{
+    padding-bottom: 30px;
+        padding-top:30px;
+
+   } */
+   }
 
 }
 

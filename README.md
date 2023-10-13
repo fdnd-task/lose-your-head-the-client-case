@@ -1,38 +1,51 @@
-# create-svelte
+> _Fork_ deze leertaak en ga aan de slag. 
+Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. 
+De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+# INK - LAMA LAMA 
+We ontwikkelen een dynamische website voor INK - Lama Lama's voetbalclub in Rio de Janeiro om sponsoren aan te trekken en het inspirerende verhaal van de club te delen, met als doel jongeren te beschermen tegen negatieve invloeden op straat.
 
-## Creating a project
+<img width="1527" alt="Scherm­afbeelding 2023-10-13 om 11 34 04" src="https://github.com/jtoufik/INK-client-case/assets/112856590/64e369de-3b42-4710-b346-03203a663eba">
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Inhoudsopgave
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+  * [Beschrijving](#beschrijving)
+  * [Kenmerken](#kenmerken)
+  * [Installatie](#installatie)
+  * [Gebruik](#gebruik)
+  * [Bronnen](#bronnen)
+  * [Licentie](#licentie)
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Beschrijving 📝
+We ontwikkelen een dynamische website voor INK voetbalclub in Rio de Janeiro om sponsoren aan te trekken en het inspirerende verhaal van de club te delen. 
+Op onze website vind je twee aparte pagina's: een "Over Ons", "Sponser" en een "Promise" pagina, waar je meer te weten kunt komen over wie we zijn en waar we voor staan en eventueel kunt sponseren op de voetbalclub. Op de hoofdpagina bieden we gedetailleerde informatie over onze voetbalclub en kun je meer ontdekken over onze toegewijde spelers.
 
-## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Kenmerken 📌
+* 🖥 Hygraph CMS
+* 🖥 Sveltekit
+* 🖥 HTML, CSS, JAVASCRIPT
+* 🖥 Github
 
-```bash
-npm run dev
+## Installatie 📲
+* Clone deze repository.
+* Open de repository in je code-editor
+* Open een live server door middel van Visual studio code
+* Om je project online te zetten, kun je gebruik maken van 'Github Pages'
 
-# or start the server and open the app in a new browser tab
+* NPM- install 
+* # or start the server and open the app in a new browser tab
 npm run dev -- --open
-```
+  
+## Gebruik 🖇
+We hebben ons project ontwikkeld met SvelteKit, een framework, en Hygraph, een headless CMS. In Hygraph hebben we de gegevens aangemaakt, die we vervolgens met SvelteKit hebben opgehaald en op de website hebben weergegeven, verder hebben wij de website gestyled met gebruik van CSS.
 
-## Building
+## Bronnen 📚
 
-To create a production version of your app:
+* [Hygraph documentatie](https://hygraph.com/docs)
+* [SvelteKit 1.0 Crash Course - Full Tutorial with Prismic](https://www.youtube.com/watch?v=mDQy0NsBrwg&t=666s)
+* [Sveltekit documentatie](https://kit.svelte.dev/)
 
-```bash
-npm run build
-```
+## Licentie
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+This project is licensed under the terms of the [MIT license](./LICENSE).
