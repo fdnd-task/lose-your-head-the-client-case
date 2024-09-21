@@ -1,6 +1,6 @@
 # Lose Your Head - The Client Case
 
-## Content First
+## Information Architecture
 
 Analyseer de content stuctuur van de bestaande website(s) van de opdrachtgever en schets het datamodel. 
 
