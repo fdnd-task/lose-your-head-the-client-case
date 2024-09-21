@@ -31,7 +31,7 @@ De development lifecycle kent de volgende stappen:
 3. Kopieer de user story waar jij aan gaat werken naar de Wiki van de geforkte repository. Deze user story ga je gedurende deze sprint beantwoorden/ verwerkelijken/ realiseren. **NB: Een user-story moet vaak nog opgesplitst worden in taken!** 
 4. Plan een gesprek met de opdrachtgever, maak verkennende schetsen en bereid vragen voor en zorg dat je de opdracht helder hebt voor je aan de slag gaat.
 5. Hanteer de fases uit de dev-lifecycle om jouw project in te richten, bespreek vooraf met een docent welke stappen je denkt te gaan hanteren.
-6. Documenteer doorlopend jouw proces aan de hand van de dev-lifecycle, alle (technische en ontwerp) beslissingen dienen onderbouwd te worden en je verwijst naar alle bronnen die je bij de verschillende fases gebruikt hebt.
+6. Documenteer doorlopend jouw proces, alle (technische en ontwerp) beslissingen dienen onderbouwd te worden en je verwijst naar alle bronnen die je bij de verschillende fases gebruikt hebt.
 7. Schrijf tenslotte een goede `Readme.md` waarme je: 1) kort inzicht geeft in het hoe en waarom van jouw project en 2) developers instructies geeft over hoe jouw project te gebruiken is.
 
 
@@ -39,7 +39,16 @@ De development lifecycle kent de volgende stappen:
 
 Deze opdracht is done als:
 
+- [ ]
+- 
+
+
+
+<!--
+DOD's deeltaak Content First
 - [ ] Aan de hand van schetsen is gedocumenteerd welke pagina's in jouw project voorkomen.
 - [ ] Per pagina een content model is gedocumenteerd.
 - [ ] Herhaalde elementen zijn aangegeven
-- [ ] 
+-->
+
+
