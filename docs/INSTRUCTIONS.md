@@ -1,6 +1,6 @@
 # Lose Your Head - the Client Case
 
-Ontwerp en maak een component en/of website voor een opdrachtgever op basis van een bestaande Headless CMS API. 
+Ontwerp en maak een component en/of website voor een opdrachtgever op basis van een Headless CMS API. 
 
 ## Context
 Deze leertaak hoort bij sprint 14 :Lose your Head. Dit is een opdracht die je individueel uitvoert voor een opdrachtgever.
