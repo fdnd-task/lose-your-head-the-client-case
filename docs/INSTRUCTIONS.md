@@ -39,8 +39,8 @@ De development lifecycle kent de volgende stappen:
 
 Deze opdracht is done als:
 
-- [ ]
-- 
+- []
+-[ ] jkygbnl
 
 
 
