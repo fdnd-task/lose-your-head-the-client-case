@@ -1,18 +1,11 @@
 # Lose Your Head - The Client Case
 
 ## Information Architecture
+_In het college S14W2-02-informatie-architectuur wordt behandeld hoe het structureren en organiseren van informatie op de frontend invloed heeft op de Content modelling._
 
-Analyseer de content stuctuur van de bestaande website(s) van de opdrachtgever en schets het datamodel. 
+Analyseer de content stuctuur van de bestaande website(s) van de opdrachtgever en schets een datamodel waarmee de API kan worden ingericht. 
 
-### Context
 
-Deze deeltaak hoort bij sprint 14 Lose Your Head. 
-Dit is een deeltaak die je individueel uitvoert.
-
-In het college S14W2-02-informatie-architectuur wordt behandeld hoe het structureren en organiseren van informatie op de frontend invloed heeft op de Content modelling.
-
-Deze deeltaak hoort bij de leertaak:
-- [Lose Your Head - the Client Case](https://github.com/fdnd-task/lose-your-head-the-client-case/)
 
 
 ### Doel van deze opdracht
