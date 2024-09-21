@@ -5,8 +5,8 @@ Ontwerp en maak een component en/of website voor een opdrachtgever op basis van 
 ## Context
 Deze leertaak hoort bij sprint 14 :Lose your Head. Dit is een opdracht die je individueel uitvoert voor een opdrachtgever.
 
-Bij deze leertaak hoort de deeltaak:
-- [Content First](https://github.com/fdnd-task/lose-your-head-content-first)
+- Bij deze leertaak hoort de workshop [Informatie Architectuur](information-architecture.md)
+- Na een briefing van de opdrachtgever schrijf je altijd een debriefing, volg de instructies van de workshop [briefing/debriefing](https://github.com/fdnd-task/the-client-website/blob/main/docs/briefing-debriefing.md) van sprint 2 the client
 
 
 
@@ -36,6 +36,10 @@ De development lifecycle kent de volgende stappen:
 
 
 ## Definitions of Done
-Focus sprint 14 - De focus van deze sprint ligt op het grip krijgen van de informatie architectuur van een website.
 
 Deze opdracht is done als:
+
+- [ ] Aan de hand van schetsen is gedocumenteerd welke pagina's in jouw project voorkomen.
+- [ ] Per pagina een content model is gedocumenteerd.
+- [ ] Herhaalde elementen zijn aangegeven
+- [ ] 
