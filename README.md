@@ -11,18 +11,19 @@ Welkom bij Access Dash, een website gebouwd met SvelteKit
 ### [- Gebruikersaanwijzing](https://github.com/SamaraFellaDina/lose-your-head-the-client-case?tab=readme-ov-file#gebruikersaanwijzing)
 ### [- Huisstijl](https://github.com/SamaraFellaDina/lose-your-head-the-client-case?tab=readme-ov-file#huisstijl)
 ### [- Bronnen](https://github.com/SamaraFellaDina/lose-your-head-the-client-case?tab=readme-ov-file#bronnen)
-### [- Installatiehandleiding](https://github.com/SamaraFellaDina/lose-your-head-the-client-case?tab=readme-ov-file#installatiehandleiding-1)
+### [- Installatiehandleiding](https://github.com/SamaraFellaDina/lose-your-head-the-client-case?tab=readme-ov-file#installatie)
 
 # Beschrijving
-* [Kenmerken](https://github.com/SamaraFellaDina/lose-your-head-the-client-case?tab=readme-ov-file#Kenmerken)
-  * [Installatie](https://github.com/SamaraFellaDina/lose-your-head-the-client-case?tab=readme-ov-file#installatie)
-* [Bronnen](https://github.com/SamaraFellaDina/lose-your-head-the-client-case?tab=readme-ov-file#Bronnen)
-* [Licentie](https://github.com/SamaraFellaDina/lose-your-head-the-client-case?tab=readme-ov-file#Licentie)
+
+## Gebruikersaanwijzing
+
 # Kenmerken
 * Site Generator: Sveltekit
 * API: Directus
 * Deployment: Vercel
 * `HTML`, `CSS`, `JS`
+
+# Huisstijl
 
 ## Installatie
 1. Clone deze repo
