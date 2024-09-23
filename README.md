@@ -34,9 +34,13 @@ Welkom bij Access Dash, een website gebouwd met SvelteKit
 6. Have fun!
 
 # Bronnen
-* [Sveltekit Docs](https://kit.svelte.dev/)
-* [Getting started with Directus and Sveltekit](https://docs.directus.io/blog/getting-started-directus-sveltekit.html)
-* [Vercel](https://vercel.com/)
+Hier vind je de bronnen van de tools die we hebben gebruikt. 
+
+### [Sveltekit](https://kit.svelte.dev/)
+![image](https://github.com/user-attachments/assets/27f8ed03-7202-4a01-9924-0f358fc5e75c)
+
+### [Vercel Docs](https://vercel.com/docs/frameworks/sveltekit)
+![image](https://github.com/user-attachments/assets/f55ed6b2-1d62-4999-9d23-7e4fb1f00cf3)
   
 # Licentie
 MIT License
