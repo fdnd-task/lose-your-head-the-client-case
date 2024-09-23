@@ -1,6 +1,11 @@
 # Inhoudsopgave
 
 # Beschrijving
+# Kenmerken
+* Site Generator: Sveltekit
+* API: Directus
+* Deployment: Vercel
+* `HTML`, `CSS`, `JS`
 # Installatie
 ## Wat moet ik installeren als ik dit project fork?
 1. Clone deze repo
