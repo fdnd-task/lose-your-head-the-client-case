@@ -1,6 +1,10 @@
 # Inhoudsopgave
 
 # Beschrijving
+* [Kenmerken](https://github.com/SamaraFellaDina/lose-your-head-the-client-case?tab=readme-ov-file#Kenmerken)
+  * [Installatie](https://github.com/SamaraFellaDina/lose-your-head-the-client-case?tab=readme-ov-file#installatie)
+* [Bronnen](https://github.com/SamaraFellaDina/lose-your-head-the-client-case?tab=readme-ov-file#Bronnen)
+* [Licentie](https://github.com/SamaraFellaDina/lose-your-head-the-client-case?tab=readme-ov-file#Licentie)
 # Kenmerken
 * Site Generator: Sveltekit
 * API: Directus
@@ -15,5 +19,11 @@
 5. Klik op de localhost link
 6. Have fun!
 
-
+# Bronnen
+* [Sveltekit Docs](https://kit.svelte.dev/)
+* [Getting started with Directus and Sveltekit](https://docs.directus.io/blog/getting-started-directus-sveltekit.html)
+* [Vercel](https://vercel.com/)
+  
 # Licentie
+MIT License
+Copyright (c) 2023 AD Frontend Design & Development (FDND)
