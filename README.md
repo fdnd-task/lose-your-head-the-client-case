@@ -1,4 +1,17 @@
-# Inhoudsopgave
+![Static Badge](https://img.shields.io/badge/usage-sveltekit-orange) ![Vercel Badge](https://deploy-badge.vercel.app/vercel/deploy-badge) ![License](https://img.shields.io/badge/license-MIT-blue)
+
+# Access  Dash
+Welkom bij Access Dash, een website gebouwd met SvelteKit
+
+## Inhoud
+
+### [- Kenmerken](https://github.com/SamaraFellaDina/lose-your-head-the-client-case?tab=readme-ov-file#kenmerken)
+### [- Preview ](https://github.com/SamaraFellaDina/lose-your-head-the-client-case?tab=readme-ov-file#preview)
+### [- Live pagina](https://github.com/SamaraFellaDina/lose-your-head-the-client-case?tab=readme-ov-file#live-pagina)
+### [- Gebruikersaanwijzing](https://github.com/SamaraFellaDina/lose-your-head-the-client-case?tab=readme-ov-file#gebruikersaanwijzing)
+### [- Huisstijl](https://github.com/SamaraFellaDina/lose-your-head-the-client-case?tab=readme-ov-file#huisstijl)
+### [- Bronnen](https://github.com/SamaraFellaDina/lose-your-head-the-client-case?tab=readme-ov-file#bronnen)
+### [- Installatiehandleiding](https://github.com/SamaraFellaDina/lose-your-head-the-client-case?tab=readme-ov-file#installatiehandleiding-1)
 
 # Beschrijving
 * [Kenmerken](https://github.com/SamaraFellaDina/lose-your-head-the-client-case?tab=readme-ov-file#Kenmerken)
