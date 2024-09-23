@@ -39,16 +39,5 @@ De development lifecycle kent de volgende stappen:
 
 Deze opdracht is done als:
 
-- []
--[ ] jkygbnl
-
-
-
-<!--
-DOD's deeltaak Content First
-- [ ] Aan de hand van schetsen is gedocumenteerd welke pagina's in jouw project voorkomen.
-- [ ] Per pagina een content model is gedocumenteerd.
-- [ ] Herhaalde elementen zijn aangegeven
--->
-
+- [ ] ...
 
