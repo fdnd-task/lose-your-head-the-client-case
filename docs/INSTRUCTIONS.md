@@ -1,6 +1,6 @@
 # Lose Your Head - the Client Case
 
-Ontwerp en maak een website voor een opdrachtgever op basis van een Headless CMS API 
+Ontwerp en maak een website voor een opdrachtgever op basis van een Headless CMS API
 
 ## Context
 Deze leertaak hoort bij sprint 14: Lose your Head. Dit is een opdracht die je individueel uitvoert voor een opdrachtgever.
@@ -28,7 +28,7 @@ De development lifecycle kent de volgende stappen:
 
 1. Kies een user story uit de backlog van het project waar je aan gaat werken, of schrijf een nieuwe user story.  De projecten staan bij [FDND Agency](https://github.com/fdnd-agency).
 2. Maak een fork van [deze leertaak](https://github.com/fdnd-task/lose-your-head-the-client-case).
-3. Kopieer de user story waar jij aan gaat werken naar de Wiki van de geforkte repository. Deze user story ga je gedurende deze sprint beantwoorden/ verwerkelijken/ realiseren. **NB: Een user-story moet vaak nog opgesplitst worden in taken!** 
+3. Kopieer de user story waar jij aan gaat werken naar de Wiki van de geforkte repository. Deze user story ga je gedurende deze sprint beantwoorden/ verwerkelijken/ realiseren. **NB: Een user-story moet vaak nog opgesplitst worden in taken!**
 4. Plan een gesprek met de opdrachtgever, maak verkennende schetsen en bereid vragen voor en zorg dat je de opdracht helder hebt voor je aan de slag gaat.
 5. Hanteer de fases uit de dev-lifecycle om jouw project in te richten, bespreek vooraf met een docent welke stappen je denkt te gaan hanteren.
 6. Documenteer doorlopend jouw proces, alle (technische en ontwerp) beslissingen dienen onderbouwd te worden en je verwijst naar alle bronnen die je bij de verschillende fases gebruikt hebt.
@@ -50,5 +50,3 @@ DOD's deeltaak Content First
 - [ ] Per pagina een content model is gedocumenteerd.
 - [ ] Herhaalde elementen zijn aangegeven
 -->
-
-

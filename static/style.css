@@ -1,0 +1,78 @@
+:root {
+    /* Setup root variables */
+    --media-sm: 600px;
+    --media-md: 960px;
+    --media-lg: 1280px;
+}
+
+
+/* Font */
+@font-face {
+    font-family: '';
+    src: url('../assets/fonts/') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*
+    CSS text-wrap: balance property
+    Allows multiple lines of text to have their lines broken in such a way that each line is roughly the same width, often used to make headlines more readable and visually appealing.
+
+    https://caniuse.com/css-text-wrap-balance
+ */
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+     text-wrap: balance;
+ }
+
+
+ /*
+     CSS max-width property
+     In this case, we are setting the maximum width of the text to 65 characters, which is a good practice to make the text more readable and visually appealing.
+
+     CSS property: text-wrap: pretty
+     This property is used to break lines of text in a way that is visually appealing, often used to make paragraphs more readable and visually appealing.
+
+     https://caniuse.com/mdn-css_properties_text-wrap_pretty
+  */
+ p,
+ li,
+ figcaption {
+     text-wrap: pretty;
+     max-width: 65ch;
+ }
+
+ /*
+     CSS property: container-type: inline-size
+     This property is used to set the width of an element to the width of the containing block, often used to make elements fill the width of the container.
+
+     https://caniuse.com/mdn-css_properties_container-type_inline-size
+  */
+ body > :is(header, footer),
+ main,
+ section,
+ article {
+     container-type: initial;
+ }
+
+
+/* Voorbeeld CSS media gebruik */
+
+/* .card-profile {
+    padding: .5rem;
+    background-color: red;
+    margin: 1rem;
+
+    @media (min-width: var(--media-md)) {
+        background-color: blue;
+    }
+
+    @media (min-width: var(--media-lg)) {
+        background-color: pink;
+    }
+} */
