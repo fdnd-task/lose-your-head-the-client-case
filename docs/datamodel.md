@@ -38,7 +38,7 @@ Teken nette wireframes van de verschillende pagina van de website die je gaat on
 ### 3. Datamodel
 Een datamodel laat de logische structuur van een database zien, inclusief de relaties tussen tabellen.
 
-![Datamodel vam een Blog](datamodel.png)
+![Datamodel van een Blog](datamodel.png)
 
 1. Bedenk aan de hand van de wireframes wat voor tabellen jouw project nodig heeft. Let op data die wordt herhaald (zoals de artikelen in een blog uit het voorbeeld hierboven).
 2. Schets een datamodel; bedenk logische titels voor de tabellen, noteer de kolom naam en de data types.
