@@ -42,7 +42,7 @@ Een datamodel laat de logische structuur van een database zien, inclusief de rel
 ![Datamodel van een Blog](datamodel.png)
 *Voorbeeld van een datamodel met kolomnamen, datatypes en gerelateerde tabellen*
 
-1. Bedenk aan de hand van de wireframes wat voor tabellen jouw project nodig heeft. Let op data die wordt herhaald (zoals de artikelen, schrijver en onderwerpen in de blog datamodel uit het voorbeeld hierboven).
+1. Bedenk aan de hand van de wireframes wat voor tabellen jouw project nodig heeft. Let op data die wordt herhaald (zoals de artikelen, schrijver en onderwerpen uit het voorbeeld hierboven).
 2. Schets een datamodel; bedenk logische titels voor de tabellen, noteer de kolom naam en de datatypes.
 3. Bedenk welke tabelen aan elkaar gerelateerd moeten zijn.
 4. Bespreek jullie datamodel met een docent en gebruik het om Directus in te richten.
