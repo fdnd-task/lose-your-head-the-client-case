@@ -17,6 +17,7 @@ Analyseer de content stuctuur van de opdracht die jullie hebben gekregen en sche
 Schets een sitemap van de verschillende pagina's van de opdracht die je deze week hebt gekregen (overzicht-, detail-, formulierpagina, etc ...)
 
 ![Sitemap](sitemap.png)
+*Voorbeeld van een sitemap met paginanummers*
 
 1. Schrijf bovenaan de sitemap de ontwerpvraag van de opdrachtgever.
 2. Onderzoek welke pagina's de website moet krijgen. Gebruik de briefing die je hebt gehad, de documentatie en/of het design dat je hebt gekregen.
@@ -39,9 +40,10 @@ Teken nette wireframes van de verschillende pagina van de website die je gaat on
 Een datamodel laat de logische structuur van een database zien, inclusief de relaties tussen tabellen.
 
 ![Datamodel van een Blog](datamodel.png)
+*Voorbeeld van een datamodel met kolomnamen, datatypes en gerelateerde tabellen*
 
 1. Bedenk aan de hand van de wireframes wat voor tabellen jouw project nodig heeft. Let op data die wordt herhaald (zoals de artikelen, schrijver en onderwerpen in de blog datamodel uit het voorbeeld hierboven).
-2. Schets een datamodel; bedenk logische titels voor de tabellen, noteer de kolom naam en de data types.
+2. Schets een datamodel; bedenk logische titels voor de tabellen, noteer de kolom naam en de datatypes.
 3. Bedenk welke tabelen aan elkaar gerelateerd moeten zijn.
 4. Bespreek jullie datamodel met een docent en gebruik het om Directus in te richten.
 
