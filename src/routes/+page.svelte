@@ -1,26 +1,2 @@
-<script>
-</script>
-
-<header>
-
-</header>
-
-<main>
-  <section>
-  </section>
-
-  <ul>
-  </ul>
-
-  <section>
-  </section>
-
-  <section>
-  </section>
-</main>
-
-<footer>
-</footer>
-
-<style>
-</style>
+<h1>Welcome to SvelteKit</h1>
+<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
