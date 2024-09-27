@@ -1,5 +1,4 @@
 <script>
-
 </script>
 
 <header>
@@ -21,9 +20,7 @@
 </main>
 
 <footer>
-
 </footer>
 
 <style>
-
 </style>
