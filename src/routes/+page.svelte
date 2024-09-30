@@ -1,7 +1,6 @@
 <script>
-  import errorComponent from "$lib/error.svelte";
-	import accesibility from "$lib/accesibility.svelte";
-	import automatic from "$lib/automatic.svelte";
+  import {AccessibillityGraph, AutomaticScan, ErrorResult, TypeGraph} from '$lib'
+
 </script>
 
 <header>
@@ -10,14 +9,18 @@
 
 <main>
   <section>
+    <AutomaticScan />
   </section>
   <ul>
+    <ErrorResult />
   </ul>
 
   <section>
+    <TypeGraph />
   </section>
 
   <section>
+    <AccessibillityGraph />
   </section>
 </main>
 

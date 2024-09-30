@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url('fonts/outfit-v11-latin-regular.woff2') format('woff2');
+    font-weight: 400; /* Regular weight */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('fonts/outfit-v11-latin-700.woff2') format('woff2');
+    font-weight: 700; /* Bold weight */
+    font-style: normal;
+}
+
+:root {
+    --font-family: 'Outfit', sans-serif;
+}
