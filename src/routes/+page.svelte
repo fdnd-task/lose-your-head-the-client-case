@@ -1,7 +1,7 @@
 <script>
-  import {error} from "../lib/error.svelte";
-	import {accesibility} from "../lib/accesibility.svelte";
-	import {automatic} from "../lib/automatic.svelte";
+  import errorComponent from "$lib/error.svelte";
+	import accesibility from "$lib/accesibility.svelte";
+	import automatic from "$lib/automatic.svelte";
 </script>
 
 <header>
@@ -11,7 +11,6 @@
 <main>
   <section>
   </section>
-
   <ul>
   </ul>
 
