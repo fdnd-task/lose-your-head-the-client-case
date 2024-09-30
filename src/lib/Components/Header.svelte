@@ -2,43 +2,45 @@
 	// logic goes here
 </script>
 <header>
-    <div class="header-left">
-        <button>
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
-        <figure>
-            <img width="93px" alt="veronica logo" src="/veronica-logo.svg">
-        </figure>
-        <nav>
-            <ol>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Ondek</a></li>
-                <li><a href="#">Radio</a></li>
-            </ol>
-        </nav>
-    </div>
-    <div class="header-right">
-        <button>
+        <div class="header-left">
+            <button>
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
             <figure>
-                <img width="24px" alt="whatsapp naar ons" src="/whatsapp-white-icon.svg">
+                <img width="93px" alt="veronica logo" src="/veronica-logo.svg">
             </figure>
-        </button>
-    </div>
-
+            <nav>
+                <ol>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Ondek</a></li>
+                    <li><a href="#">Radio</a></li>
+                </ol>
+            </nav>
+        </div>
+        <div class="header-right">
+            <button>
+                <figure>
+                    <img width="24px" alt="whatsapp naar ons" src="/whatsapp-white-icon.svg">
+                </figure>
+            </button>
+        </div>    
 </header>
 
 
 <style>
     header{
-        padding: 0rem 1rem;
+        padding: 0rem 2rem;
         background-color: #0091ff;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
-
+        width: 100%;
+        @media only screen and (min-width: 1000px) {
+            justify-content: space-between;
+        }
     }
 
     /* left box of the flex */
@@ -56,22 +58,22 @@
 
     /* dropdown button */
     header .header-left button span{
-        height: 4px;
-        width: 26px;
-        background-color: black;
+        height: 2px;
+        width: 24px;
+        background-color: white;
         position: absolute;
     }
 
     header .header-left button span:nth-child(1){
-        margin-top: -12px;
+        margin-top: -10px;
     }
 
     header .header-left button span:nth-child(2){
-        margin-top: -4px;
+        margin-top: -2px;
     }
 
     header .header-left button span:nth-child(3){
-        margin-top: 4px;
+        margin-top: 6px;
     }
 
     /* navigation menu */
