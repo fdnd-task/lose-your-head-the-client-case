@@ -60,6 +60,9 @@
      container-type: initial;
  }
 
+body{
+    margin: 0px;
+}
 
 /* Voorbeeld CSS media gebruik */
 

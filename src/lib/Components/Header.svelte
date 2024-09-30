@@ -1,0 +1,115 @@
+<script>
+	// logic goes here
+</script>
+<header>
+    <div class="header-left">
+        <button>
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <figure>
+            <img width="93px" alt="veronica logo" src="/veronica-logo.svg">
+        </figure>
+        <nav>
+            <ol>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Ondek</a></li>
+                <li><a href="#">Radio</a></li>
+            </ol>
+        </nav>
+    </div>
+    <div class="header-right">
+        <button>
+            <figure>
+                <img width="24px" alt="whatsapp naar ons" src="/whatsapp-white-icon.svg">
+            </figure>
+        </button>
+    </div>
+
+</header>
+
+
+<style>
+    header{
+        padding: 0rem 1rem;
+        background-color: #0091ff;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    /* left box of the flex */
+    header .header-left{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header .header-left button{
+        padding: 0px;
+        border: none;
+    }
+
+    /* dropdown button */
+    header .header-left button span{
+        height: 4px;
+        width: 26px;
+        background-color: black;
+        position: absolute;
+    }
+
+    header .header-left button span:nth-child(1){
+        margin-top: -12px;
+    }
+
+    header .header-left button span:nth-child(2){
+        margin-top: -4px;
+    }
+
+    header .header-left button span:nth-child(3){
+        margin-top: 4px;
+    }
+
+    /* navigation menu */
+    header .header-left > button, nav{
+        display: none;
+        /* on large screen */
+        @media only screen and (min-width: 1000px) {
+            display: block;
+        }
+    }
+
+    header .header-left ol{
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    /* right box of the flex */
+    header .header-right{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header .header-right button{
+        padding: 0px;
+        background-color: #0091ff;
+        border: none;
+        right: 1rem;
+        position: absolute;
+    }
+
+    header .header-right figure{
+        margin: 1rem;
+        /* on large screen */
+        @media only screen and (min-width: 1000px) {
+            display: none;
+        }
+    }
+</style>
