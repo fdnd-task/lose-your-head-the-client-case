@@ -1,17 +1,102 @@
 @font-face {
-    font-family: 'Outfit';
+    font-family: 'Outfit-regular';
     src: url('fonts/outfit-v11-latin-regular.woff2') format('woff2');
     font-weight: 400; /* Regular weight */
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Outfit';
+    font-family: 'Outfit-medium';
     src: url('fonts/outfit-v11-latin-700.woff2') format('woff2');
     font-weight: 700; /* Bold weight */
     font-style: normal;
 }
 
 :root {
-    --font-family: 'Outfit', sans-serif;
+  --font-family-regular: 'Outfit-regular', sans-serif;
+  --font-family-medium: 'Outfit-medium', sans-serif;
+
+  --color-blue: #0275FF;
+  --color-black: #5D666A;
+
+  --color-regular-text: var(--color-black);
+  --color-background:#F0F0F0;
+  --color-background-section:#FFFFFF;
+
+  --average-gap: 20px;
 }
+
+* {
+  font-family: var(--font-family);
+  color: var(--color-regular-text);
+  background-color: var(--color-background);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  --heading-font-size: 50px;
+  --heading-line-height: 90%;
+  --heading-letter-spacing: 0px;
+  --heading-font-weight: 700;
+
+  font-family: var(--font-family-medium);
+  font-weight: var(--heading-font-weight);
+  line-height: var(--heading-line-height);
+  letter-spacing: var(--heading-letter-spacing);
+}
+
+h1 {
+  font-size: var(--heading-font-size);
+}
+
+h2 {
+  font-size: calc(var(--heading-font-size) - 15px);
+}
+
+h3 {
+  font-size: calc(var(--heading-font-size) - 20px);
+}
+
+h4 {
+  font-size: calc(var(--heading-font-size) - 25px);
+}
+
+h5 {
+  font-size: calc(var(--heading-font-size) - 30px);
+}
+
+h6 {
+  font-size: calc(var(--heading-font-size) - 34px);
+}
+
+p,
+ul,
+li,
+a {
+  --font-size: 1.1em;
+  --font-color: var(--color-regular-text);
+  --line-height: 24px;
+
+  font-size: var(--font-size);
+  color: var(--font-color);
+  line-height: var(--line-height);
+}
+
+a {
+  --color-hyperlink:var(--color-blue);
+  --color-hyperlink-active: #004497;
+
+  color: var(--color-hyperlink);
+
+}
+
+a:hover {
+  color: var(--color-hyperlink-active);
+}
+
+
+
