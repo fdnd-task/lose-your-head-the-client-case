@@ -1,19 +1,64 @@
 :root {
-    /* Setup root variables */
-    --media-sm: 600px;
-    --media-md: 960px;
-    --media-lg: 1280px;
+  /* Setup root variables */
+  --media-sm: 600px;
+  --media-md: 960px;
+  --media-lg: 1280px;
+
+  /* font-style */
+  --h1-text-size: 2em;
+  --h2-text-size: 1.5em;
+  --h3-text-size: 1.17em;
+  --h4-text-size: 1em;
+  --p-text-size: 1em;
+
+  /* colors */
+  --primary-color: #0091ff;
+  --secondary-color: #fe0070;
+  --tertairy: #8b8b8b;
+  --grey: #8b8b8b;
+  --dark: #1e1e1e;
+  --light: #ffff;
+
+  /* radius */
+  --full-radius: 100%;
+  --mid-radius: 20%;
 }
 
-
-/* Font */
+/* Font import */
 @font-face {
-    font-family: '';
-    src: url('../assets/fonts/') format('otf');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "";
+  src: url("../assets/fonts/") format("otf");
+  font-weight: normal;
+  font-style: normal;
 }
 
+/* Global settings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Default font styling */
+h1 {
+  font-size: var(--h1-text-size);
+}
+
+h2 {
+  font-size: var(--h2-text-size);
+}
+
+h3 {
+  font-size: var(--h3-text-size);
+}
+
+h4 {
+  font-size: var(--h4-text-size);
+}
+
+p {
+  font-size: var(--p-text-size);
+}
 
 /*
     CSS text-wrap: balance property
@@ -21,17 +66,20 @@
 
     https://caniuse.com/css-text-wrap-balance
  */
- h1,
- h2,
- h3,
- h4,
- h5,
- h6 {
-     text-wrap: balance;
- }
+h1,
+h2,
+h3,
+h4 {
+  text-wrap: balance;
+}
 
+p,
+a,
+li {
+  line-height: 1.2em;
+}
 
- /*
+/*
      CSS max-width property
      In this case, we are setting the maximum width of the text to 65 characters, which is a good practice to make the text more readable and visually appealing.
 
@@ -40,26 +88,30 @@
 
      https://caniuse.com/mdn-css_properties_text-wrap_pretty
   */
- p,
- li,
- figcaption {
-     text-wrap: pretty;
-     max-width: 65ch;
- }
+p,
+li,
+figcaption {
+  text-wrap: pretty;
+  max-width: 65ch;
+}
 
- /*
+a {
+  text-decoration: none;
+  color: var(--light);
+}
+
+/*
      CSS property: container-type: inline-size
      This property is used to set the width of an element to the width of the containing block, often used to make elements fill the width of the container.
 
      https://caniuse.com/mdn-css_properties_container-type_inline-size
   */
- body > :is(header, footer),
- main,
- section,
- article {
-     container-type: initial;
- }
-
+body > :is(header, footer),
+main,
+section,
+article {
+  container-type: initial;
+}
 
 /* Voorbeeld CSS media gebruik */
 
@@ -76,3 +128,8 @@
         background-color: pink;
     }
 } */
+
+/* other elements */
+li {
+  list-style-type: none;
+}
