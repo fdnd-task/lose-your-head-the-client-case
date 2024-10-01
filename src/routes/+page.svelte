@@ -13,7 +13,7 @@
 
 <main class="wrapper main-layout">
   <section class="auto">
-    <AutomaticScan />
+    <AutomaticScan {scans} />
   </section>
   <ul class="error">
     <ErrorResult {scans} />
