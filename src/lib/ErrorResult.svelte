@@ -1,12 +1,16 @@
 <script>
     export let data;
+    export let scans = data.scans;
+    console.log(scans)
+
 </script>
 
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+{#each scans[0].result as result}
+  <li>
+    <h3>{result.title}</h3>
+    <p>{result.amount}</p>
+  </li>
+{/each}
 
 <style>
     li{

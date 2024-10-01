@@ -3,7 +3,9 @@
   export let data = data;
   export let company = data.sites;
   export let scans = data.scans;
+
 </script>
+
 
 <header class="wrapper header-layout">
 
@@ -14,7 +16,7 @@
     <AutomaticScan />
   </section>
   <ul class="error">
-    <ErrorResult />
+    <ErrorResult {scans} />
   </ul>
 
   <section class="type">
