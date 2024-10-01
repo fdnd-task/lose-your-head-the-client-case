@@ -23,6 +23,7 @@
   --color-background:#F0F0F0;
   --color-background-section:#FFFFFF;
 
+  --average-gap: 20px;
 }
 
 * {
@@ -36,13 +37,6 @@
 
 body {
   height: 100vh;
-}
-
-section,
-article,
-ul,
-div {
-  --average-gap: 20px;
 }
 
 h1,
