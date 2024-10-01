@@ -38,6 +38,7 @@
           beginAtZero: true,
           max: 100,
           ticks: {
+            stepSize: 20,
             callback: function(value) {
               return value + '%';  // Display percentages on y-axis
             }
