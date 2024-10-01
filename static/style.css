@@ -26,7 +26,7 @@
 
 /* Font import */
 @font-face {
-  font-family: "";
+  font-family: "test";
   src: url("../assets/fonts/") format("otf");
   font-weight: normal;
   font-style: normal;
@@ -37,6 +37,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #1e1e1e;
 }
 
 /* Default font styling */
@@ -96,6 +97,7 @@ figcaption {
 }
 
 a {
+  font-family: sans-serif;
   text-decoration: none;
   color: var(--light);
 }
