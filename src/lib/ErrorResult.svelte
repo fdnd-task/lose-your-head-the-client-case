@@ -3,7 +3,7 @@
     export let scans = data.scans;
 </script>
 
-{#each scans[0].result as result}
+{#each scans.result as result}
   <li>
     <h3>{result.title}</h3>
     <p>{result.amount}</p>

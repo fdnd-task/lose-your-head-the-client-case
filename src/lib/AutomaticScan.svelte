@@ -5,7 +5,7 @@
 
 
     let chartCanvas;
-    let percentage = scans[0].result[0].amount; // Het percentage dat je wilt weergeven
+    let percentage = scans.result[0].amount; // Het percentage dat je wilt weergeven
  
     // Data en configuratie voor de Doughnut chart
     const data = {
