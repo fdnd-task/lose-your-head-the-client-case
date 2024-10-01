@@ -36,8 +36,8 @@
 
 <style>
     .header{
-        padding: 0rem 0rem;
-        background-color: #0091ff;
+        padding: 1rem 2rem;
+        background-color: var(--primary-color);
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -45,7 +45,7 @@
         width: 100vw;
         @media only screen and (min-width: 1000px) {
             justify-content: space-between;
-            padding: 0rem 2rem;
+            padding: 1rem 2rem;
         }
     }
 
@@ -55,7 +55,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        gap: 1rem;
+        gap: 4rem;
     }
 
     .header .header-left button{
@@ -67,7 +67,7 @@
     .header .header-left button span{
         height: 2px;
         width: 24px;
-        background-color: white;
+        background-color: var(--light);
         position: absolute;
     }
 
@@ -105,16 +105,16 @@
 
     .header .header-left ol li > a{
         text-decoration: none;
-        color: white;
+        color: var(--light);
         font-size: 1em;
         text-transform: uppercase;
         
     }
 
     .header .header-left ol li > a:hover{
-        text-decoration: 2px underline white;
+        text-decoration: 2px underline var(--light);
         text-underline-offset: 0.25rem;
-        color: white;
+        color: var(--light);
         font-size: 1em;
     }
 
@@ -130,7 +130,7 @@
     /* mobile whatsapp button */
     .header .header-right .whatsapp{
         padding: 0px;
-        background-color: #0091ff;
+        background-color: var(--primary-color);
         border: none;
         right: 1rem;
         position: absolute;
@@ -150,7 +150,7 @@
         @media only screen and (min-width: 1000px) {
             display: block;
             padding: 0px;
-            background-color: #0091ff;
+            background-color: var(--primary-color);
             border: none;
         }
     }
