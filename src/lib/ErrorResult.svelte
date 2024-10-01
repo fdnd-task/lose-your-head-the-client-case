@@ -1,8 +1,6 @@
 <script>
     export let data;
     export let scans = data.scans;
-    console.log(scans)
-
 </script>
 
 {#each scans[0].result as result}
