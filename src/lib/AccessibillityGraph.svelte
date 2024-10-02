@@ -128,6 +128,11 @@
   canvas {
     max-width: 100%;
     height: auto;
+
+    @media screen and (max-width: 500px) {
+      height: 350px;
+      
+    }
   }
 
   .title-container {
