@@ -2,7 +2,7 @@
     export let data;
 </script>
 
-<p>Test TypeGraph</p>
+<h2>Soorten foutmeldingen</h2>
 
 <style>
     

@@ -39,7 +39,8 @@
 
 
   </script>
- 
+  <h2>{scans.title}</h2>
+  <p>{scans.description}</p>
   <!-- Het canvas-element waar de grafiek op wordt weergegeven -->
   <div style="position: relative; display: inline-block; text-align: center;">
     <canvas bind:this={chartCanvas}></canvas>
