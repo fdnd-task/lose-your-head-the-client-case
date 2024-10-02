@@ -1,9 +1,11 @@
 <script>
     import { onMount } from 'svelte';
     import Chart from 'chart.js/auto';
- 
+    export let scans = data.scans;
+
+
     let chartCanvas;
-    let percentage = 75; // Het percentage dat je wilt weergeven
+    let percentage = scans.score; // Het percentage dat je wilt weergeven
  
     // Data en configuratie voor de Doughnut chart
     const data = {
@@ -34,8 +36,11 @@
         options: options
       });
     });
+
+
   </script>
- 
+  <h2>{scans.title}</h2>
+  <p>{scans.description}</p>
   <!-- Het canvas-element waar de grafiek op wordt weergegeven -->
   <div style="position: relative; display: inline-block; text-align: center;">
     <canvas bind:this={chartCanvas}></canvas>

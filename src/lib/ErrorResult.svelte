@@ -1,12 +1,14 @@
 <script>
     export let data;
+    export let scans = data.scans;
 </script>
 
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+{#each scans.result as result}
+  <li>
+    <h3>{result.title}</h3>
+    <p>{result.amount}</p>
+  </li>
+{/each}
 
 <style>
     li{

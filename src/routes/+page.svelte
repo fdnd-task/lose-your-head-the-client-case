@@ -1,7 +1,11 @@
 <script>
   import {AccessibillityGraph, AutomaticScan, ErrorResult, TypeGraph} from '$lib'
+  export let data = data;
+  export let company = data.sites;
+  export let scans = data.scans[0];
 
 </script>
+
 
 <header class="wrapper header-layout">
 
@@ -9,10 +13,10 @@
 
 <main class="wrapper main-layout">
   <section class="auto">
-    <AutomaticScan />
+    <AutomaticScan {scans} />
   </section>
   <ul class="error">
-    <ErrorResult />
+    <ErrorResult {scans} />
   </ul>
 
   <section class="type">
