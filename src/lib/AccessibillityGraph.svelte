@@ -11,6 +11,7 @@
     const colorBlue = rootStyles.getPropertyValue('--color-blue');
     const colorLightBlue = rootStyles.getPropertyValue('--color-lightblue');
     const fontFamily = rootStyles.getPropertyValue('--font-family-regular');
+    const colorBlack = rootStyles.getPropertyValue('--color-black');
 
     const months = ['jan', 'feb', 'mar', 'apr', 'mei', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'dec'];
     const data = {
@@ -37,6 +38,7 @@
           },
           beginAtZero: true,
           max: 100,
+          tickColor: colorBlack,
           ticks: {
             stepSize: 20,
             callback: function(value) {
@@ -83,7 +85,15 @@
         }
       },
       responsive: true,
-      maintainAspectRatio: true
+      maintainAspectRatio: true,
+      onHover: (event, elements) => {
+        const canvas = event.native.target;
+        if (elements.length) {
+          canvas.style.cursor = 'pointer'; // Set cursor to pointer when hovering over a data point
+        } else {
+          canvas.style.cursor = 'default'; // Reset cursor when not hovering over a data point
+        }
+      }
     };
 
     const ctx = document.getElementById('line-chart').getContext('2d');
