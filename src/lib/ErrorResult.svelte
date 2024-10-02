@@ -1,9 +1,9 @@
 <script>
     export let data;
-    export let scans = data.scans;
+    export let result = data.scans;
 </script>
 
-{#each scans.result as result}
+{#each result.result as result}
   <li>
     <h3>{result.title}</h3>
     <p>{result.amount}</p>
