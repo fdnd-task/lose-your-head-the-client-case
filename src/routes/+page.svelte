@@ -34,7 +34,7 @@
 <style>
  .wrapper{
     margin: auto;
-    width: 1100px;
+    max-width: 1100px;
  }
 
  .header-layout{
@@ -53,7 +53,8 @@
  section{
   background-color: var(--color-background-section);
   border-radius: 8px;
-  box-shadow: 0px 0px 9px -2px var(--color-black);
+  box-shadow: var(--box-shadow);
+  padding: 30px;
  }
 
  .auto{
