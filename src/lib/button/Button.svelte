@@ -1,6 +1,5 @@
 <script>
   // if the button is pressed isClicked = true and the animation starts playing
-  let isClicked = false;
   // exporting the variables so i can use them to change the button everywhere its imported
   export let backgroundColor = "var(--secondary-color)"; // Changes the background color
   export let textColor = "var(--light)"; // Changes the text color
@@ -25,8 +24,8 @@
   {title}
   style="color: {textColor}; background-color: {backgroundColor};"
   
-  on:click={handleClick}
-  class:clicked={isClicked}
+  
+  
   class:transparent={transparent}
 >
   <!-- If the variable showSvg is set to true the svg will show -->
@@ -72,9 +71,7 @@
   }
 
   /* class for click animation */
-  a.clicked {
-    animation: buttonClicked 0.2s ease;
-  }
+ 
 
   span,
   svg {
@@ -90,15 +87,7 @@
   }
 
   /* Animation when the button is clicked */
-  @keyframes buttonClicked {
-    from {
-      scale: 0.9;
-    }
-
-    to {
-      scale: 0.1;
-    }
-  }
+ 
 
   /* Media queries */
   /* All .transparent classes will be active when the boolean transparent is set to true */
