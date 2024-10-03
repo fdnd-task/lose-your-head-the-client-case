@@ -23,18 +23,33 @@
   /* radius */
   --full-radius: 100%;
   --mid-radius: 20%;
+
+    /* font */
+    --font-family: "BrutalType";
+
 }
 
 /* Font import */
 @font-face {
-  font-family: "test";
-  src: url("../assets/fonts/") format("otf");
-  font-weight: normal;
+  font-family: var(--font-family);
+  src: url("../fonts/BrutalType-Black.ttf") format("ttf");
+  font-weight: 900;
   font-style: normal;
 }
 
+@font-face {
+    font-family: var(--font-family);
+    src: url("../fonts/BrutalType.ttf") format("ttf");
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Dit zijn op dit moment de fonts die we gebruiken in het ontwerp, als je meer wilt aanmaken moet je een nieuwe @font-face maken */
+
+
 /* Global settings */
 * {
+  font-family: var(--font-family);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -119,7 +134,6 @@ article {
 /* Voorbeeld CSS media gebruik */
 
 /* .card-profile {
-    padding: .5rem;
     background-color: red;
     margin: 1rem;
 
