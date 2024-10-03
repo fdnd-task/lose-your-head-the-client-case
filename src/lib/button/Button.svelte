@@ -1,10 +1,15 @@
 <script>
+  // if the button is pressed isClicked = true and the animation starts playing
   let isClicked = false;
   // exporting the variables so i can use them to change the button everywhere its imported
+  export let backgroundColor = "var(--secondary-color)"; // Changes the background color
+  export let textColor = "var(--light)"; // Changes the text color
   export let label = ""; // Changes the label text
   export let href = "#"; // Changes the href
-  export let alt = ""; // Changes the alt text
-  export let showSvg = false; // Turns the svg on or off
+  export let title = ""; // Changes the alt text
+  export let showSvg = true; // Turns the svg on or off
+  export let transparent = true; // Turns the transparency mediaquery on or off at 600px screen width 
+
 
   // function that will set isClicked to true
   function handleClick() {
@@ -15,7 +20,15 @@
 <!-- html -->
 
 <!-- You can change the href and alt variable to change the text -->
-<a class="button" {href} {alt} on:click={handleClick} class:clicked={isClicked}>
+<a
+  {href}
+  {title}
+  style="color: {textColor}; background-color: {backgroundColor};"
+  
+  on:click={handleClick}
+  class:clicked={isClicked}
+  class:transparent={transparent}
+>
   <!-- If the variable showSvg is set to true the svg will show -->
   {#if showSvg}
     <svg
@@ -40,11 +53,9 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--secondary-color);
     border-radius: 10px;
     font-size: 2em;
     font-weight: bold;
-    color: var(--light);
     border: none;
     padding: 0.5em 1.5em 0.5em 1.5em;
     cursor: pointer;
@@ -90,32 +101,41 @@
   }
 
   /* Media queries */
+  /* All .transparent classes will be active when the boolean transparent is set to true */
   @media only screen and (max-width: 600px) {
     a {
       padding: 0.3em;
     }
 
-    a,
-    span {
+    a.transparent {
+      background-color: transparent !important;
+    }
+
+    a.transparent:hover {
       background-color: transparent;
     }
 
-    a:hover {
-      background-color: transparent;
-    }
-
-    span {
+    .transparent span {
       display: none;
     }
 
-    svg {
+    .transparent svg {
       margin: 0;
     }
   }
 
   @media only screen and (max-width: 350px) {
+    a {
+      padding: 0.1;
+    }
+
+    span {
+      font-size: 0.5em;
+    }
+
     svg {
       width: 1em;
+      margin-right: 0.1em;
     }
   }
 </style>
