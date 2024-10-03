@@ -2,6 +2,8 @@
 // variables imports
 
 // component imports
+// import { Footer } from '$lib'
+// import testImg from '$lib/tokyo.jpeg?enhanced'
 
 </script>
 
@@ -10,7 +12,7 @@
 </style>
 
 <main>
-
-<h1>lose-your-head-the-client-case</h1>
-
+    <!-- <enhanced:img src={testImg} alt="An alt text" /> -->
 </main>
+
+<!-- <Footer /> -->
