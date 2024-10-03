@@ -8,25 +8,25 @@
 
 <footer class="footer">
     <enhanced:img src={Veronica} class="footer__veronica" alt="logo van veronica in footer" />
-    <h2 class="footer__header-footer">We. Love. Music</h2>
+    <h2 class="footer__h2">We. Love. Music</h2>
     <ul class="footer__socials">
-        <h3>volg ons op social media</h3>
+        <h3 class="footer__h3">volg ons op social media</h3>
         <ul class="footer__socials-icons">
-            <li><enhanced:img src={Facebook} class="footer__icons" alt="socials icoon Facebook" /></li>
-            <li><enhanced:img src={X} class="footer__icons" alt="socials icoon X" /></li>
-            <li><enhanced:img src={YT} class="footer__icons" alt="social icoon Youtube" /></li>
-            <li><enhanced:img src={IG} class="footer__icons" alt="social icoon Instagram" /></li>
+            <li class="footer__icons"><enhanced:img src={Facebook}  alt="socials icoon Facebook" /></li>
+            <li class="footer__icons"><enhanced:img src={X} alt="socials icoon X" /></li>
+            <li class="footer__icons"><enhanced:img src={YT} alt="social icoon Youtube" /></li>
+            <li class="footer__icons"><enhanced:img src={IG} alt="social icoon Instagram" /></li>
         </ul>
     </ul>
     <ul class="footer__radio-veronica">
-        <h4>Radio Veronica</h4>
+        <h3 class="footer__h3">Radio Veronica</h3>
         <li class="footer__radio-links">Home</li>
         <li class="footer__radio-links">Programmering</li>
         <li class="footer__radio-links">Ontdek</li>
         <li class="footer__radio-links">Acties</li>
     </ul>
     <ul class="footer__algemeen">
-        <h4>Algemeen</h4>
+        <h3 class="footer__h3">Algemeen</h3>
         <li class="footer__algemeen-links">Frequenties</li>
         <li class="footer__algemeen-links">Alle programma's</li>
         <li class="footer__algemeen-links">DJ overzicht</li>
@@ -43,7 +43,12 @@
 </footer>
 
 <style>
+    .footer__h3 {
+        font-style: var(--h3-text-size);
+    }
+
     .footer {
+        font-family: var(--font-family);
         color: var(--light);
         background-color: var(--color-footer); 
         display: grid;
@@ -67,7 +72,7 @@
         height: 2.5rem;
     }
 
-    .footer__header-footer {
+    .footer__h2 {
         grid-area: header-footer;
         width: 13rem;
         font-size: 2.2rem;
@@ -108,13 +113,18 @@
     }
 
     .footer__icons {
-        width: 2rem;
-        height: 2rem;
-        border-radius: 1rem;
         background-color: var(--secondary-color);
         display: flex;
-        flex-direction: row;
+        border-radius: 3rem;
+        width: 2rem;
+        height: 2rem;
+        justify-content: center;
         padding: 0.5rem;
+    }
+
+    .footer__icons img {
+        width: 1rem;
+        height: 1rem;
     }
 
     ul h4 {

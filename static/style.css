@@ -27,10 +27,17 @@
 
 /* Font import */
 @font-face {
-  font-family: "";
-  src: url("../assets/fonts/") format("otf");
-  font-weight: normal;
+  font-family: var(--font-family);
+  src: url("../fonts/BrutalType-Black.ttf") format("ttf");
+  font-weight: 900;
   font-style: normal;
+}
+
+@font-face {
+    font-family: var(--font-family);
+    src: url("../fonts/BrutalType.ttf") format("ttf");
+    font-weight: 500;
+    font-style: normal;
 }
 
 /* Global settings */
