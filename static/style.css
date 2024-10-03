@@ -23,6 +23,9 @@
   /* radius */
   --full-radius: 100%;
   --mid-radius: 20%;
+
+  /* font */
+  --font-family: "BrutalType";
 }
 
 /* Font import */
