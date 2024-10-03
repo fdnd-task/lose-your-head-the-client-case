@@ -23,7 +23,7 @@
   </section>
 
   <section class="accessibillity">
-    <AccessibillityGraph />
+    <AccessibillityGraph {result}/>
   </section>
 </main>
 

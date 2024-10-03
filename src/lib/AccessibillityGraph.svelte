@@ -1,30 +1,40 @@
 <script>
   import { onMount } from 'svelte';
   import { Chart } from 'chart.js';
-
+  export let result = data.score;
   let chart;
-
-
-
+ 
+ 
+  console.log(result.score[0])
+ 
+  let Result1 = result.score;
+  let Result2 = result.score[0];
+  let Result3 = result.score[2];
+  let Result4 = result.score[3];
+  let Result5 = result.score[4];
+  let Result6 = result.score[5];
+ 
+ 
+ 
   onMount(() => {
     const rootStyles = getComputedStyle(document.documentElement);
     const colorBlue = rootStyles.getPropertyValue('--color-blue');
     const colorLightBlue = rootStyles.getPropertyValue('--color-lightblue');
     const fontFamily = rootStyles.getPropertyValue('--font-family-regular');
     const colorBlack = rootStyles.getPropertyValue('--color-black');
-
+ 
     const months = ['jan', 'feb', 'mar', 'apr', 'mei', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'dec'];
     const data = {
       labels: months,
       datasets: [{
-        data: [20, 30, 40, 60, 80, 50, 70, 90],
+        data: [20, 30, 40, 60, 80, 50, 70, Result1, Result2, Result3, Result4, Result5, Result6],
         borderColor: colorBlue,
         backgroundColor: colorLightBlue,
         fill: true,
         tension: 0
       }]
     };
-
+ 
     // Chart options
     const options = {
       pointHoverRadius: 8,
@@ -95,7 +105,7 @@
         }
       }
     };
-
+ 
     const ctx = document.getElementById('line-chart').getContext('2d');
     chart = new Chart(ctx, {
       type: 'line',
@@ -104,7 +114,7 @@
     });
   });
 </script>
-
+ 
 <div class="title-container">
   <h2 class="title">Toegankelijkheid</h2>
   <div class="year-nav-container">
@@ -121,27 +131,27 @@
     </button>
   </div>
 </div>
-
+ 
 <canvas id="line-chart" width="800" height="250"></canvas>
-
+ 
 <style>
   canvas {
     max-width: 100%;
     height: auto;
-
+ 
     @media screen and (max-width: 500px) {
       height: 350px;
-      
+     
     }
   }
-
+ 
   .title-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 50px;
   }
-
+ 
   .year-nav-container {
     display: flex;
     justify-content: center;
@@ -149,3 +159,4 @@
     gap: 10px;
   }
 </style>
+ 
