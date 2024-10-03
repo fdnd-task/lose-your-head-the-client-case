@@ -1,18 +1,17 @@
 <script>
   import { onMount } from 'svelte';
   import { Chart } from 'chart.js';
-  export let result = data.score;
+  export let resultsheet = data.scans;
   let chart;
  
  
-  console.log(result.score[0])
+  console.log(resultsheet[5].score)
  
-  let Result1 = result.score;
-  let Result2 = result.score[0];
-  let Result3 = result.score[2];
-  let Result4 = result.score[3];
-  let Result5 = result.score[4];
-  let Result6 = result.score[5];
+  let August = resultsheet[0].score;
+  let September = resultsheet[1].score;
+  let October = resultsheet[2].score;
+  let November = resultsheet[3].score;
+  let December = resultsheet[4].score;
  
  
  
@@ -27,7 +26,7 @@
     const data = {
       labels: months,
       datasets: [{
-        data: [20, 30, 40, 60, 80, 50, 70, Result1, Result2, Result3, Result4, Result5, Result6],
+        data: [0, 0, 0, 0, 0, 0, 0, August, September, October, November, December],
         borderColor: colorBlue,
         backgroundColor: colorLightBlue,
         fill: true,
