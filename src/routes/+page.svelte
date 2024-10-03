@@ -11,5 +11,5 @@ import Button from "../lib/button/Button.svelte";
 
 <main>
 <h1>lose-your-head-the-client-case</h1>
-<Button label="App Studio" href="https://programma.fdnd.nl/" alt="Stuur whatsapp bericht naar studio" showSvg="true"></Button>
+<Button label="test" href="https://programma.fdnd.nl/" alt="Stuur whatsapp bericht naar studio" showSvg="true"></Button>
 </main>
