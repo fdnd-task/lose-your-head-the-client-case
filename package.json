@@ -17,6 +17,7 @@
 	"type": "module",
 	"dependencies": {
 		"chart.js": "^4.4.4",
+		"chartjs-plugin-datalabels": "^2.2.0",
 		"svelte-chartjs": "^3.1.5"
 	}
 }

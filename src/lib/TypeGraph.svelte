@@ -1,8 +1,19 @@
 <script>
   import { onMount } from 'svelte';
   import { Chart } from 'chart.js';
+  import ChartDataLabels from 'chartjs-plugin-datalabels';
+
+  export let data;
+  export let result = data.scans;
 
   let chart;
+
+  let results = result.result.slice(1); // Skips the first item
+
+  let errorTitles = results.map(item => item.title);
+  let errorAmounts = results.map(item => item.amount);
+
+  Chart.register(ChartDataLabels);
 
   onMount(() => {
     const rootStyles = getComputedStyle(document.documentElement);
@@ -11,16 +22,14 @@
     const fontFamily = rootStyles.getPropertyValue('--font-family-regular');
     const colorBlack = rootStyles.getPropertyValue('--color-black');
 
-    const labels = ["Contrast", "Structureel", "Alt-teksten", "Aria-labels"];
-
     const data = {
-      labels: labels,
+      labels: errorTitles,
       datasets: [{
         label: 'Fouten',
-        data: [12, 19, 23, 75],
+        data: errorAmounts,
         borderColor: colorBlue,
         backgroundColor: colorLightBlue,
-        borderWidth: 3
+        borderWidth: 3,
       }]
     };
 
@@ -39,7 +48,7 @@
         x: {
           title: {
             display: false,
-            text: 'Categories' // X-axis label
+            text: 'Type fouten' // X-axis label
           },
           grid: {
             display: false
@@ -49,6 +58,16 @@
       plugins: {
         legend: {
           display: false,
+        },
+        datalabels: {  // Enable the datalabels plugin
+          color: colorBlack,
+          anchor: 'center',
+          align: 'center',
+          font: {
+            family: fontFamily,
+            weight: 'bold'
+          },
+          formatter: (value) => value  // Display the data value on the bar
         },
         tooltip: {
           enabled: true,  // Enable tooltips
@@ -73,6 +92,8 @@
           bodyColor: colorBlue,
         },
       },
+      responsive: true,
+      maintainAspectRatio: true,
       onHover: (event, elements) => {
         const canvas = event.native.target;
         if (elements.length) {
@@ -93,7 +114,14 @@
 </script>
 
 <h2>Soorten foutmeldingen</h2>
-<canvas id="bar-chart" width="800" height="250"></canvas>
+<canvas id="bar-chart" width="800" height="250" aria-label="Soorten fouten grafiek">
+  <ul>
+    {#each results as item}
+      <li>{item.title}: {item.amount}</li>
+    {/each}
+  </ul>
+</canvas>
+
 <style>
   canvas {
     max-width: 100%;
