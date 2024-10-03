@@ -120,6 +120,7 @@
         height: 2rem;
         justify-content: center;
         padding: 0.5rem;
+        cursor: pointer;
     }
 
     .footer__icons img {
@@ -127,12 +128,9 @@
         height: 1rem;
     }
 
-    ul h4 {
-        font-size: var(--h4-text-size);
-    }
-
     .footer__copyright {
         grid-area: copyright;
+        font-size: var(--p-text-size);
     }
 
     .footer__FAQ {
@@ -140,5 +138,9 @@
         display: flex;
         flex-direction: row;
         gap: 1rem;
+    }
+
+    li {
+        cursor: pointer;
     }
 </style>
