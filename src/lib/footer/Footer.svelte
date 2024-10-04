@@ -61,15 +61,13 @@
     .footer__grid {
         font-family: var(--font-family);
         color: var(--light);
-
         display: grid;
         grid-template-columns: repeat(4, 0.3fr);
         grid-template-rows: repeat(5, 0.3fr);
         padding: 3.5rem;
         grid-template-columns: repeat(4, 0.5fr);
         grid-template-rows: repeat(5, 1fr);
-
-        gap: 2rem;
+        gap: 1rem;
         grid-template-areas:
         "veronica . . ."
         "header-footer . radio-veronica algemeen"
