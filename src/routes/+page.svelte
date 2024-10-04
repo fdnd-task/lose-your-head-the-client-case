@@ -52,7 +52,7 @@
 
  section{
   background-color: var(--color-background-section);
-  border-radius: 8px;
+  border-radius: var(--section-border-radius);
   box-shadow: var(--box-shadow);
   padding: 30px;
  }
