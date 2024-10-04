@@ -1,31 +1,42 @@
 <script>
   import { onMount } from 'svelte';
   import { Chart } from 'chart.js';
-
+  export let resultsheet = data.scans;
   let chart;
+ 
+  import ChartDataLabels from 'chartjs-plugin-datalabels';
 
+  Chart.register(ChartDataLabels);
 
-
+  console.log(resultsheet[5].score)
+ 
+  let August = resultsheet[0].score;
+  let September = resultsheet[1].score;
+  let October = resultsheet[2].score;
+  let November = resultsheet[3].score;
+  let December = resultsheet[4].score;
+ 
+ 
+ 
   onMount(() => {
     const rootStyles = getComputedStyle(document.documentElement);
     const colorBlue = rootStyles.getPropertyValue('--color-blue');
     const colorLightBlue = rootStyles.getPropertyValue('--color-lightblue');
     const fontFamily = rootStyles.getPropertyValue('--font-family-regular');
     const colorBlack = rootStyles.getPropertyValue('--color-black');
-
+ 
     const months = ['jan', 'feb', 'mar', 'apr', 'mei', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'dec'];
     const data = {
       labels: months,
       datasets: [{
-        data: [20, 30, 40, 60, 80, 50, 70, 90],
+        data: [, , , , , , , August, September, October, November, December],
         borderColor: colorBlue,
         backgroundColor: colorLightBlue,
         fill: true,
         tension: 0
       }]
     };
-
-    // Chart options
+ 
     const options = {
       pointHoverRadius: 8,
       pointHoverBorderWidth: 3,
@@ -42,7 +53,7 @@
           ticks: {
             stepSize: 20,
             callback: function(value) {
-              return value + '%';  // Display percentages on y-axis
+              return value + '%';
             }
           }
         },
@@ -54,10 +65,10 @@
       },
       plugins: {
         tooltip: {
-          enabled: true,  // Enable tooltips
+          enabled: true,
           titleAlign: 'center',
           bodyAlign: 'center',
-          backgroundColor: '#FFFFFF',  // Tooltip background color
+          backgroundColor: '#FFFFFF',
           borderWidth: 2,
           borderColor: colorBlue,
           padding: 10,
@@ -76,26 +87,36 @@
           bodyColor: colorBlue,
           callbacks: {
             label: function(tooltipItem) {
-              return tooltipItem.raw + '%';  // Display percentages in tooltips
+              return tooltipItem.raw + '%';
             }
           },
         },
         legend: {
-          display: false  // Hide the legend
-        }
+          display: false
+        },
+        datalabels: {
+          color: colorBlack,
+          anchor: 'center',
+          align: 'top',
+          font: {
+            family: fontFamily,
+            weight: 'bold'
+          },
+          formatter: (value) => value + '%'
+        },
       },
       responsive: true,
       maintainAspectRatio: true,
       onHover: (event, elements) => {
         const canvas = event.native.target;
         if (elements.length) {
-          canvas.style.cursor = 'pointer'; // Set cursor to pointer when hovering over a data point
+          canvas.style.cursor = 'pointer';
         } else {
-          canvas.style.cursor = 'default'; // Reset cursor when not hovering over a data point
+          canvas.style.cursor = 'default';
         }
       }
     };
-
+ 
     const ctx = document.getElementById('line-chart').getContext('2d');
     chart = new Chart(ctx, {
       type: 'line',
@@ -105,44 +126,63 @@
   });
 </script>
 
-<div class="title-container">
-  <h2 class="title">Toegankelijkheid</h2>
-  <div class="year-nav-container">
-    <button class="year-nav-button">
-      <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M5 1L2.20676 4.02601C1.51868 4.77143 1.49766 5.91393 2.15785 6.68416L5 10" stroke="#5D666A" stroke-width="2" stroke-linecap="round"/>
-      </svg>
-    </button>
-    <span class="current-year">2024</span>
-    <button class="year-nav-button">
-      <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M1 1L3.79324 4.02601C4.48132 4.77143 4.50234 5.91393 3.84215 6.68416L1 10" stroke="#5D666A" stroke-width="2" stroke-linecap="round"/>
-      </svg>
-    </button>
+<section>
+  <div>
+    <h2>Toegankelijkheid</h2>
+    <nav>
+      <button>
+        <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M5 1L2.20676 4.02601C1.51868 4.77143 1.49766 5.91393 2.15785 6.68416L5 10" stroke="#5D666A" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <span>2024</span>
+      <button>
+        <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1 1L3.79324 4.02601C4.48132 4.77143 4.50234 5.91393 3.84215 6.68416L1 10" stroke="#5D666A" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </nav>
   </div>
-</div>
-
-<canvas id="line-chart" width="800" height="250"></canvas>
+  
+  <canvas id="line-chart" 
+    width="800" 
+    height="250" 
+    aria-label="Grafiek van scanresultaten van een jaar"
+  >
+    <ul>
+      {#each resultsheet as item}
+        <li>{item.title}: {item.amount}</li>
+      {/each}
+    </ul>
+  </canvas>
+</section>
 
 <style>
+
+  section {
+    background-color: var(--color-background-section);
+    border-radius: var(--section-border-radius);
+    box-shadow: var(--box-shadow);
+    padding: var(--average-padding);
+    grid-area: 3 / 1 / 4 / 3;
+  }
+  
   canvas {
     max-width: 100%;
     height: auto;
-
     @media screen and (max-width: 500px) {
       height: 350px;
-      
     }
   }
 
-  .title-container {
+  div {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 50px;
   }
 
-  .year-nav-container {
+  nav {
     display: flex;
     justify-content: center;
     align-items: center;
