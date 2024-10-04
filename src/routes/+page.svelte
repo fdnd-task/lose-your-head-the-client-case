@@ -6,47 +6,40 @@
   export let resultsheet = data.scans;
 </script>
 
-
-<header class="wrapper header-layout">
+<header class="wrapper">
 
 </header>
 
 <main class="wrapper">
   
-    <AutomaticScan {result} />
+  <AutomaticScan {result} />
   
+  <ErrorResult {result} />
   
-    <ErrorResult {result} />
-  
+  <TypeGraph {result}/>
 
-  
-    <TypeGraph {result}/>
-  
-
-  
-    <AccessibillityGraph {resultsheet}/>
-  
+  <AccessibillityGraph {resultsheet}/>
 </main>
 
 <footer>
 </footer>
 
 <style>
- .wrapper{
+  .wrapper {
     margin: auto;
     max-width: 1100px;
- }
+  }
 
- .header-layout{
-  height: 10%;
- }
+  header {
+    height: 10%;
+  }
 
- main{
-  display: grid;
-  grid-template-columns: 2.2fr 0.8fr; 
-  grid-template-rows: 1fr 1fr 1.2fr;   
-  gap: 20px;  
-  height: 90%;
-  margin: 20px auto;
- }
+  main {
+    display: grid;
+    grid-template-columns: 2.2fr 0.8fr; 
+    grid-template-rows: 1fr 1fr 1.2fr;   
+    gap: 20px;  
+    height: 90%;
+    margin: 20px auto;
+  }
 </style>

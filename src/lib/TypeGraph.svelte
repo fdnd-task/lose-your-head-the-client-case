@@ -8,7 +8,7 @@
 
   let chart;
 
-  let results = result.result.slice(1); // Skips the first item
+  let results = result.result.slice(1);
 
   let errorTitles = results.map((item) => item.title);
   let errorAmounts = results.map((item) => item.amount);
@@ -41,7 +41,7 @@
           beginAtZero: true,
           title: {
             display: false,
-            text: "Aantal", // Y-axis label
+            text: "Aantal",
           },
           grid: {
             display: false,
@@ -50,7 +50,7 @@
         x: {
           title: {
             display: false,
-            text: "Type fouten", // X-axis label
+            text: "Type fouten",
           },
           grid: {
             display: false,
@@ -62,7 +62,6 @@
           display: false,
         },
         datalabels: {
-          // Enable the datalabels plugin
           color: colorBlack,
           anchor: "center",
           align: "center",
@@ -70,13 +69,13 @@
             family: fontFamily,
             weight: "bold",
           },
-          formatter: (value) => value, // Display the data value on the bar
+          formatter: (value) => value,
         },
         tooltip: {
           enabled: true, // Enable tooltips
           titleAlign: "center",
           bodyAlign: "center",
-          backgroundColor: "#FFFFFF", // Tooltip background color
+          backgroundColor: "#FFFFFF",
           borderWidth: 2,
           borderColor: colorBlue,
           padding: 10,
@@ -100,9 +99,9 @@
       onHover: (event, elements) => {
         const canvas = event.native.target;
         if (elements.length) {
-          canvas.style.cursor = "pointer"; // Set cursor to pointer when hovering over a data point
+          canvas.style.cursor = "pointer";
         } else {
-          canvas.style.cursor = "default"; // Reset cursor when not hovering over a data point
+          canvas.style.cursor = "default";
         }
       },
     };
@@ -134,18 +133,17 @@
 
 <style>
   
-  section{
+  section {
   background-color: var(--color-background-section);
   border-radius: var(--section-border-radius);
   box-shadow: var(--box-shadow);
   padding: var(--average-padding);
   grid-area: 2 / 1 / 3 / 2;
- }
+  }
 
   canvas {
     max-width: 100%;
     height: auto;
-
     @media screen and (max-width: 500px) {
       height: 350px;
     }
