@@ -1,5 +1,5 @@
 <script>
-  import {AccessibillityGraph, AutomaticScan, ErrorResult, TypeGraph} from '$lib'
+  import {AccessibillityGraph, AutomaticScan, ErrorResult, TypeGraph, Icon} from '$lib'
   export let data = data;
   export let company = data.sites;
   export let result = data.scans[0];
@@ -10,13 +10,18 @@
 
 </header>
 
-<main class="wrapper">
-  
-  <AutomaticScan {result} />
-  
-  <ErrorResult {result} />
-  
-  <TypeGraph {result}/>
+<main class="wrapper main-layout">
+  <section class="auto">
+    <AutomaticScan {result} />
+  </section>
+  <ul class="error">
+    <ErrorResult {result} {Icon} />
+  </ul>
+
+  <section class="type">
+    <TypeGraph {result}/>
+  </section>
+
 
   <AccessibillityGraph {resultsheet}/>
 </main>
