@@ -4,3 +4,5 @@ export { default as AutomaticScan } from './AutomaticScan.svelte'
 export { default as ErrorResult } from './ErrorResult.svelte'
 export { default as TypeGraph } from './TypeGraph.svelte'
 export { default as Icon } from './Icon.svelte'
+export { default as Icon2 } from './Icon2.svelte'
+
