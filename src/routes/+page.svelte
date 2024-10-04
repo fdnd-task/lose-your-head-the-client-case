@@ -54,7 +54,7 @@
   background-color: var(--color-background-section);
   border-radius: var(--section-border-radius);
   box-shadow: var(--box-shadow);
-  padding: 30px;
+  padding: var(--average-padding);
  }
 
  .auto{
