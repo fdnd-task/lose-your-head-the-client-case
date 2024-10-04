@@ -6,22 +6,13 @@
   export let resultsheet = data.scans;
 </script>
 
-<header class="wrapper">
-
-</header>
-
-<main class="wrapper main-layout">
-  <section class="auto">
-    <AutomaticScan {result} />
-  </section>
-  <ul class="error">
-    <ErrorResult {result} {Icon} />
-  </ul>
-
-  <section class="type">
-    <TypeGraph {result}/>
-  </section>
-
+<main class="wrapper">
+  
+  <AutomaticScan {result} />
+  
+  <ErrorResult {result} {Icon} />
+  
+  <TypeGraph {result}/>
 
   <AccessibillityGraph {resultsheet}/>
 </main>
