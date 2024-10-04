@@ -1,16 +1,17 @@
 <script>
-// variables imports
+    // variables imports
+    
+    // component imports
+    
+    </script>
+    
+    <style>
+    
+    </style>
+    
+    <main>
+    
+    <h1>lose-your-head-the-client-case</h1>
+    
+    </main>
 
-// component imports
-
-</script>
-
-<style>
-
-</style>
-
-<main>
-
-<h1>lose-your-head-the-client-case</h1>
-
-</main>
