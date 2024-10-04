@@ -16,33 +16,33 @@
         <ul class="footer__socials">
             <h3 class="footer__h3">volg ons op social media</h3>
             <ul class="footer__socials-icons">
-                <li class="footer__icons"><enhanced:img src={Facebook}  alt="socials icoon Facebook" /></li>
-                <li class="footer__icons"><enhanced:img src={X} alt="socials icoon X" /></li>
-                <li class="footer__icons"><enhanced:img src={YT} alt="social icoon Youtube" /></li>
-                <li class="footer__icons"><enhanced:img src={IG} alt="social icoon Instagram" /></li>
+                <li class="footer__icons"><a href="/"><enhanced:img src={Facebook}  alt="socials icoon Facebook" /></a></li>
+                <li class="footer__icons"><a href="/"><enhanced:img src={X} alt="socials icoon X" /></a></li>
+                <li class="footer__icons"><a href="/"><enhanced:img src={YT} alt="social icoon Youtube" /></a></li>
+                <li class="footer__icons"><a href="/"><enhanced:img src={IG} alt="social icoon Instagram" /></a></li>
             </ul>
         </ul>
         <ul class="footer__radio-veronica">
             <h3 class="footer__h3">Radio Veronica</h3>
-            <li class="footer__radio-links">Home</li>
-            <li class="footer__radio-links">Programmering</li>
-            <li class="footer__radio-links">Ontdek</li>
-            <li class="footer__radio-links">Acties</li>
+            <li class="footer__radio-links"><a href="/">Home</a></li>
+            <li class="footer__radio-links"><a href="/">Programmering</a></li>
+            <li class="footer__radio-links"><a href="/">Ontdek</a></li>
+            <li class="footer__radio-links"><a href="/">Acties</a></li>
         </ul>
         <ul class="footer__algemeen">
             <h3 class="footer__h3">Algemeen</h3>
-            <li class="footer__algemeen-links">Frequenties</li>
-            <li class="footer__algemeen-links">Alle programma's</li>
-            <li class="footer__algemeen-links">DJ overzicht</li>
-            <li class="footer__algemeen-links">Pers</li>
+            <li class="footer__algemeen-links"><a href="/">Frequenties</a></li>
+            <li class="footer__algemeen-links"><a href="/">Alle programma's</a></li>
+            <li class="footer__algemeen-links"><a href="/">DJ overzichtAlle programma's</a></li>
+            <li class="footer__algemeen-links"><a href="/">Pers</a></li>
         </ul>
         <span class="footer__underline"></span>
         <p class="footer__copyright">&copy; Mediahuis 2024</p>
         <ul class="footer__FAQ">
-            <li class="footer__FAQ-links">Privacy verklaring</li>
-            <li class="footer__FAQ-links">Gebruiksvoorwaarden</li>
-            <li class="footer__FAQ-links">Cookieverklaring</li>
-            <li class="footer__FAQ-links">Cookie voorkeuren</li>
+            <li class="footer__FAQ-links"><a href="/">Privacy verklaring</a></li>
+            <li class="footer__FAQ-links"><a href="/">Gebruiksvoorwaarden</a></li>
+            <li class="footer__FAQ-links"><a href="/">Cookieverklaring</a></li>
+            <li class="footer__FAQ-links"><a href="/">Cookie voorkeuren</a></li>
         </ul>
     </div>
 
