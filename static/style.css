@@ -31,7 +31,7 @@
 /* Font import */
 @font-face {
   font-family: var(--font-family);
-  src: url("../fonts/BrutalType-Black.ttf") format("ttf");
+  src: url("../static/fonts/BrutalType-Bold.ttf") format("ttf");
   font-weight: 900;
   font-style: normal;
 }
