@@ -43,7 +43,7 @@
         align-items: center;
         justify-content: center;
         width: 100vw;
-        @media only screen and (min-width: 1000px) {
+        @media only screen and (min-width: 960px) {
             justify-content: space-between;
             padding: 1rem 2rem;
         }
@@ -87,7 +87,7 @@
     .header .header-left > button, nav{
         display: none;
         /* on large screen */
-        @media only screen and (min-width: 1000px) {
+        @media only screen and (min-width: 960px) {
             display: block;
         }
     }
@@ -104,16 +104,18 @@
     }
 
     .header .header-left ol li > a{
-        text-decoration: none;
+        box-shadow: 0px 0px 0px 0px rgba(255,255,255,1);
         color: var(--light);
         font-size: 1em;
         text-transform: uppercase;
+        text-decoration: none;
+        padding: 0.25em 0em;
         
     }
 
     .header .header-left ol li > a:hover{
-        text-decoration: 2px underline var(--light);
-        text-underline-offset: 0.25rem;
+        box-shadow: 0px 2px 0px 0px rgba(255,255,255,1);
+        transition: ease-in 0.2s;
         color: var(--light);
         font-size: 1em;
     }
@@ -139,7 +141,7 @@
     .header .header-right figure{
         margin: 1rem;
         /* on large screen */
-        @media only screen and (min-width: 1000px) {
+        @media only screen and (min-width: 960px) {
             display: none;
         }
     }
@@ -147,7 +149,7 @@
     /* desktop search button whatsapp button */
     .header .header-right .search{
         display: none;
-        @media only screen and (min-width: 1000px) {
+        @media only screen and (min-width: 960px) {
             display: block;
             padding: 0px;
             background-color: var(--primary-color);
@@ -158,7 +160,7 @@
     .header .header-right .search figure{
         display: none;
         /* on large screen */
-        @media only screen and (min-width: 1000px) {
+        @media only screen and (min-width: 960px) {
             display: block;
             margin-right: 4rem;
         }
