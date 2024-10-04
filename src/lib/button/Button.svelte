@@ -8,12 +8,6 @@
   export let title = ""; // Changes the alt text
   export let showSvg = true; // Turns the svg on or off
   export let transparent = true; // Turns the transparency mediaquery on or off at 600px screen width 
-
-
-  // function that will set isClicked to true
-  function handleClick() {
-    isClicked = true;
-  }
 </script>
 
 <!-- html -->
@@ -23,9 +17,6 @@
   {href}
   {title}
   style="color: {textColor}; background-color: {backgroundColor};"
-  
-  
-  
   class:transparent={transparent}
 >
   <!-- If the variable showSvg is set to true the svg will show -->
@@ -69,10 +60,7 @@
   a:hover svg {
     transform: scale(1.5);
   }
-
-  /* class for click animation */
  
-
   span,
   svg {
     background-color: transparent;
@@ -85,9 +73,6 @@
     margin-right: 0.5em;
     transition: transform 0.3s ease;
   }
-
-  /* Animation when the button is clicked */
- 
 
   /* Media queries */
   /* All .transparent classes will be active when the boolean transparent is set to true */
