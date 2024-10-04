@@ -1,6 +1,7 @@
 <script>
+
 // variables imports
-import Button from "../lib/button/Button.svelte";
+
 // component imports
 
 </script>
@@ -10,5 +11,5 @@ import Button from "../lib/button/Button.svelte";
 </style>
 
 <main>
-<Button label="App Studio" href="https://programma.fdnd.nl/" title="Stuur whatsapp bericht naar studio" showSvg={true} transparent={false} ></Button>
+  <h1>lose-your-head-the-client-case</h1>
 </main>
