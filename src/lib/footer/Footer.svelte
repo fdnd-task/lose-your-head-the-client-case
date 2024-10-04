@@ -49,6 +49,10 @@
 </footer>
 
 <style>
+    li {
+        cursor: pointer;
+    }
+    
     .footer__h3 {
         font-style: var(--h3-text-size);
     }
@@ -155,7 +159,5 @@
         gap: 1rem;
     }
 
-    li {
-        cursor: pointer;
-    }
+
 </style>
