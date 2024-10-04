@@ -1,5 +1,5 @@
 <script>
-  import {AccessibillityGraph, AutomaticScan, ErrorResult, TypeGraph} from '$lib'
+  import {AccessibillityGraph, AutomaticScan, ErrorResult, TypeGraph, Icon} from '$lib'
   export let data = data;
   export let company = data.sites;
   export let result = data.scans[0];
@@ -16,7 +16,7 @@
     <AutomaticScan {result} />
   </section>
   <ul class="error">
-    <ErrorResult {result} />
+    <ErrorResult {result} {Icon} />
   </ul>
 
   <section class="type">
