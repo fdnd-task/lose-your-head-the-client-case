@@ -3,6 +3,7 @@
   export let data = data;
   export let company = data.sites;
   export let result = data.scans[0];
+  export let resultsheet = data.scans;
 </script>
 
 
@@ -19,11 +20,11 @@
   </ul>
 
   <section class="type">
-    <TypeGraph />
+    <TypeGraph {result}/>
   </section>
 
   <section class="accessibillity">
-    <AccessibillityGraph />
+    <AccessibillityGraph {resultsheet}/>
   </section>
 </main>
 
