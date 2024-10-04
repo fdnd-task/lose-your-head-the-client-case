@@ -20,7 +20,7 @@
   </ul>
 
   <section class="type">
-    <TypeGraph />
+    <TypeGraph {result}/>
   </section>
 
   <section class="accessibillity">
