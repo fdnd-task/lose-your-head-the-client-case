@@ -4,7 +4,10 @@
   export let resultsheet = data.scans;
   let chart;
  
- 
+  import ChartDataLabels from 'chartjs-plugin-datalabels';
+
+  Chart.register(ChartDataLabels);
+
   console.log(resultsheet[5].score)
  
   let August = resultsheet[0].score;
@@ -26,7 +29,7 @@
     const data = {
       labels: months,
       datasets: [{
-        data: [0, 0, 0, 0, 0, 0, 0, August, September, October, November, December],
+        data: [, , , , , , , August, September, October, November, December],
         borderColor: colorBlue,
         backgroundColor: colorLightBlue,
         fill: true,
@@ -91,7 +94,17 @@
         },
         legend: {
           display: false  // Hide the legend
-        }
+        },
+        datalabels: {  // Enable the datalabels plugin
+          color: colorBlack,
+          anchor: 'center',
+          align: 'top',
+          font: {
+            family: fontFamily,
+            weight: 'bold'
+          },
+          formatter: (value) => value + '%'  // Display the data value on the bar
+        },
       },
       responsive: true,
       maintainAspectRatio: true,
