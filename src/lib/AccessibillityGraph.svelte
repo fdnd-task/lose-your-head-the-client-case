@@ -126,27 +126,38 @@
     });
   });
 </script>
- 
-<div class="title-container">
-  <h2 class="title">Toegankelijkheid</h2>
-  <div class="year-nav-container">
-    <button class="year-nav-button">
-      <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M5 1L2.20676 4.02601C1.51868 4.77143 1.49766 5.91393 2.15785 6.68416L5 10" stroke="#5D666A" stroke-width="2" stroke-linecap="round"/>
-      </svg>
-    </button>
-    <span class="current-year">2024</span>
-    <button class="year-nav-button">
-      <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M1 1L3.79324 4.02601C4.48132 4.77143 4.50234 5.91393 3.84215 6.68416L1 10" stroke="#5D666A" stroke-width="2" stroke-linecap="round"/>
-      </svg>
-    </button>
+
+<section>
+  <div class="title-container">
+    <h2 class="title">Toegankelijkheid</h2>
+    <div class="year-nav-container">
+      <button class="year-nav-button">
+        <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M5 1L2.20676 4.02601C1.51868 4.77143 1.49766 5.91393 2.15785 6.68416L5 10" stroke="#5D666A" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <span class="current-year">2024</span>
+      <button class="year-nav-button">
+        <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1 1L3.79324 4.02601C4.48132 4.77143 4.50234 5.91393 3.84215 6.68416L1 10" stroke="#5D666A" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
   </div>
-</div>
- 
-<canvas id="line-chart" width="800" height="250"></canvas>
- 
+  
+  <canvas id="line-chart" width="800" height="250"></canvas>
+</section>
+
 <style>
+
+  section{
+    background-color: var(--color-background-section);
+    border-radius: var(--section-border-radius);
+    box-shadow: var(--box-shadow);
+    padding: var(--average-padding);
+    grid-area: 3 / 1 / 4 / 3;
+  }
+  
   canvas {
     max-width: 100%;
     height: auto;
