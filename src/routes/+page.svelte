@@ -6,10 +6,6 @@
   export let resultsheet = data.scans;
 </script>
 
-<header class="wrapper">
-
-</header>
-
 <main class="wrapper">
   
   <AutomaticScan {result} />
