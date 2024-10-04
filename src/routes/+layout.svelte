@@ -1,10 +1,9 @@
 <script>
+    import Header from "../lib/header/Header.svelte";
     import Footer from '../lib/footer/Footer.svelte';
 </script>
-  
 
-<slot />
+<Header/>
+<Footer/>  
 
-
-<Footer />  
-
+<slot></slot>
