@@ -1,11 +1,14 @@
 <script>
+    // ENHANCED IMAGES DIE IN WORD GELADEN VANUIT EEN MAP DIE IK HEB AANGEMAAKT IN DE ASSETS FOLDER
+    //MET DE SOCIALS ICONS VAN MEDIAHUIS. DIT IS GEIMPORTEERD ALS VARIABLES
 	import Veronica from '$lib/assets/Veronica.PNG?enhanced';
 	import Facebook from '$lib/assets/Facebook.PNG?enhanced';
 	import X from '$lib/assets/X.PNG?enhanced';
 	import YT from '$lib/assets/Youtube.PNG?enhanced';
 	import IG from '$lib/assets/Instagram.PNG?enhanced';
 </script>
-
+<!-- DIT ZIJN ENHANCED IMAGES HIERVOOR GEBRUIK IK DE ENHANCED TAG EN DE IMAGES WORDEN INGELADEN.-->
+ <!--  DOOR DE IMPORT/VARIABLE NAAM MEE TE GEVEN BINNEN DE SRC EN TUSSEN DE "{}"" CURLY BRACES -->
 <footer class="footer">
     <enhanced:img src={Veronica} class="footer__veronica" alt="logo van veronica in footer" />
     <h2 class="footer__h2">We. Love. Music</h2>
@@ -52,9 +55,8 @@
         color: var(--light);
         background-color: var(--color-footer); 
         display: grid;
-        height: 50vh;
-        grid-template-columns: repeat(4, 0.5fr);
-        grid-template-rows: repeat(5, 1fr);
+        grid-template-columns: repeat(4, 0.3fr);
+        grid-template-rows: repeat(5, 0.3fr);
         padding: 3.5rem;
         gap: 2rem;
         grid-template-areas: 
@@ -121,6 +123,10 @@
         justify-content: center;
         padding: 0.5rem;
         cursor: pointer;
+    }
+
+    .footer__icons:hover {
+        background-color: var(--tertairy);
     }
 
     .footer__icons img {
