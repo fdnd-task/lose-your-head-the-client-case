@@ -1,9 +1,7 @@
 <script>
   import { onMount } from "svelte";
-  import { Chart } from "chart.js";
-  import ChartDataLabels from "chartjs-plugin-datalabels";
+  import Chart from "chart.js/auto";
 
-  export let data;
   export let result = data.scans;
 
   let chart;
@@ -12,8 +10,6 @@
 
   let errorTitles = results.map((item) => item.title);
   let errorAmounts = results.map((item) => item.amount);
-
-  Chart.register(ChartDataLabels);
 
   onMount(() => {
     const rootStyles = getComputedStyle(document.documentElement);

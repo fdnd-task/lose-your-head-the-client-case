@@ -1,6 +1,7 @@
 <script>
   import { onMount } from 'svelte';
-  import { Chart } from 'chart.js';
+  import Chart from "chart.js/auto";
+
   export let resultsheet = data.scans;
   let chart;
  
@@ -15,8 +16,6 @@
   let October = resultsheet[2].score;
   let November = resultsheet[3].score;
   let December = resultsheet[4].score;
- 
- 
  
   onMount(() => {
     const rootStyles = getComputedStyle(document.documentElement);
