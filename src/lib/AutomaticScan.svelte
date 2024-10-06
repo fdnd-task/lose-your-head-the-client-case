@@ -7,43 +7,19 @@
 
   let percentage = result.score;
 
-// const centerTextPlugin = {
-//   id: 'centerText',
-//   beforeDraw: function (chart) {
-//     const { width, height, ctx } = chart;
-//     const fontSize = (height / 114).toFixed(2);  // Adjust the font size based on chart size
-//     const text = `${result.score}%`;  // Text to display in the center
-//     const textX = Math.round((width - ctx.measureText(text).width) / 2);  // Calculate x position
-//     const textY = height / 2;  // y position for vertically centering
-
-//     ctx.save();  // Save the current drawing state
-//     ctx.font = `${fontSize}em Arial`;  // Font size and font family
-//     ctx.fillStyle = '#000';  // Text color
-//     ctx.textBaseline = "middle";  // Align text vertically to the middle
-//     ctx.fillText(text, textX, textY);  // Draw the text
-//     ctx.restore();  // Restore the original drawing state
-//   }
-// };
-
-    // Chart.register(centerTextPlugin);
-
-
   onMount(() => {
     const rootStyles = getComputedStyle(document.documentElement);
-    const colorBlue = rootStyles.getPropertyValue("--color-blue");
-    const colorLightBlue = rootStyles.getPropertyValue("--color-lightblue");
-    const fontFamily = rootStyles.getPropertyValue("--font-family-regular");
-    const colorBlack = rootStyles.getPropertyValue("--color-black");
+    let doughnutColor = percentage < 50 ? '#c30010' : percentage < 80 ? '#faa800' : '#228b22';
+    let doughnutColorAlt = doughnutColor + "33";
 
     const data = {
       datasets: [
         {
           label: "Percentage",
           data: [percentage, 100 - percentage],
-          backgroundColor: ['blue', 'lightblue'],
+          backgroundColor: [doughnutColor, doughnutColorAlt],
           borderWidth: 0,
-          borderRadius: [0, 100],
-          cutout: "70%",
+          cutout: "75%",
         },
       ],
     };
@@ -51,9 +27,8 @@
     const options = {
       plugins: {
         datalabels: {
-          display: false,     
+          display: false,
         },
-        // centerText: true,
         tooltip: {
           enabled: false, // Enable tooltips
         },
@@ -69,45 +44,17 @@
       options: options,
     });
   });
-  // let chartCanvas;
-  // let percentage = result.score;
-
-  // const data = {
-  //   datasets: [
-  //     {
-  //       data: [percentage, 100 - percentage],
-  //       backgroundColor: ["#4caf50", "#e0e0e0"],
-  //       borderWidth: 0,
-  //       cutout: "80%",
-  //     },
-  //   ],
-  // };
-
-  // const options = {
-  //   rotation: 0, // Startpunt van de cirkel
-  //   circumference: 360, // Halve cirkel (180 graden)
-  //   plugins: {
-  //     tooltip: { enabled: false }, // Tooltips uitschakelen
-  //   },
-  //   responsive: true,
-  // };
-
-  // // Grafiek genereren bij het mounten van de component
-  // onMount(() => {
-  //   new Chart(chartCanvas, {
-  //     type: "doughnut",
-  //     data: data,
-  //     options: options,
-  //   });
-  // });
 </script>
 
 <section>
-  <div>
+  <article>
     <h2>{result.title}</h2>
     <p>{result.description}</p>
-  </div>
-  <canvas id="doughnut-chart" height="150" width="150"></canvas>
+  </article>
+  <figure>
+    <canvas id="doughnut-chart" height="150" width="150"></canvas>
+    <figcaption>{percentage}%</figcaption>
+  </figure>
 </section>
 
 <style>
@@ -126,12 +73,27 @@
     height: auto;
   }
 
+  figcaption {
+    position: absolute;
+    font-size: 2em;
+    top: 52%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+  }
+
+  figure {
+    position: relative;
+    width: 100%;
+    max-width: fit-content;
+    height: min-content;
+  }
+
   h2 {
     margin-bottom: 50px;
   }
 
-  div {
+  article {
     padding-right: 160px;
   }
-
 </style>
