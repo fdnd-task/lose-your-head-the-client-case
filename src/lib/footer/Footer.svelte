@@ -48,11 +48,16 @@
 </footer>
 
 <style>
+/***********************************
+                                   *
+            FOOTER STYLING         *    
+                                   *
+***********************************/    
 li {
     cursor: pointer;
 }
         
- .footer__h3 {
+.footer__h3 {
     font-style: var(--h3-text-size);
 }
 
@@ -216,5 +221,4 @@ li {
         flex-direction: row;
     }
 }
-
 </style>
