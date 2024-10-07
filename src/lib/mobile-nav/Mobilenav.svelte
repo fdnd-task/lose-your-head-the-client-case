@@ -106,7 +106,7 @@
             <li>
                 <a href="" aria-label="Gebruikersvoorwaarden">
                     <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="24" viewBox="0 0 22 24" fill="currentColor"><g id="Design_here" clip-path="url(#clip0_1038_6761)"><path id="Vector" d="M0.333344 0V24H15.5467L21.6667 17.88V0H0.333344ZM3.00001 2.66667H19V14.6667H12.3333V21.3333H3.00001V2.66667ZM15 20.7867V17.3333H18.4533L15 20.7867Z" fill="#1E1E1E"/><path id="Vector_2" d="M16.3334 5.33331H5.66669V7.99998H16.3334V5.33331Z" fill="currentColor"/><path id="Vector_3" d="M16.3334 10.6667H5.66669V13.3334H16.3334V10.6667Z" fill="currentColor"/><path id="Vector_4" d="M9.66669 16H5.66669V18.6667H9.66669V16Z" fill="currentColor"/></g><defs><clipPath id="clip0_1038_6761"><rect width="21.3333" height="24" fill="white" transform="translate(0.333344)"/></clipPath></defs></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 22 24" fill="currentColor"><g id="Design_here" clip-path="url(#clip0_1038_6761)"><path id="Vector" d="M0.333344 0V24H15.5467L21.6667 17.88V0H0.333344ZM3.00001 2.66667H19V14.6667H12.3333V21.3333H3.00001V2.66667ZM15 20.7867V17.3333H18.4533L15 20.7867Z" fill="#1E1E1E"/><path id="Vector_2" d="M16.3334 5.33331H5.66669V7.99998H16.3334V5.33331Z" fill="currentColor"/><path id="Vector_3" d="M16.3334 10.6667H5.66669V13.3334H16.3334V10.6667Z" fill="currentColor"/><path id="Vector_4" d="M9.66669 16H5.66669V18.6667H9.66669V16Z" fill="currentColor"/></g><defs><clipPath id="clip0_1038_6761"><rect width="21.3333" height="24" fill="white" transform="translate(0.333344)"/></clipPath></defs></svg>
                     </div>
                     <div>
                         <strong>Gebruikersvoorwaarden</strong>
@@ -127,7 +127,7 @@
                         <p>Overzicht van gebruikte cookies</p>
                     </div>
                     <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/></svg>
                     </div>
                 </a>
             </li>
