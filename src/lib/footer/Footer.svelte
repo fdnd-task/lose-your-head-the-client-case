@@ -45,30 +45,34 @@
             <li class="footer__FAQ-links"><a href="/">Cookie voorkeuren</a></li>
         </ul>
     </div>
-
 </footer>
 
 <style>
-    li {
-        cursor: pointer;
-    }
-    
-    .footer__h3 {
-        font-style: var(--h3-text-size);
-    }
+li {
+    cursor: pointer;
+}
+        
+ .footer__h3 {
+    font-style: var(--h3-text-size);
+}
 
-    .footer {
-        background-color: var(--color-footer);
-        padding: 3.5rem;
-    }
+.footer {
+    background-color: var(--color-footer);
+    padding: 1rem;
+}
 
-    .footer__grid {
-        font-family: var(--font-family);
-        color: var(--light);
+.footer__grid {
+    font-family: var(--font-family);
+    color: var(--light);
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    align-items: center;
+    @media only screen and (min-width: 960px) {
         display: grid;
         grid-template-columns: repeat(4, 0.3fr);
         grid-template-rows: repeat(5, 0.3fr);
-        padding: 3.5rem;
+        padding: 1rem;
         grid-template-columns: repeat(4, 0.5fr);
         grid-template-rows: repeat(5, 1fr);
         gap: 1rem;
@@ -80,84 +84,137 @@
         "copyright . FAQ FAQ"
         ;
     }
+}
 
-    .footer__veronica {
+.footer__veronica {
+    width: 6rem;
+    height: 2.5rem;
+    @media only screen and (min-width: 960px) {
         grid-area: veronica;
         width: 6rem;
         height: 2.5rem;
     }
+}
 
-    .footer__h2 {
+
+.footer__h2 {
+    font-size: 2.2rem;
+    @media only screen and (min-width: 960px) {
         grid-area: header-footer;
         width: 13rem;
         font-size: 2.2rem;
     }
+}
 
-    .footer__radio-veronica {
-        grid-area: radio-veronica;
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
+.footer__icons img {
+    width: 1rem;
+    height: 1rem;
+    @media only screen and (min-width: 960px) {
+        grid-area: header-footer;
+        width: 13rem;
+        font-size: 2.2rem;
     }
+}
 
-    .footer__algemeen {
-        grid-area: algemeen;
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-    }
-
-    .footer__underline {
-        grid-area: space;
-        width: 100%;
-        height: 0.1rem;
-        background-color: var(--secondary-color);
-    }
-
-    .footer__socials {
+.footer__socials {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    @media only screen and (min-width: 960px) {
         grid-area: socials;
         display: flex;
         flex-direction: column;
         gap: 1rem;
     }
+}
 
-    .footer__socials-icons {
+.footer__socials-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    @media only screen and (min-width: 960px) {
+        justify-content: flex-start;
+    }
+}
+
+.footer__icons {
+    background-color: var(--secondary-color);
+    display: flex;
+    border-radius: 3rem;
+    width: 2rem;
+    height: 2rem;
+    justify-content: center;
+    padding: 0.5rem;
+    cursor: pointer;
+    @media only screen and (min-width: 960px) {
+        
+    }
+}
+
+.footer__icons:hover {
+    background-color: var(--tertairy);
+}
+
+.footer__icons img {
+    width: 1rem;
+    height: 1rem;
+}
+
+.footer__radio-veronica {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    @media only screen and (min-width: 960px) {
+        grid-area: radio-veronica;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         gap: 1rem;
     }
+}
 
-    .footer__icons {
-        background-color: var(--secondary-color);
+.footer__algemeen {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    @media only screen and (min-width: 960px) {
+        grid-area: algemeen;
         display: flex;
-        border-radius: 3rem;
-        width: 2rem;
-        height: 2rem;
-        justify-content: center;
-        padding: 0.5rem;
-        cursor: pointer;
+        flex-direction: column;
+        gap: 1rem;
     }
+}
 
-    .footer__icons:hover {
-        background-color: var(--tertairy);
+.footer__underline {
+    width: 100%;
+    height: 0.2rem;
+    background-color: var(--secondary-color);
+    @media only screen and (min-width: 960px) {
+        grid-area: space;
+        width: 100%;
+        height: 0.1rem;
     }
+}
 
-    .footer__icons img {
-        width: 1rem;
-        height: 1rem;
-    }
-
-    .footer__copyright {
+.footer__copyright {
+    font-size: var(--p-text-size);
+    @media only screen and (min-width: 960px) {
         grid-area: copyright;
-        font-size: var(--p-text-size);
     }
+}
 
-    .footer__FAQ {
+.footer__FAQ {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    @media only screen and (min-width: 960px) {
         grid-area: FAQ;
         display: flex;
         flex-direction: row;
-        gap: 1rem;
     }
-
+}
 
 </style>
