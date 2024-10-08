@@ -19,6 +19,7 @@
   --dark: #1e1e1e;
   --light: #ffff;
   --hover: #a11753;
+  --hover-secondary: #0e76c6;
 
   /* radius */
   --full-radius: 100%;
@@ -53,6 +54,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* Default font styling */
