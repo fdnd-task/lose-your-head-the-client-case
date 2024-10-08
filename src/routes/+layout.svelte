@@ -3,7 +3,7 @@
     import Tabs from '../lib/tab/tabs.svelte';
 </script>
 
-<Header/>
+<!-- <Header/> -->
 <Tabs />
 
 <slot></slot>
