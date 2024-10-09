@@ -31,15 +31,15 @@
 
 /* Font import */
 @font-face {
-  font-family: var(--font-family);
-  src: url("../fonts/BrutalType-Black.ttf") format("ttf");
+  font-family: "BrutalType";
+  src: url("/fonts/BrutalType-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
-
+ 
 @font-face {
-    font-family: var(--font-family);
-    src: url("../fonts/BrutalType.ttf") format("ttf");
+    font-family: "BrutalType";
+    src: url("/fonts/BrutalType.ttf") format("truetype");
     font-weight: 500;
     font-style: normal;
 }
