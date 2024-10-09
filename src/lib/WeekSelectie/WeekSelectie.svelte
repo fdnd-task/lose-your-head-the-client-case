@@ -1,20 +1,31 @@
 <script>
-// selects ol element
 let carousel;
-// scrolls to the left
-const scrollLeft = () => {
-    if (carousel) {
-        carousel.scrollBy({ left: -200, behavior: 'smooth' });
-    }
-    console.log('ik werk');
+const weekDays = ['maandag', 'dinsdag', 'woensdag', 'donderdag', 'vrijdag', 'zaterdag', 'zondag'];
+  let dateAndTime = new Date();
 
-}
-// scrolls to the right
-const scrollRight = () => {
-    if (carousel) {
-        carousel.scrollBy({ left: 200, behavior: 'smooth' });
-    }
-}
+  // Scroll naar links
+  const scrollLeft = () => {
+      if (carousel) {
+          carousel.scrollBy({ left: -200, behavior: 'smooth' });
+      }
+  };
+
+  // Scroll naar rechts
+  const scrollRight = () => {
+      if (carousel) {
+          carousel.scrollBy({ left: 200, behavior: 'smooth' });
+      }
+  };
+
+  // Functie om huidige dag op te halen
+  const getCurrentDay = () => {
+    const options = { weekday: 'long' };
+    return new Intl.DateTimeFormat('nl-NL', options).format(dateAndTime);
+  };
+  let currentDay = getCurrentDay(); 
+
+  
+
 </script>
 
 <!-- HTML -->
@@ -26,49 +37,17 @@ const scrollRight = () => {
       </svg>
   </button>
   <ol bind:this={carousel}>
+    {#each weekDays as weekDay}
     <li>
-      <button>
-        <span>Maandag</span>
+      <button class="{weekDay === currentDay ? 'button-active' : ''}">
+
+        <span>{weekDay}</span>
         <span>17</span>
       </button>
     </li>
-    <li>
-      <button>
-        <span>Dinsdag</span>
-        <span>18</span>
-      </button>
-    </li>
-    <li>
-      <button>
-        <span>Woensdag</span>
-        <span>19</span>
-      </button>
-    </li>
-    <li>
-      <button>
-        <span>Donderdag</span>
-        <span>20</span>
-      </button>
-    </li>
-    <li>
-      <button>
-        <span>Vrijdag</span>
-        <span>21</span>
-      </button>
-    </li>
-    <li>
-      <button>
-        <span>Zaterdag</span>
-        <span>22</span>
-      </button>
-    </li>
-    <li>
-      <button>
-        <span>Zondag</span>
-        <span>23</span>
-      </button>
-    </li>
+    {/each}
   </ol>
+  
   <button class= "navigation-buttons" on:click={scrollRight} aria-label="Scroll naar rechts">
     <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M1.13683 0.470161C0.877294 0.729698 0.87715 1.15045 1.13651 1.41016L4.82085 5.09956C5.21092 5.49016 5.2107 6.12295 4.82037 6.51329L1.13713 10.1965C0.877479 10.4562 0.877479 10.8772 1.13713 11.1368V11.1368C1.39667 11.3963 1.81743 11.3965 2.07713 11.1371L6.70574 6.51377C7.09665 6.12331 7.09683 5.48984 6.70615 5.09915L2.07715 0.470162C1.81749 0.210499 1.39649 0.210498 1.13683 0.470161V0.470161Z" fill="white"/>
@@ -90,10 +69,10 @@ ol {
     display: flex;
     overflow-x: scroll;
     scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
     margin: 0;
     padding: 0;
     position: relative;
-    flex-grow: 1;
 }
 
 button.navigation-buttons {
@@ -134,14 +113,18 @@ section::after {
     background-color: var(--light);
     font-family: var(--font-family);
     padding: 1em;
-    font-size: 1em;
+    font-size: 0.9em;
     cursor: pointer;
     transition: 0.2s ease-in;
     font-weight: bold;
+    @media screen and (min-width: 600px) {
+  font-size: 1.2em;
+  }
   }
 
-  button:active {
+  .button-active {
     background-color: var(--primary-color);
+    color: var(--light);
   }
 
   button:hover {
