@@ -11,15 +11,15 @@
  <!--  DOOR DE IMPORT/VARIABLE NAAM MEE TE GEVEN BINNEN DE SRC EN TUSSEN DE "{}"" CURLY BRACES -->
 <footer class="footer">
     <div class="footer__grid">
-        <enhanced:img src={Veronica} class="footer__veronica" alt="logo van veronica in footer" />
+        <enhanced:img src={Veronica} class="footer__veronica" alt="logo van veronica in footer" width="200px" height="200px" />
         <h2 class="footer__h2">We. Love. Music</h2>
         <ul class="footer__socials">
             <h3 class="footer__h3">volg ons op social media</h3>
             <ul class="footer__socials-icons">
-                <li class="footer__icons"><a href="/"><enhanced:img src={Facebook}  alt="socials icoon Facebook" /></a></li>
-                <li class="footer__icons"><a href="/"><enhanced:img src={X} alt="socials icoon X" /></a></li>
-                <li class="footer__icons"><a href="/"><enhanced:img src={YT} alt="social icoon Youtube" /></a></li>
-                <li class="footer__icons"><a href="/"><enhanced:img src={IG} alt="social icoon Instagram" /></a></li>
+                <li class="footer__icons"><a href="/"><enhanced:img src={Facebook}  alt="socials icoon Facebook" width="200px" height="200px"/></a></li>
+                <li class="footer__icons"><a href="/"><enhanced:img src={X} alt="socials icoon X" width="200px" height="200px"/></a></li>
+                <li class="footer__icons"><a href="/"><enhanced:img src={YT} alt="social icoon Youtube" width="200px" height="200px"/></a></li>
+                <li class="footer__icons"><a href="/"><enhanced:img src={IG} alt="social icoon Instagram" width="200px" height="200px"/></a></li>
             </ul>
         </ul>
         <ul class="footer__radio-veronica">
