@@ -48,6 +48,7 @@ De images hebben een standaard width en height, zodat dit layout shifting voorko
 1. Clone deze repository
 2. Open de repository met een code editor naar keuze
 3. Open het terminal in de code editor
-4. Typ **npm install** in om alle benodigdheden voor het project te installeren
-5. Gebruik de link <a href="http://localhost:5173/">http://localhost:8001/</a> om het project lokaal te bekijken
+4. Typ **npm install** in om alle benodigdheden voor het project te installeren in de terminal
+5. Om het project te kunnen typ: `npm run dev` om de server op te starten
+5. Gebruik de link <a href="http://localhost:5173/">localhost</a> om het project lokaal te bekijken
 6. Mocht je het project online bekijken dan kan dat via <a href="https://lose-your-head-the-client-case-5q6r.vercel.app/" alt="link naar de website">deze link</a>
