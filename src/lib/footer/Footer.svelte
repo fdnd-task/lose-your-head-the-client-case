@@ -1,11 +1,11 @@
 <script>
     // ENHANCED IMAGES DIE IN WORD GELADEN VANUIT EEN MAP DIE IK HEB AANGEMAAKT IN DE ASSETS FOLDER
     //MET DE SOCIALS ICONS VAN MEDIAHUIS. DIT IS GEIMPORTEERD ALS VARIABLES
-	import Veronica from '$lib/assets/Veronica.PNG?enhanced';
-	import Facebook from '$lib/assets/Facebook.PNG?enhanced';
-	import X from '$lib/assets/X.PNG?enhanced';
-	import YT from '$lib/assets/Youtube.PNG?enhanced';
-	import IG from '$lib/assets/Instagram.PNG?enhanced';
+	import Veronica from '$lib/assets/Veronica.png?enhanced';
+	import Facebook from '$lib/assets/Facebook.png?enhanced';
+	import X from '$lib/assets/X.png?enhanced';
+	import YT from '$lib/assets/Youtube.png?enhanced';
+	import IG from '$lib/assets/Instagram.png?enhanced';
 </script>
 <!-- DIT ZIJN ENHANCED IMAGES HIERVOOR GEBRUIK IK DE ENHANCED TAG EN DE IMAGES WORDEN INGELADEN.-->
  <!--  DOOR DE IMPORT/VARIABLE NAAM MEE TE GEVEN BINNEN DE SRC EN TUSSEN DE "{}"" CURLY BRACES -->
