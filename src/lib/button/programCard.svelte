@@ -100,9 +100,13 @@
 
     .card .time-stamp {
         align-items: center;
-        color: #8B8B8B;
+        color: #5a5a5a;
         display: flex;
         gap: 8px;
+    }
+
+    .card .time-stamp path {
+        fill: #5a5a5a;
     }
 
     .visit-url {

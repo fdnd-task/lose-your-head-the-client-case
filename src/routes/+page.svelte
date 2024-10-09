@@ -13,7 +13,6 @@
         // Pakt de thumbnail van de show
 
         const thumbnail = programShow && programShow.thumbnail && programShow.thumbnail.id;
-        console.log(thumbnail);
 
         // Als de cover niet bestaat of er geen users zijn, gebruik dan de thumbnail van de show
         // Als er geen thumbnail of cover is gebruik een lege string
@@ -62,8 +61,6 @@
 </script>
 
 <main>
-    <h1>Program List by Radio Station</h1>
-
     <div class="schedule">
         {#if Object.keys(groupedShows).length > 0}
             {#each Object.entries(groupedShows) as [stationName, stationShows]}
@@ -82,7 +79,7 @@
                 </div>
             {/each}
         {:else}
-            <p>No shows available.</p>
+            <p>Er zijn geen programma's beschikbaar</p>
         {/if}
     </div>
 
