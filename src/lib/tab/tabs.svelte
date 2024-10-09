@@ -1,3 +1,4 @@
+<!-- tab menu -->
 <nav class="tabs">
     <ul class="tabs__list">
         <li class="tabs__link"><a alt="PROGRAMMERING" href="/">PROGRAMMERING</a></li>
@@ -7,6 +8,7 @@
     </ul>
 </nav>
 
+<!-- tab css -->
 <style>
     .tabs__list {
         display: flex;
@@ -27,6 +29,7 @@
 
     a {
         color: var(--grey);
+        cursor: pointer;
     }
 
     .tabs__link a:hover {
