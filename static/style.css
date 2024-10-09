@@ -18,33 +18,36 @@
   --grey: #8b8b8b;
   --dark: #1e1e1e;
   --light: #ffff;
+  --color-footer: #011564;
+  --hover: #a11753;
+
 
   /* radius */
   --full-radius: 100%;
   --mid-radius: 20%;
 
-    /* font */
-    --font-family: "BrutalType";
+
+  /* font */
+  --font-family: "BrutalType";
 
 }
 
 /* Font import */
 @font-face {
-  font-family: var(--font-family);
-  src: url("../fonts/BrutalType-Black.ttf") format("ttf");
+  font-family: "BrutalType";
+  src: url("/fonts/BrutalType-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
-
+ 
 @font-face {
-    font-family: var(--font-family);
-    src: url("../fonts/BrutalType.ttf") format("ttf");
+    font-family: "BrutalType";
+    src: url("/fonts/BrutalType.ttf") format("truetype");
     font-weight: 500;
     font-style: normal;
 }
 
 /* Dit zijn op dit moment de fonts die we gebruiken in het ontwerp, als je meer wilt aanmaken moet je een nieuwe @font-face maken */
-
 
 /* Global settings */
 * {
@@ -111,6 +114,7 @@ figcaption {
 }
 
 a {
+  font-family: sans-serif;
   text-decoration: none;
   color: var(--light);
 }
