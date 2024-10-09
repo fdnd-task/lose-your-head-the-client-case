@@ -65,7 +65,7 @@
         {#if Object.keys(groupedShows).length > 0}
             {#each Object.entries(groupedShows) as [stationName, stationShows]}
                 <div class="schedule__radio-station-row">
-                    <h2>{stationName}</h2>
+                    <!-- <h2>{stationName}</h2> -->
                     <div class="schedule__station-shows">
                         {#each stationShows as show}
                             <ProgramCard
@@ -87,7 +87,8 @@
         .schedule {
             display: grid;
             grid-gap: 1em;
-
+            overflow: scroll;
+            padding: 2rem;
         }
 
         .schedule__radio-station-row {
