@@ -64,6 +64,9 @@ li {
 .footer {
     background-color: var(--color-footer);
     padding: 1rem;
+    @media only screen and (max-width: 980px) {
+        display: none;
+    }
 }
 
 .footer__grid {
@@ -219,6 +222,7 @@ li {
         grid-area: FAQ;
         display: flex;
         flex-direction: row;
+        justify-content: center;
     }
 }
 </style>
