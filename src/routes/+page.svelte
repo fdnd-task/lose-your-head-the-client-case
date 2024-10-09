@@ -64,9 +64,9 @@
     <div class="schedule">
         {#if Object.keys(groupedShows).length > 0}
             {#each Object.entries(groupedShows) as [stationName, stationShows]}
-                <div class="radio-station-row">
+                <div class="schedule__radio-station-row">
                     <h2>{stationName}</h2>
-                    <div class="station-shows">
+                    <div class="schedule__station-shows">
                         {#each stationShows as show}
                             <ProgramCard
                                 programName={show.mh_shows_id && show.mh_shows_id.show && show.mh_shows_id.show.name || 'Onbekende programma'}
@@ -79,7 +79,7 @@
                 </div>
             {/each}
         {:else}
-            <p>Er zijn geen programma's beschikbaar</p>
+            <p>Er zijn geen programma's</p>
         {/if}
     </div>
 
@@ -90,22 +90,13 @@
 
         }
 
-        .radio-station-row {
+        .schedule__radio-station-row {
             grid-column: track-1-start / track-4-end;
         }
 
-        .station-shows {
+        .schedule__station-shows {
             display: flex;
             gap: 2rem;
         }
-
-        .program-grid {
-            padding: 2rem;
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-            gap: 2rem;
-            overflow-y: auto;
-        }
-
     </style>
 </main>
