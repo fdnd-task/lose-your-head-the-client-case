@@ -18,14 +18,17 @@
   --grey: #8b8b8b;
   --dark: #1e1e1e;
   --light: #ffff;
+  --color-footer: #011564;
   --hover: #a11753;
+
 
   /* radius */
   --full-radius: 100%;
   --mid-radius: 20%;
 
-    /* font */
-    --font-family: "BrutalType";
+
+  /* font */
+  --font-family: "BrutalType";
 
 }
 
@@ -36,7 +39,7 @@
   font-weight: 900;
   font-style: normal;
 }
-
+ 
 @font-face {
     font-family: "BrutalType";
     src: url("/fonts/BrutalType.ttf") format("truetype");
@@ -45,7 +48,6 @@
 }
 
 /* Dit zijn op dit moment de fonts die we gebruiken in het ontwerp, als je meer wilt aanmaken moet je een nieuwe @font-face maken */
-
 
 /* Global settings */
 * {
