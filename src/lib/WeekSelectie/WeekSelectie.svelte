@@ -53,15 +53,8 @@
     }
   };
 
-  // Functie om huidige dag op te halen
-  const getCurrentDay = () => {
-    // Weergeef de dagen vol uitgeschreven
-    const options = { weekday: "long" };
-    // Geef de dag terug in nl tijd
-    return new Intl.DateTimeFormat("nl-NL", options).format(dateAndTime);
-  };
   // haal de huidige dag op
-  let currentDayNumber = dateAndTime.getDate();
+   let currentDayNumber = dateAndTime.getDate();
 </script>
 
 <!-- HTML -->

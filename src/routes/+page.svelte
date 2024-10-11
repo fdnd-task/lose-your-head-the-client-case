@@ -13,7 +13,4 @@ import WeekSelectie from "../lib/WeekSelectie/WeekSelectie.svelte";
 </style>
 
 <main>
-<WeekSelectie></WeekSelectie>
-
-  <!-- <WeekSelectie></WeekSelectie> -->
 </main>
