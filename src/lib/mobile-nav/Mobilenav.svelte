@@ -243,6 +243,7 @@
         display: flex;
         flex-direction: column;
         overflow: hidden;
+        z-index: 99;
     }
 
     .subnav ul li {

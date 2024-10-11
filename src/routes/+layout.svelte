@@ -5,9 +5,11 @@
     import Footer from '../lib/footer/Footer.svelte';
 </script>
 
-<Tabs />
+
 <Header/>
+<Tabs />
 <Mobilenav/>
+<slot></slot>
 <Footer/>  
 
-<slot></slot>
+
