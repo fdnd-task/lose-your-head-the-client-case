@@ -4,6 +4,8 @@ import WeekSelectie from "../lib/WeekSelectie/WeekSelectie.svelte";
 
 // component imports
 
+
+
 </script>
 
 <style>
@@ -11,6 +13,7 @@ import WeekSelectie from "../lib/WeekSelectie/WeekSelectie.svelte";
 </style>
 
 <main>
-  <h1>lose-your-head-the-client-case</h1>
-  <WeekSelectie></WeekSelectie>
+<WeekSelectie></WeekSelectie>
+
+  <!-- <WeekSelectie></WeekSelectie> -->
 </main>
