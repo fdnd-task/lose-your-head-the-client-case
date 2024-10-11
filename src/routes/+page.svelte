@@ -1,11 +1,3 @@
-<script>
-import WeekSelectie from "../lib/WeekSelectie/WeekSelectie.svelte";
-// variables imports
-
-// component imports
-
-
-
 </script>
 
 <style>
@@ -13,4 +5,5 @@ import WeekSelectie from "../lib/WeekSelectie/WeekSelectie.svelte";
 </style>
 
 <main>
+  
 </main>
