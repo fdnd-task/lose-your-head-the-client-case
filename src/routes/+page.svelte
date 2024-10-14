@@ -1,11 +1,11 @@
 <script>
+    import Schedule from "../lib/guide/schedule.svelte";
     import WeekSelectie from '../lib/WeekSelectie/WeekSelectie.svelte';
+  
+    export let data;
 </script>
-
-<style>
-
-</style>
 
 <main>
     <WeekSelectie/>
+    <Schedule {data}/>
 </main>

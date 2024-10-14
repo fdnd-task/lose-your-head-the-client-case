@@ -58,11 +58,6 @@
   box-sizing: border-box;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 /* Default font styling */
 h1 {
@@ -157,4 +152,9 @@ article {
 /* other elements */
 li {
   list-style-type: none;
+}
+
+
+body {
+   background-color: #FAFAFA
 }
