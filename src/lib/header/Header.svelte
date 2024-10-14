@@ -14,7 +14,7 @@
             <nav>
                 <ol>
                     <li><a href="/">Home</a></li>
-                    <li><a href="/">Ondek</a></li>
+                    <li><a href="/">Ontdek</a></li>
                     <li><a href="/">Radio</a></li>
                 </ol>
             </nav>
