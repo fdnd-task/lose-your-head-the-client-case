@@ -116,10 +116,11 @@
 
 <style>
   section {
+
     position: relative;
     display: flex;
     width: 90vw;
-    margin: 0.5em;
+    margin: 0 auto;
     overflow: hidden; /* Verberg inhoud die buiten het zicht valt */
     @media screen and (min-width: 960px) {
       max-width: 50vw;
