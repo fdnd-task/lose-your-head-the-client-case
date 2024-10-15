@@ -1,5 +1,5 @@
 <script>
-	// logic goes here
+	import Button from "../button/Button.svelte";
 </script>
 <header class="header">
         <div class="header-left">
@@ -20,16 +20,7 @@
             </nav>
         </div>
         <div class="header-right">
-            <button class="whatsapp">
-                <figure>
-                    <img width="24px" alt="whatsapp naar ons" src="/whatsapp-white-icon.svg">
-                </figure>
-            </button>
-            <button class="search">
-                <figure>
-                    <img width="24px" alt="whatsapp naar ons" src="/whatsapp-white-icon.svg">
-                </figure>
-            </button>
+            <Button title="App studio" label="App studio"/>
         </div>    
 </header>
 
@@ -128,41 +119,5 @@
         align-items: center;
         justify-content: center;
     }
-
-    /* mobile whatsapp button */
-    .header .header-right .whatsapp{
-        padding: 0px;
-        background-color: var(--primary-color);
-        border: none;
-        right: 1rem;
-        position: absolute;
-    }
-
-    .header .header-right figure{
-        margin: 1rem;
-        /* on large screen */
-        @media only screen and (min-width: 960px) {
-            display: none;
-        }
-    }
-
-    /* desktop search button whatsapp button */
-    .header .header-right .search{
-        display: none;
-        @media only screen and (min-width: 960px) {
-            display: block;
-            padding: 0px;
-            background-color: var(--primary-color);
-            border: none;
-        }
-    }
-
-    .header .header-right .search figure{
-        display: none;
-        /* on large screen */
-        @media only screen and (min-width: 960px) {
-            display: block;
-            margin-right: 4rem;
-        }
-    }
+   
 </style>
