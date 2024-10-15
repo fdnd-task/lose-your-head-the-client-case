@@ -20,7 +20,7 @@
             </nav>
         </div>
         <div class="header-right">
-            <Button label="App studio"/>
+            <Button title="App studio" label="App studio"/>
         </div>    
 </header>
 
