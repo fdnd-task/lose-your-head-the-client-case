@@ -8,20 +8,20 @@
   * [📊 Projectboard] (##projectboard)
   * [👨‍💻 Bronnen](##bronnen)
 
+## Link naar de website
+<a href="https://lose-your-head-the-client-case-5q6r.vercel.app/" alt="link naar de website">Bekijk hier de website</a>
+
 ## ✏️ Beschrijving
 We hebben een radiogids gebouwd voor mediahuis, op deze gids kun je een dag selecteren, op de gekozen dag zie je alle tijdstippen van de radioshows en alle radio dj's die draaien tijdens de show.
 <!-- Voeg een mooie poster visual toe 📸 -->
-<a href="https://lose-your-head-the-client-case-5q6r.vercel.app/" alt="link naar de website">Bekijk hier de website</a>
 
 ## 💻 Gebruik
 <!-- Bij Gebruik staat de user story, hoe het werkt en wat je er mee kan. -->
 ### User story
 Als gebruiker wil ik kunnen zien wanneer alle radioshows spelen en welke dj er draait.
 
-### Gebruik van de week planner
+### Gebruik van de radiogids
 Door op de dagen te klikken kun je het overzicht van de radioshows die op die dag spelen ophalen.
-
-## 🔎 Kenmerken
 
 ### Ontwerp
 We hebben een ontwerp van Triple gekregen de desktop view hebben we in een horizontale lijn gezet zodat er meer radiostations in een keer te bekijken zijn.
@@ -33,6 +33,32 @@ Doormiddel van media queries is de pagina responsive en te gebruiken op elk sche
 
 #### Image optimalisatie (layout shifting)
 De images hebben een standaard width en height, zodat dit layout shifting voorkomt.
+
+## Wat heb ik gedaan in dit project?
+
+- Een weekselectie maken die de huidige datum op haalt en deze markeerd
+- Herbruikbare link component
+- Mede verantwoordelijk voor een kleine redesign (Horizontale view inplaats van verticale view)
+
+## Waar ben ik trots op. 
+
+### Week selectie
+Ik ben erg trots op de week selectie. Ik heb hiervoor een javascript functie gebouwd die de huidige maand ophaalt en de huidige dag markeerd, zodat je weet welke dag het is. Dit was een grote uitdaging maar ben hier uiteindelijk wel uitgekomen!
+
+### Link component
+Ik heb een link component gemaakt ik ben hier trots op omdat dit een van mijn eerste keren is dat ik werk met svelte en uberhaupt components. Ik heb doormiddel van variabelen en css classes ervoor gezorgd dat de link over het hele project te gebruiken is.
+
+## Waar liep ik tegen aan en hoe heb ik dit opgelost?
+
+### Week selectie
+#### javascript functie
+Ik wist niet goed hoe ik de maand moest gaan ophalen en de huidige dag moest tonen. Om dit aantepakken ben ik op internet gaan lezen over datetime. Na heel veel lezen en wat hulp gevraagd te hebben aan docenten heb ik het uiteindelijk voor elkaar gekregen om de functie werkend te krijgen.
+
+#### Fade effect
+Ik heb aan de zijkanten een fade effect gemaakt. Ik liep er tegen aan dat ik niet goed wist hoe ik dit kon maken zonder dat het de toegankelijkheid aanttast. Uiteindelijk heb ik dit opgelost met before's. Deze heb ik een witte shadow gegeven waardoor het lijkt alsof de content vervaagd, dit maakt het scrollen duidelijker.
+
+#### Scrollen met buttons
+Ik wist niet hoe ik de weekselectie moest laten scrollen doormiddel van buttons. Ik heb eerst de stappen gevolgd die ik wel kende zoals het toevoegen van een eventlistener, etc. Alleen nu moest ik nog de functie schrijven. Ik heb op google gezocht naar artikelen en oplossingen. Uiteindelijk vond ik een klasgenoot die een soort gelijke functie had gemaakt en heb ik met hem gekeken hoe het moet. Daarna heb ik nog extra comments bij de code gezet zodat ik de code nog beter onthoudt.
 
 ### Technieken
 - HTML
