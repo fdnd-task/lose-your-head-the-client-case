@@ -1,7 +1,7 @@
 # Mediahuis radiogids
 
 ## Inhoudsopgave
-* [✏️ Beschrijving](##beschrijving)
+* [✏️ Beschrijving](#-beschrijving)
 * [💻 Gebruik](##gebruik)
 * [👨‍💻 Wat heb ik gedaan in dit project?](##wat-heb-ik-gedaan-in-dit-project)
 * [✅ Waar ben ik trots op](##waar-ben-ik-trots-op)
