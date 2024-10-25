@@ -6,7 +6,7 @@
 * [👨‍💻 Wat heb ik gedaan in dit project?](#-wat-heb-ik-gedaan-in-dit-project)
 * [✅ Waar ben ik trots op](#-waar-ben-ik-trots-op)
 * [❌ Waar liep ik tegen aan en hoe heb ik dit opgelost?](#-waar-liep-ik-tegen-aan-en-hoe-heb-ik-dit-opgelost)
-* [👷‍♂️ Technieken](#technieken)
+* [👷‍♂️ Technieken](#-technieken)
 * [🧰 Tools](#-tools)
 * [📊 Projectboard](#-projectboard)
 * [🔧 Installatie](#-installatie)
