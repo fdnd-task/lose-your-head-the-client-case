@@ -1,10 +1,10 @@
-# Mediahuis radiogids
+# 🎶 Mediahuis radiogids
 <img width="1771" alt="Scherm­afbeelding 2024-10-25 om 19 00 05" src="https://github.com/user-attachments/assets/240fca23-b6c1-431e-8154-9732e71eda66">
 
-## Link naar de website
+## 🔗 Link naar de website
 <a href="https://lose-your-head-the-client-case-5q6r.vercel.app/" alt="link naar de website">Bekijk hier de website</a>
 
-## Inhoudsopgave
+## 📄 Inhoudsopgave
 * [✏️ Beschrijving](#-beschrijving)
 * [💻 Gebruik](#-gebruik)
 * [👨‍💻 Wat heb ik gedaan in dit project?](#-wat-heb-ik-gedaan-in-dit-project)
