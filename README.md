@@ -1,4 +1,8 @@
 # Mediahuis radiogids
+<img width="1774" alt="Scherm­afbeelding 2024-10-25 om 18 57 34" src="https://github.com/user-attachments/assets/62604119-9a5d-411b-a18a-50cfc7ed1b8f">
+
+## Link naar de website
+<a href="https://lose-your-head-the-client-case-5q6r.vercel.app/" alt="link naar de website">Bekijk hier de website</a>
 
 ## Inhoudsopgave
 * [✏️ Beschrijving](#-beschrijving)
@@ -12,15 +16,10 @@
 * [🔧 Installatie](#-installatie)
 * [📚 Bronnen](#-bronnen)
 
-## Link naar de website
-<a href="https://lose-your-head-the-client-case-5q6r.vercel.app/" alt="link naar de website">Bekijk hier de website</a>
-
 ## ✏️ Beschrijving
 We hebben een radiogids gebouwd voor mediahuis, op deze gids kun je een dag selecteren, op de gekozen dag zie je alle tijdstippen van de radioshows en alle radio dj's die draaien tijdens de show.
-<!-- Voeg een mooie poster visual toe 📸 -->
 
 ## 💻 Gebruik
-<!-- Bij Gebruik staat de user story, hoe het werkt en wat je er mee kan. -->
 ### User story
 Als gebruiker wil ik kunnen zien wanneer alle radioshows spelen en welke dj er draait.
 
@@ -79,7 +78,6 @@ Ik wist niet hoe ik de weekselectie moest laten scrollen doormiddel van buttons.
 In ons projectboard kun je precies volgen hoe we aan het project hebben gewerkt en wat er wel en niet af is. Ons projectboard vind je <a href="https://github.com/users/Daan645/projects/8">hier</a>
 
 ## 🔧 Installatie
-<!-- Bij Instalatie staat hoe een andere developer aan jouw repo kan werken -->
 1. Clone deze repository
 2. Open de repository met een code editor naar keuze
 3. Open het terminal in de code editor
