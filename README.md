@@ -6,7 +6,7 @@
 * [👨‍💻 Wat heb ik gedaan in dit project?](#-wat-heb-ik-gedaan-in-dit-project)
 * [✅ Waar ben ik trots op](#-waar-ben-ik-trots-op)
 * [❌ Waar liep ik tegen aan en hoe heb ik dit opgelost?](#-waar-liep-ik-tegen-aan-en-hoe-heb-ik-dit-opgelost)
-* [⚙️ Technieken](#-technieken)
+* [📡 Technieken](#-technieken)
 * [🧰 Tools](#-tools)
 * [📊 Projectboard](#-projectboard)
 * [🔧 Installatie](#-installatie)
@@ -64,7 +64,7 @@ Ik heb aan de zijkanten een fade effect gemaakt. Ik liep er tegen aan dat ik nie
 #### Scrollen met buttons
 Ik wist niet hoe ik de weekselectie moest laten scrollen doormiddel van buttons. Ik heb eerst de stappen gevolgd die ik wel kende zoals het toevoegen van een eventlistener, etc. Alleen nu moest ik nog de functie schrijven. Ik heb op google gezocht naar artikelen en oplossingen. Uiteindelijk vond ik een klasgenoot die een soort gelijke functie had gemaakt en heb ik met hem gekeken hoe het moet. Daarna heb ik nog extra comments bij de code gezet zodat ik de code nog beter onthoudt.
 
-## ⚙️ Technieken
+## 📡 Technieken
 - HTML
 - CSS
 - JS
