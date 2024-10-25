@@ -2,15 +2,15 @@
 
 ## Inhoudsopgave
 * [✏️ Beschrijving](#-beschrijving)
-* [💻 Gebruik](##gebruik)
-* [👨‍💻 Wat heb ik gedaan in dit project?](##wat-heb-ik-gedaan-in-dit-project)
-* [✅ Waar ben ik trots op](##waar-ben-ik-trots-op)
-* [❌ Waar liep ik tegen aan en hoe heb ik dit opgelost?](##waar-liep-ik-tegen-aan-en-hoe-heb-ik-dit-opgelost)
-* [🛠️ Technieken](##technieken)
+* [💻 Gebruik](#-gebruik)
+* [👨‍💻 Wat heb ik gedaan in dit project?](#-wat-heb-ik-gedaan-in-dit-project)
+* [✅ Waar ben ik trots op](#-waar-ben-ik-trots-op)
+* [❌ Waar liep ik tegen aan en hoe heb ik dit opgelost?](#-waar-liep-ik-tegen-aan-en-hoe-heb-ik-dit-opgelost)
+* [🛠️ Technieken](#-technieken)
 * [🧰 Tools](#-tools)
-* [📊 Projectboard](##projectboard)
-* [🔧 Installatie](##installatie)
-* [📚 Bronnen](##bronnen)
+* [📊 Projectboard](#-projectboard)
+* [🔧 Installatie](#-installatie)
+* [📚 Bronnen](#-bronnen)
 
 ## Link naar de website
 <a href="https://lose-your-head-the-client-case-5q6r.vercel.app/" alt="link naar de website">Bekijk hier de website</a>
