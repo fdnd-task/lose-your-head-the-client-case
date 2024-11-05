@@ -1,10 +1,10 @@
 <!-- tab menu -->
 <nav class="tabs">
     <ul class="tabs__list">
-        <li class="tabs__link"><a alt="PROGRAMMERING" href="/">PROGRAMMERING</a></li>
-        <li class="tabs__link"><a alt="DJ's" href="/">DJ's</a></li>
-        <li class="tabs__link"><a alt="PLAYLIST" href="/">PLAYLIST</a></li>
-        <li class="tabs__link"><a alt="FREQUENTIES" href="/">FREQUENTIES</a></li>
+        <li class="tabs__link"><a alt="programmering" href="/">PROGRAMMERING</a></li>
+        <li class="tabs__link"><a alt="dj's" href="/">DJ's</a></li>
+        <li class="tabs__link"><a alt="playlist" href="/">PLAYLIST</a></li>
+        <li class="tabs__link"><a alt="frequenties" href="/">FREQUENTIES</a></li>
     </ul>
 </nav>
 
