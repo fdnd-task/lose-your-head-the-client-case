@@ -1,8 +1,8 @@
 <script>
-    import Header from "../lib/header/Header.svelte";
-    import Tabs from '../lib/tab/tabs.svelte';
-  import Mobilenav from "../lib/mobile-nav/Mobilenav.svelte";
-    import Footer from '../lib/footer/Footer.svelte';
+    import Header from "../lib/organism/Header.svelte";
+    import Tabs from '../lib/molecules/tabs.svelte';
+  import Mobilenav from "../lib/organism/Mobilenav.svelte";
+    import Footer from '../lib/organism/Footer.svelte';
 </script>
 
 

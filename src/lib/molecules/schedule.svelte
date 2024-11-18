@@ -1,5 +1,5 @@
 <script>
-    import ProgramCard from "../guide/programCard.svelte";
+    import ProgramCard from "./programCard.svelte";
     export let data;
 
     // Helper function to get the image source

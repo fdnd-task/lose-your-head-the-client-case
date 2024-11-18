@@ -1,6 +1,6 @@
 <script>
-    import Schedule from "../lib/guide/schedule.svelte";
-    import WeekSelectie from '../lib/WeekSelectie/WeekSelectie.svelte';
+    import Schedule from "../lib/molecules/schedule.svelte";
+    import WeekSelectie from '../lib/molecules/WeekSelectie.svelte';
   
     export let data;
 </script>

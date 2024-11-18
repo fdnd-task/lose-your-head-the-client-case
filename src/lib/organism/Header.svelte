@@ -1,5 +1,5 @@
 <script>
-	import Button from "../button/Button.svelte";
+	import Button from "../atoms/Button.svelte";
 </script>
 <header class="header">
         <div class="header-left">
