@@ -1,5 +1,5 @@
 <script>
-    import Tabmenu from '../lib/molecules/Tabmenu.svelte';
+    import Slideinmenu from '../lib/molecules/Slideinmenu.svelte';
     import Schedule from "../lib/molecules/schedule.svelte";
     import WeekSelectie from '../lib/molecules/WeekSelectie.svelte';
  
@@ -7,7 +7,7 @@
 </script>
 
 <main>
-    <WeekSelectie/>
-    <Schedule {data}/> 
-    <Tabmenu/>
+    <!-- <WeekSelectie/>
+    <Schedule {data}/>  -->
+    <Slideinmenu/>
 </main>
