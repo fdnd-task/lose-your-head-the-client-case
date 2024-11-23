@@ -2,7 +2,7 @@
     import Slideinmenu_link from '../atoms/Slideinmenu_link.svelte';
 </script>
 
-<main>
+<div>
     <ul class="slideinmenu">
         <Slideinmenu_link label="Frequenties" sublabel="De FM frequenties van Radio Veronica"/>
         <Slideinmenu_link label="Programma Overzicht" sublabel="Alle programma's van radio Veronica"/>
@@ -12,25 +12,27 @@
         <Slideinmenu_link label="Cookieverklaring" sublabel="Overzicht van gebruikte cookies"/>
         <Slideinmenu_link label="Cookie voorkeuren" sublabel="Bekijk de voorkeuren"/> 
     </ul>
-</main>
+</div>
 
 <style>
     .slideinmenu{
         background-color: var(--light);
-        position: absolute;
+       position: absolute;
         margin-top: 69.30px;
         display: flex;
         flex-direction: column;
         overflow: hidden;
-        z-index: 99;
+        z-index: 90;
         width: 100%;
-        right: -500vw;
+        height: 100%;
         transition:  right  0.3s ease-out;
+        top: 0;
     }
 
-    .slideinmenu.open ul{
-        position: relative;
+    .slideinmenu .open {
+        position: absolute;
         right: 0vw;
+        top: 0px;
     }
 
     
