@@ -75,6 +75,10 @@
     a {
       color: var(--dark);
     }
-  }    
+    li span:nth-of-type(2) {
+        display: none; /* Hide the second span */
+    }
+}
+  
 
 </style>

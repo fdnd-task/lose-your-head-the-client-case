@@ -3,7 +3,7 @@
     import Tabmenu from "../molecules/Tabmenu.svelte";
 </script>
 
-<div>
+<nav>
     <Slideinmenu/>
     <Tabmenu/>
-</div>
+</nav>
