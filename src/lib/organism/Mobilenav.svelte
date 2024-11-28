@@ -1,16 +1,5 @@
 <script>
-    import { onMount } from 'svelte';
-    let isSubnavOpen = false;
-
-    // Function to handle click and toggle class
-    function handleClick() {
-        isSubnavOpen = !isSubnavOpen;
-    }
-
-    // Optionally, you can use onMount for any DOM manipulations needed
-    onMount(() => {
-        console.log('Component mounted');
-    });
+ 
 </script>
 
 <section>

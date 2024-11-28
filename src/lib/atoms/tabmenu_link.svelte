@@ -4,11 +4,12 @@
   export let label = ""; // Changes the label text
   export let href = "#"; // Changes the href
   export let title = ""; // Changes the alt text
+  export let onclick;
 
   
 </script>
 
-    <a class="tabmenu_link" {href} {title}>
+    <a class="tabmenu_link" {href} {title} on:click={onclick}>
         <div>
             {#if label == 'home'}
             <svg width="24" height="24" viewBox="0 0 24 24" fill="currentcolor" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_171_3265)"><path d="M12.01 3L3 9.66234V22H9V15.0909H15V22H21V9.66234L12.01 3Z" /></g><defs><clipPath id="clip0_171_3265"><rect width="18" height="19" fill="white" transform="translate(3 3)"/></clipPath></defs></svg> 
@@ -20,7 +21,6 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentcolor"><g id="Icons/Interaction/Meer"><path id="Union" fill-rule="evenodd" clip-rule="evenodd" d="M1 14V10V9H2H6H7V15H6H2H1V14ZM9 10V14V15H10H14H15V9H14H10H9V10ZM18 9H17V10V15H18H22H23V14V9H22H18ZM3 11H5V13H3V11ZM13 11H11V13H13V11ZM19 11H21V13H19V11Z" fill="currentcolor"/></g></svg>
             {/if}
         </div>
-       
         <span>{label}</span>
     </a>
 
@@ -36,7 +36,7 @@
         text-transform: uppercase;
         font-size: 3vw;
         font-family: var(--font-family);
-    
+
     }
 
      a:focus, a:active, a:hover{
@@ -77,19 +77,4 @@
             display: none;
         }
     }
-   
-    /* .home  svg:nth-child(2),  .home svg:nth-child(3), .home svg:nth-child(4){ 
-        display: none;
-    }
-    .ontdek svg:nth-child(1), .ontdek svg:nth-child(3), .ontdek svg:nth-child(4){ 
-        display: none;
-    }
-    .radio svg:nth-child(1), .radio svg:nth-child(2), .radio svg:nth-child(4){ 
-        display: none;
-    }
-    .meer svg:nth-child(1), .meer svg:nth-child(2), .meer svg:nth-child(3){ 
-        display: none;
-    } */
-
-
 </style>

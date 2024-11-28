@@ -1,27 +1,24 @@
 <script>
 import Tabmenu_link from '../atoms/Tabmenu_link.svelte';
+import Slideinmenu from "../molecules/slideinmenu.svelte";
 
-import { onMount } from 'svelte';
-    let isSubnavOpen = false;
+let menuVisible = false;
 
-    // Function to handle click and toggle class
-    function handleClick() {
-        isSubnavOpen = !isSubnavOpen;
-    }
-
-    // Optionally, you can use onMount for any DOM manipulations needed
-    onMount(() => {
-        console.log('Component mounted');
-    });
-
+function toggleMenu() {
+    menuVisible = !menuVisible;
+}
 </script>
 
+
+
 <ul>
-    <li><Tabmenu_link label="home" icon="home"/></li>
-    <li><Tabmenu_link label="ontdek" icon="ontdek"/></li>
-    <li><Tabmenu_link label="radio" icon="radio"/></li>
-    <li><Tabmenu_link label="meer" icon="meer" on:click={handleClick} href="javascript:void(0)"/></li>
+    <li><Tabmenu_link label="home" /></li>
+    <li><Tabmenu_link label="ontdek"/></li>
+    <li><Tabmenu_link label="radio"/></li>
+    <li><Tabmenu_link label="meer" onclick={toggleMenu} href="#"/></li>
 </ul>
+
+<Slideinmenu {menuVisible}/>
 
 <style>
     li{

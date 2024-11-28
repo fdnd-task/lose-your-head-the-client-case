@@ -1,8 +1,10 @@
 <script>
     import Slideinmenu_link from '../atoms/Slideinmenu_link.svelte';
+    export let menuVisible = false; // Prop to control visibility
+
 </script>
 
-<nav class="slideinmenu">
+<nav class:visible={menuVisible}>
         <Slideinmenu_link label="Frequenties" sublabel="De FM frequenties van Radio Veronica"/>
         <Slideinmenu_link label="Programma Overzicht" sublabel="Alle programma's van radio Veronica"/>
         <Slideinmenu_link label="DJ Overzicht" sublabel="Alle DJ's van Radio Veronica"/>
@@ -13,7 +15,7 @@
 </nav>
 
 <style>
-    .slideinmenu{
+    nav{
         background-color: var(--light);
        position: absolute;
         margin-top: 69.30px;
@@ -25,13 +27,15 @@
         height: 100%;
         transition:  right  0.3s ease-out;
         top: 0;
+        right: -400vw;
+        display: none;
     }
 
-    .slideinmenu .open {
-        position: absolute;
-        right: 0vw;
-        top: 0px;
+    .visible {
+        display: flex; /* Ensure the menu becomes visible */
+        right: 0; /* Slide into view */
+        transition:  right  0.3s ease-out;
     }
-
-    
+        
 </style>
+    
