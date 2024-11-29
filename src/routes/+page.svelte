@@ -4,14 +4,13 @@
     import WeekSelectie from '../lib/molecules/WeekSelectie.svelte';
     import Radioplayer from '../lib/organism/Radioplayer.svelte';
 
-    // export let data;
+    export let data;
 </script>
 
 <main>
-    <!-- <Tabs />
-    <WeekSelectie/> -->
+    <WeekSelectie/>
+    <Schedule {data}/> 
     <Radioplayer />
-    <!-- <Schedule {data}/> -->
 </main>
 
 <style>

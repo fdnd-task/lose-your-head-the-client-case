@@ -7,7 +7,5 @@
 <Header/>
 <Mobilenav/>
 <slot></slot>
-<!-- <Footer/>   -->
-
-
+<Footer/>  
 
