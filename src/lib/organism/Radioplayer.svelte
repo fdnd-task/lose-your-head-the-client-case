@@ -63,13 +63,13 @@
         border-radius: 5px;
         position: absolute;
         bottom: 100px;
-        margin-left: 0.5em;
+        /* margin-left: 0.5em; */
         background-color: var(--light);
 
         @media only screen and (min-width: 480px) {
             bottom: 115px;
             width: calc(100% - 3%);
-            margin-left: 1em;
+            /* margin-left: 1em; */
         }
 
         @media only screen and (min-width: 1024px) {
