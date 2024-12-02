@@ -29,6 +29,10 @@
     .audio__container {
         display: flex;
         flex-direction: row;
+
+        @media only screen and (min-width: 320px) and (max-width: 1280px){
+            display: none;
+        }
     }
 
     .audio__container-card {

@@ -4,7 +4,7 @@
 
 <style>
     .audio__list-link {
-        @media only screen and (min-width: 960px) {
+        @media only screen and (min-width: 1280px) {
             width: 1.5rem;
             margin-left: auto;
         }

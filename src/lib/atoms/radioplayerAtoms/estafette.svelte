@@ -2,11 +2,13 @@
  
 <style>
     .audio__volgende-lijn {
+        @media only screen and (min-width: 1280px) {
         border-left: 2px dashed var(--grey);
         width: 60px;
         height: 50px;
         display: inline-block;
         margin-left: 18px;
+        }
 
         @media only screen and (min-width: 320px) and (max-width: 980px){
         display: none;

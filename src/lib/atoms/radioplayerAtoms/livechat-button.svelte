@@ -59,5 +59,9 @@
         top: -360px;
         box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
         background-color: var(--light);
+
+        @media only screen and (min-width: 600px) and (max-width: 1280px) {
+            display: none;
+        }
     }
 </style>

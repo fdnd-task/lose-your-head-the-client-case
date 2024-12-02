@@ -3,6 +3,7 @@ import fetchJson from "$lib/fetch-json";
 export async function load() {
   const API = 'https://fdnd-agency.directus.app/items/';
   const day = `${API}mh_day`;
+  const chat = `${API}mh_chats`;
 
   const date = "2024-10-07"
 
@@ -20,10 +21,16 @@ export async function load() {
     shows.mh_shows_id.show.headermobile.id,
     shows.mh_shows_id.show.headerdesktop.id`;
 
+    const Chatfilter = `?fields=chathost,chathost.name,chathost.logo,message,sender,date_created`;
+
   // Fetch the data from the API
   const data = await fetchJson(day + filter);
 
+  const chats = await fetchJson(chat + Chatfilter);
+  console.log(chats);
+
   return {
-    data: data.data
+    data: data.data,
+    chats: chats.data
   };
 }
