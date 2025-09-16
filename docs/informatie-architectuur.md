@@ -1,5 +1,30 @@
 # Lose Your Head - The Client Case
 
+## Informatie architectuur
+<!-- Leuke intro -->
+
+### Doel van de opdracht
+<!-- Wat hebben ze geleerd op het einde van deze workshop. -->
+
+### Werkwijze
+<!-- We schrijven in principe geen tutorials maar helpen ze op weg. -->
+
+#### Extra bronnen
+<!-- Extra links voor documentatie en tutorials -->
+
+<!--
+### 💪 Extra uitdagingen
+ Dit is optioneel voor de hardlopers die iets extra's willen. 
+-->
+
+### ✒️ Leervragen
+
+Zet de antwoorden in je learning journal.
+
+<!-- Een drietal vragen die ze kunnen opnemen in hun learning journal, waar de squadleaders dan weer op terug komen op vrijdag. -->
+
+
+<!--
 ## Datamodel
 
 _In de workshop S14W2-02-informatie-architectuur wordt behandeld hoe het structureren en organiseren van informatie op de frontend invloed heeft op het Datamodel._
@@ -54,3 +79,4 @@ Een datamodel laat de logische structuur van een database zien, inclusief de rel
 ### Bronnen
 
 - [Directus Data Model](https://docs.directus.io/app/data-model.html)
+-->
