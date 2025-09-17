@@ -1,9 +1,10 @@
 # Lose Your Head - The Client Case
 
 ## Project inrichting
-<!-- Leuke intro -->
 
-### Doel van de opdracht
+Over projectmethodiek, standup, scrummen.
+
+<!-- ### Doel van de opdracht -->
 <!-- Wat hebben ze geleerd op het einde van deze workshop. -->
 
 ### Aanpak
