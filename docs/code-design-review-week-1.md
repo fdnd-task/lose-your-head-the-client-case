@@ -6,7 +6,7 @@
 ### Doel van de opdracht
 <!-- Wat hebben ze geleerd op het einde van deze workshop. -->
 
-### Werkwijze
+### Aanpak
 <!-- We schrijven in principe geen tutorials maar helpen ze op weg. -->
 
 #### Extra bronnen
