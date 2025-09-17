@@ -1,4 +1,4 @@
-# Lose Your Head
+# Lose Your Head - The Client Case
 
 ## Sprint Planning
 
