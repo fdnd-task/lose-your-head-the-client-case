@@ -1,9 +1,10 @@
 # Lose Your Head - The Client Case
 
 ## Code/Design review - Week 1
-<!-- Leuke intro -->
 
-### Doel van de opdracht
+Over de eerste versie van je project, het content model en de projectinrichting.
+
+<!-- ### Doel van de opdracht -->
 <!-- Wat hebben ze geleerd op het einde van deze workshop. -->
 
 ### Aanpak
