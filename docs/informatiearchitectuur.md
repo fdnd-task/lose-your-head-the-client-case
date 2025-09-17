@@ -1,15 +1,16 @@
 # Lose Your Head - The Client Case
 
 ## Informatie architectuur
-<!-- Leuke intro -->
 
-### Doel van de opdracht
+Over hoe het structureren en organiseren van informatie op de frontend invloed heeft op de Content modelling van je (headless) CMS
+
+<!-- ### Doel van de opdracht -->
 <!-- Wat hebben ze geleerd op het einde van deze workshop. -->
 
 ### Aanpak
 <!-- We schrijven in principe geen tutorials maar helpen ze op weg. -->
 
-#### Extra bronnen
+### Extra bronnen
 <!-- Extra links voor documentatie en tutorials -->
 
 <!--
