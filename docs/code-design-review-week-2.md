@@ -1,9 +1,10 @@
 # Lose Your Head - The Client Case
 
 ## Code/Design review - Week 2
-<!-- Leuke intro -->
 
-### Doel van de opdracht
+Over ...
+
+<!-- ### Doel van de opdracht -->
 <!-- Wat hebben ze geleerd op het einde van deze workshop. -->
 
 ### Werkwijze
