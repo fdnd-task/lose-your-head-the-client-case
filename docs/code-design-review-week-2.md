@@ -2,7 +2,7 @@
 
 ## Code/Design review - Week 2
 
-Over ...
+Doe een Design critique op de eerste ontwerpen die jullie hebben gemaakt. 
 
 <!-- ### Doel van de opdracht -->
 <!-- Wat hebben ze geleerd op het einde van deze workshop. -->
