@@ -2,27 +2,35 @@
 
 Ontwerp en maak een website voor een opdrachtgever op basis van een Headless CMS API 
 
+
 ## Context
-Deze leertaak hoort bij sprint 14: Lose your Head. Dit is een opdracht die je individueel uitvoert voor een opdrachtgever.
 
-- Bij deze leertaak hoort de opdracht [datamodel](datamodel.md)
-- Na een briefing van de opdrachtgever schrijf je altijd een debriefing; volg de instructies van de workshop [briefing/debriefing](https://github.com/fdnd-task/the-client-website/blob/main/docs/briefing-debriefing.md) van sprint 2 the client
-
+Deze leertaak hoort bij sprint 14: Lose your Head. Dit is een opdracht die je in een team uitvoert voor een opdrachtgever.
 
 
 ## Doel van deze opdracht
 
 Je leert hoe je aan de hand van een user story een (gedeelte van een) website kan ontwerpen en bouwen op basis van een headless CMS.
 
-## Werkwijze
-Bij elke leertaak wordt de development-lifecycle doorlopen. Hierdoor ontwikkel je een standaard aanpak voor frontend praktijkvraagstukken, werk je systematisch aan leertaken, ervaar je de relevantie van het geleerde en verwerf je de kennis, houding en vaardigheden die de beroepspraktijk van je vraagt.
-De development lifecycle kent de volgende stappen:
 
-1. Analyseren - bijvoorbeeld: grip krijgen op een taak door gesprekken met een opdrachtgever, schrijven van een debriefing, maken van een todo lijst, inventarisatie van bestaande informatie, overzicht creëren, plannen, definition of done etc.
-2. Ontwerpen - bijvoorbeeld: het maken van idee-schetsen, customer journey, breakdown chart, wireflows, navigatiestructuur en layout.
-3. Bouwen - bijvoorbeeld: toepassen van webtechnologie (HTML, CSS, JS), gebruik van tooling, werken volgens conventies en wetgeving, documenteren en bijhouden van een changelog.
-4. Integreren - bijvoorbeeld: publiceren, live zetten, uploaden naar de server, toevoegen in een bestaand systeem, ftp-en.
-5. Testen - bijvoorbeeld: Unit testing (TDD), System test, User test, device lab test, A\B testing.
+## Werkwijze
+
+Deze sprint begin met de opdracht voor een opdrachtgever. Je kiest een project en daarna krijg je een briefing waarin de opdrachtgever de opdracht toelicht. Je gaat hier de komende 5 sprints aan werken met een team van 3. 
+
+Deze leertaak wordt behandeld in Sprint 14. er worden verschillende workshops aangeboden
+
+- [Sprint Planning](sprint-planning.md)
+- [Informatiearchitectuur ](informatiearchitectuur.md)
+- [Code/Design-review - week 1](code-design-review-week-1.md)
+- [Styleguide](styleguide.md)
+- [Projectinrichting](projectinrichting.md)
+- [Code/Design-review - week 2](code-design-review-week-2.md)
+- [Sveltekit principes](sveltekit-principes.md)
+- [Wrap up](wrap-up.md)
+
+
+
+<!--
 
 ### Aanpak
 
@@ -33,7 +41,7 @@ De development lifecycle kent de volgende stappen:
 5. Hanteer de fases uit de dev-lifecycle om jouw project in te richten, bespreek vooraf met een docent welke stappen je denkt te gaan hanteren.
 6. Documenteer doorlopend jouw proces, alle (technische en ontwerp) beslissingen dienen onderbouwd te worden en je verwijst naar alle bronnen die je bij de verschillende fases gebruikt hebt.
 7. Schrijf tenslotte een goede `Readme.md` waarme je: 1) kort inzicht geeft in het hoe en waarom van jouw project en 2) developers instructies geeft over hoe jouw project te gebruiken is.
-
+-->
 
 ## Definitions of Done
 
