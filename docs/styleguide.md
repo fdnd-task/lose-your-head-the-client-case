@@ -1,11 +1,11 @@
 # Lose Your Head - The Client Case
 
 ## Styleguide
-Over het samenstellen van kleurgebruik, typografie, layout en compositie, en (slimme) code conventies voor je project.
+Over het ontwerpen van de styleguide en (slimme) code conventies voor je project.
 
 ### Aanpak
 
-<!-- Workshop over kleur, kleurenpallet en handige code -->
+<!-- Workshop over kleurgebruik, typografie, layout en compositie voord styleguide -->
 
 <!--
 Sprint 4: 
@@ -30,9 +30,19 @@ Nu je een inventarisatie hebt gemaakt van alle onderdelen kunnen jullie een styl
 Bespreek het verzamelde materiaal uit de interface inventory en onderzoek of je overeenkomsten kunt ontdekken tussen de verschillende huisstijl onderdelen.
 Kopieer de artboards van de Styleguide template naar jullie Figma document.
 Maak een ontwerp voor de verschillende huisstijl onderdelen:
-Bepaal de verschillende kleuren voor de huisstijl in RGB of HSL formaat, maak een voorbeeld en schrijf een korte uitleg.
-Bepaal alle typografische elementen zoals headings, text, links, lijsten en/of tabellen, ontwerp voorbeelden en schrijf een korte uitleg.
-Bepaal de formulier elementen zoals buttons, inputs, selects en radio's, ontwerp voorbeelden en schrijf een korte uitleg.
+
+- Bepaal de verschillende kleuren voor de huisstijl in RGB of HSL formaat, maak een voorbeeld en schrijf een korte uitleg.
+Ditch RGB voor HSL
+
+
+- Bepaal alle typografische elementen zoals headings, text, links, lijsten en/of tabellen, ontwerp voorbeelden en schrijf een korte uitleg.
+Hier ook micro en macro typo noemen
+
+- Bepaal de formulier elementen zoals buttons, inputs, selects en radio's, ontwerp voorbeelden en schrijf een korte uitleg.
+
+- Layout en compositie
+
+
 Gedeelde Stylesheet maken
 
 Op basis van de styleguide gaan jullie een gezamenlijke stylesheet maken. Jullie gaan als team één stylesheet maken met de basis elementen van de huisstijl zoals de kleuren, typografie en formulier elementen. Later deze sprint ga je die misschien uitbreiden met meer gedeelde elementen. Zo zorg je ervoor dat op verschillende websites de huisstijl consistent wordt toegepast.
