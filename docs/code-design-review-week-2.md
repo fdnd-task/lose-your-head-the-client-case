@@ -1,8 +1,8 @@
 # Lose Your Head - The Client Case
 
-## Code/Design review - Week 2
+## Code/Design review - Design Critique
 
-Doe een Design critique op de eerste ontwerpen die jullie hebben gemaakt. 
+Design review op je styleguide en eerste schermen die je hebt ontworpen en gemaakt voor de opdracht van de opdrachtgever.
 
 <!-- ### Doel van de opdracht -->
 <!-- Wat hebben ze geleerd op het einde van deze workshop. -->
