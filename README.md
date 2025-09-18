@@ -1,6 +1,8 @@
-> _Fork_ deze leertaak en ga aan de slag. 
-Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. 
-De instructie vind je in: [INSTRUCTIONS](https://github.com/fdnd-task/lose-your-head-the-client-case/blob/main/docs/INSTRUCTIONS.md)
+# Lose Your Head - The Client Case
+
+Ontwerp en maak een website voor een opdrachtgever op basis van een Headless CMS API.
+
+De instructie staan beschreven in: [INSTRUCTIONS](https://github.com/fdnd-task/lose-your-head-the-client-case/blob/main/docs/INSTRUCTIONS.md)
 
 # Titel
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
