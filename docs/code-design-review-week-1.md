@@ -1,6 +1,6 @@
 # Lose Your Head - The Client Case
 
-## Code/Design review - Week 1
+## Code/Design review - Content modelling 
 
 Over de eerste versie van je project, het content model en de projectinrichting.
 
