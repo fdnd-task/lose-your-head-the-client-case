@@ -26,7 +26,7 @@ Maak een nieuw project board aan en koppel het aan jouw repository van Sprint 14
 
 
 ## Samenwerking
-Teamcanvas invullen en afsprakenn maken
+Teamcanvas invullen en afspraken maken
 
 
 ## Briefing/debriefing
@@ -42,9 +42,15 @@ Bekijk ter voorbereiding ook wat er in Directus klaarstaat voor jouw opdracht.
 Zorg ervoor dat je met de opdrachtgever het gemaakte werk uit semester 1 bespreekt. Wat was goed? Waar wil de opdrachtgever mee verder? Je kan het werk uit Semester 1 vinden in de project beschrijvingen bij FDND Agency.
 
 ### Debriefing
+
+#### Interface inventory
 Maak na de briefing met elkaar een Interface inventory. Volg hiervoor de instructies van de workshops Styleguide uit Sprint 4.
 
-Werk daarna eerst je eigen debriefing volledig uit.
+#### Sitemap en pagina's
+Maak gezamenlijk een sitemap van de bestaande website op het whiteboard, voeg nieuwe pagina's toe of bedenk een nieuwe sitemap. Schrijf of teken per pagina wat er ongeveer op een pagina komt. Geef aan welke pagina's of onderdelen al door jullie zijn gemaakt en welke nog niet. Voeg ook nieuwe ideeën toe als je die hebt gekregen na de debriefing.
+
+#### Debriefing uitwerken
+Nu je de breifing hebt gekregen en verschillende onderdelen van het project hebt onderzocht kan je de debriefing schrijven. 
 Je wil hier zo snel mogelijk feedback op, dus doe dit asap.
 
 ### Bronnen
