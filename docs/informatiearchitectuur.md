@@ -49,11 +49,11 @@ Schets een sitemap van de verschillende pagina's van de opdracht die je deze wee
 ### 3. User journey
 Wie is jouw eindgebruiker? Wie gaat het project gebruiken? Bedenk wat een doel kan zijn voor de eindgebruiker op jouw website en teken de flow die de eindgebruiker doorloopt om dat te bereiken. Dit kan in een flowchart of schetsend. Kijk eens naar voorbeelden online. 
 
-<img src="user-journey-flowchart.png" width="400">
+<img src="user-journey-flowchart.png" width="400" alt="User journey flowchart">
 
 *Voorbeeld van een user journey dmv een flow chart*
 
-<img src="user-journey-schets.png" width="400">
+<img src="user-journey-schets.png" width="400" alt="User journey schets">
 
 *Voorbeeld van een user journey dmv een schets*
 
