@@ -77,7 +77,8 @@ Teken nette wireframes van de verschillende pagina van de website die je gaat on
 ### 4. Datamodel
 Een datamodel laat de logische structuur van een database zien, inclusief de relaties tussen tabellen. Het is belangrijk om dit goed te doorgronden om structuur aan te brengen in je website. Als je nog geen API hebt is dit het begin punt om je Directus database in te stellen. Heb je wel al een API dan helpt een datamodel om grip te krijgen op de data die je kunt gebruiken. 
 
-![Datamodel van een Blog](datamodel.png)
+<img src="datamodel.png" width="400" alt="Datamodel van een Blog">
+
 *Voorbeeld van een datamodel met kolomnamen, datatypes en gerelateerde tabellen*
 
 ```mermaid
