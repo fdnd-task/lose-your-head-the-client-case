@@ -27,20 +27,20 @@ Informatie Architectuur gaat over:
 - Hoe gebruikers die informatie terugvinden
 - Hoe de informatie technisch aan elkaar gekoppeld is
 
-**🛠️ Opdracht (30 min)**  
+**🛠️ Opdracht 1 (30 min)**  
 Zoek met je team online naar een definitie van Informatie Architectuur. Schrijf in eigen woorden op:
 1. Wat is informatie architectuur volgens jullie?
 2. Welke vormen van informatie architectuur zijn er, schrijf ze op het bord en maak er een tekening bij
 3. Zoek voorbeelden op van sites die die structuren gebruiken
 
 
-### 2. Sitemap & User story
+### 2. Sitemap
 Schets een sitemap van de verschillende pagina's van de opdracht die je deze week hebt gekregen (overzicht-, detail-, formulierpagina, etc ...).
 
 ![Sitemap](sitemap.png)
 *Voorbeeld van een sitemap met paginanummers*
 
-**🛠️ Opdracht (20 min)**  
+**🛠️ Opdracht 2 (20 min)**  
 1. Schrijf bovenaan de sitemap de ontwerpvraag van de opdrachtgever.
 2. Onderzoek welke pagina's de website moet krijgen. Gebruik de briefing die je hebt gehad, de documentatie en/of het design dat je hebt gekregen.
 3. Teken de homepage bovenaan en geef deze pagina nummer 0. Teken daarna alle pagina's die onder de homepage vallen, geef ze een titel en een nummer. Teken daarna de pagina's die een niveau dieper horen en geef ze de nummers 1.1, 1.2, ... of 2.1, 2.2, ... als ze onder pagina 2.0 vallen. Teken een niveau dieper als er nog meer pagina's zijn, pas de nummering aan, trek lijnen, etc ...
@@ -55,7 +55,7 @@ Wie is jouw eindgebruiker? Wie gaat het project gebruiken? Bedenk wat een doel k
 ![User journey schets](user-journey-schets.png)
 *Voorbeeld van een user journey dmv een schets*
 
-**🛠️ Opdracht (10 min)**  
+**🛠️ Opdracht 3 (10 min)**  
 1. Maak één user journey voor jouw eindgebruiker
 2. Geef op een duidelijke manier aan wat de stappen zijn
 
@@ -64,6 +64,7 @@ Wie is jouw eindgebruiker? Wie gaat het project gebruiken? Bedenk wat een doel k
 
 Teken nette wireframes van de verschillende pagina van de website die je gaat ontwerpen en maken, en bepaal welke data dynamisch moet worden. 
 
+**🛠️ Opdracht 4 (10 min)**  
 1. Schets wireframes van de verschillende pagina's. Schets netjes met rechte lijnen, zorg dat elementen de juiste verhoudingen en formaten hebben. Zorg ervoor dat je alle content uitschrijft om een goed beeld te krijgen wat voor informatie op de pagina's getoond gaat worden.
 2. Geef aan welke content statisch is en welke dynamisch (wat in de database moet komen).
 3. Noteer het organisatie schema en kenmerk van de dynamische informatie (b.v. organisatieschema: alfabetisch, kenmerk: titel)
@@ -84,7 +85,7 @@ graph TD
 
 *Voorbeeld van een relationeel datamodel*
 
-
+**🛠️ Opdracht 5 (30 min)**  
 1. Bedenk aan de hand van de wireframes, sitemap en user journey wat voor tabellen jouw project nodig heeft. Let op data die wordt herhaald (zoals de artikelen, schrijver en onderwerpen uit het voorbeeld hierboven).
 2. Schets een datamodel; bedenk logische titels voor de tabellen, noteer de kolom naam en de datatypes.
 3. Bedenk welke tabelen aan elkaar gerelateerd moeten zijn.
