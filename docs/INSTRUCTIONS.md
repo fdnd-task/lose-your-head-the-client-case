@@ -7,11 +7,14 @@ Ontwerp en maak een website voor een opdrachtgever op basis van een Headless CMS
 
 Deze leertaak hoort bij sprint 14: Lose your Head. Dit is een opdracht die je in een team uitvoert voor een opdrachtgever.
 
-
 ## Doel van deze opdracht
 
 Je leert hoe je aan de hand van een user story een (gedeelte van een) website kan ontwerpen en bouwen op basis van een headless CMS.
 
+
+## Werkwijze
+Bij elke leertaak wordt de development-lifecycle doorlopen. Hierdoor ontwikkel je een standaard aanpak voor frontend praktijkvraagstukken, werk je systematisch aan leertaken, ervaar je de relevantie van het geleerde en verwerf je de kennis, houding en vaardigheden die de beroepspraktijk van je vraagt.
+De development lifecycle kent de volgende stappen:
 
 ## Werkwijze
 
@@ -32,6 +35,7 @@ Deze leertaak wordt behandeld in Sprint 14. er worden verschillende workshops aa
 
 <!--
 
+
 ### Aanpak
 
 1. Kies een user story uit de backlog van het project waar je aan gaat werken, of schrijf een nieuwe user story.  De projecten staan bij [FDND Agency](https://github.com/fdnd-agency).
@@ -41,7 +45,6 @@ Deze leertaak wordt behandeld in Sprint 14. er worden verschillende workshops aa
 5. Hanteer de fases uit de dev-lifecycle om jouw project in te richten, bespreek vooraf met een docent welke stappen je denkt te gaan hanteren.
 6. Documenteer doorlopend jouw proces, alle (technische en ontwerp) beslissingen dienen onderbouwd te worden en je verwijst naar alle bronnen die je bij de verschillende fases gebruikt hebt.
 7. Schrijf tenslotte een goede `Readme.md` waarme je: 1) kort inzicht geeft in het hoe en waarom van jouw project en 2) developers instructies geeft over hoe jouw project te gebruiken is.
--->
 
 ## Definitions of Done
 

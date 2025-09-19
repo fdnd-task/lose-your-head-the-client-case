@@ -3,11 +3,11 @@
 ## Retrospect
 <!-- Leuke intro -->
 
-### Doel van de opdracht
-<!-- Wat hebben ze geleerd op het einde van deze workshop. -->
+Terugkijken op de afgelopen 3 weken, wat heb je allemaal geleerd en wat kun je de volgende keer beter doen.
 
-### Werkwijze
+### Aanpak
 <!-- We schrijven in principe geen tutorials maar helpen ze op weg. -->
+
 
 #### Extra bronnen
 <!-- Extra links voor documentatie en tutorials -->
@@ -16,6 +16,7 @@
 ### 💪 Extra uitdagingen
  Dit is optioneel voor de hardlopers die iets extra's willen. 
 -->
+
 
 ### ✒️ Leervragen
 

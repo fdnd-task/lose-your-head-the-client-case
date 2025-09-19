@@ -1,12 +1,13 @@
 # Lose Your Head - The Client Case
 
-## Code/Design review - Design Critique
+## Wrapup
 <!-- Leuke intro -->
 
-Design review op je styleguide en eerste schermen die je hebt ontworpen en gemaakt voor de opdracht van de opdrachtgever.
+ Hoe ver ben je gekomen? Laatste dingen afmaken, elkaar helpen, documentatie op orde brengen, sprint review voorbereiden.
 
 ### Aanpak
 <!-- We schrijven in principe geen tutorials maar helpen ze op weg. -->
+
 
 #### Extra bronnen
 <!-- Extra links voor documentatie en tutorials -->
@@ -15,6 +16,7 @@ Design review op je styleguide en eerste schermen die je hebt ontworpen en gemaa
 ### 💪 Extra uitdagingen
  Dit is optioneel voor de hardlopers die iets extra's willen. 
 -->
+
 
 ### ✒️ Leervragen
 

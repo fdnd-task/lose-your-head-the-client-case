@@ -2,13 +2,11 @@
 
 ## Project inrichting
 
-Over projectmethodiek, standup, scrummen.
-
-<!-- ### Doel van de opdracht -->
-<!-- Wat hebben ze geleerd op het einde van deze workshop. -->
+Over projectmethodiek, standup en de Scrum methode.
 
 ### Aanpak
 <!-- We schrijven in principe geen tutorials maar helpen ze op weg. -->
+
 
 #### Extra bronnen
 <!-- Extra links voor documentatie en tutorials -->
@@ -17,6 +15,7 @@ Over projectmethodiek, standup, scrummen.
 ### 💪 Extra uitdagingen
  Dit is optioneel voor de hardlopers die iets extra's willen. 
 -->
+
 
 ### ✒️ Leervragen
 

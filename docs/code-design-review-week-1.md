@@ -1,11 +1,10 @@
 # Lose Your Head - The Client Case
 
-## Code/Design review - Content modelling 
+## Code/Design review - Content modelling
+<!-- Leuke intro -->
 
 Over de eerste versie van je project, het content model en de projectinrichting.
 
-<!-- ### Doel van de opdracht -->
-<!-- Wat hebben ze geleerd op het einde van deze workshop. -->
 
 ### Aanpak
 <!-- We schrijven in principe geen tutorials maar helpen ze op weg. -->

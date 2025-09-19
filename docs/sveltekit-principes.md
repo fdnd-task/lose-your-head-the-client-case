@@ -1,11 +1,7 @@
 # Lose Your Head - The Client Case
 
-## SvelteKit Principes
-
-Over de abstracte principes van een framework. 
-
-### Doel van de opdracht
-<!-- Wat hebben ze geleerd op het einde van deze workshop. -->
+## SvelteKit principes
+<!-- Leuke intro -->
 
 ### Aanpak
 <!-- We schrijven in principe geen tutorials maar helpen ze op weg. -->
