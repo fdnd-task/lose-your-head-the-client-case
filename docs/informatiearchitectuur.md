@@ -37,7 +37,8 @@ Zoek met je team online naar een definitie van Informatie Architectuur. Schrijf 
 ### 2. Sitemap
 Schets een sitemap van de verschillende pagina's van de opdracht die je deze week hebt gekregen (overzicht-, detail-, formulierpagina, etc ...).
 
-![Sitemap](sitemap.png)
+<img src="sitemap.png" width="400" alt="Sitemap">
+
 *Voorbeeld van een sitemap met paginanummers*
 
 **🛠️ Opdracht 2 (10 min)**  
@@ -94,7 +95,9 @@ graph TD
 3. Bedenk welke tabelen aan elkaar gerelateerd moeten zijn.
 4. Bespreek jullie datamodel met een docent en gebruik het om Directus in te richten.
 
-![Tabel in Directus](directus-tabel.png)
+
+<img src="directus-tabel.png" width="400" alt="Tabel in Directus">
+
 *Tabel in Directus met kolom namen.*
 
 
