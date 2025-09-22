@@ -25,7 +25,7 @@ Jullie gaan met een nieuw team samenwerken. Om heldere afspraken te kunnen maken
 *ProTip: Verwerk sterke kanten en jouw leervragen en maak heldere afspraken!*
 
 
-### Voorgestelde aanpak squadpage
+### Voorgestelde aanpak
 Semester 3 bereid je voor op de beroepspraktijk. Om die reden werken we serieuzer waarbij we gericht zijn op de werkwijze die je straks in je stagebedrijf of bij FDND-Agency ook gaat hanteren. Hoe meer je de voorgestelde werkwijze omarmt, hoe makkelijker je straks in een bedrijf mee kunt draaien.
 
 #### Analyseren
