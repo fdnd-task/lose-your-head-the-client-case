@@ -1,7 +1,6 @@
 # Lose Your Head - The Client Case
 
-Ontwerp en maak een website voor een opdrachtgever op basis van een Headless CMS API.
-
+Ontwerp en ontwikkel met een team een website voor een opdrachtgever, op basis van een headless CMS en een framework.
 
 ## Context
 
