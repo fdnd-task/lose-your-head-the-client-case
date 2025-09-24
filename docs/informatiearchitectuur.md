@@ -99,7 +99,7 @@ graph TD
 #### Extra bronnen
 
 - [Directus Data Model](https://docs.directus.io/app/data-model.html)
-- [Information architecture: A beginner’s guide)](https://www.wix.com/blog/information-architecture)
+- [Information architecture: A beginner’s guide](https://www.wix.com/blog/information-architecture)
 - [Information Architecture: Study Guide](https://www.nngroup.com/articles/ia-study-guide/)  
 - [Mermaid.js documentatie](https://mermaid.js.org/syntax/entityRelationshipDiagram.html)  
 - [Student onderzoek naar information architecture](https://blogs.city.ac.uk/sayici-inm452-2016/2017/01/07/inm401-information-architecture-coursework/)
