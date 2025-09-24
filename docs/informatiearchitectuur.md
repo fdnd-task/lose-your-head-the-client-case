@@ -10,7 +10,7 @@ IA helpt jullie: je maakt betere keuzes over data, navigatie en functionaliteit.
 ### Aanpak
 
 Jullie werken deze sprint aan een project voor een echte opdrachtgever. Elk project heeft een API en jullie bouwen samen een website.  
-Vandaag leer je om de informatie in kaart te brengen en te structureren. Dat doen we in 3 stappen:
+Vandaag leer je om de informatie in kaart te brengen en te structureren. Dat doen we in een aantal stappen:
 
 1. Wat is informatie architectuur?
 2. Sitemap
