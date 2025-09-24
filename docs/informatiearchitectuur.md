@@ -99,8 +99,7 @@ graph TD
 #### Extra bronnen
 
 - [Directus Data Model](https://docs.directus.io/app/data-model.html)
-- [Introductie Informatie Architectuur @ UX Collective](https://uxdesign.cc/what-is-information-architecture-92ce28a7f1db)  
-- [Informatie Architectuur basics (Nielsen Norman Group)](https://www.nngroup.com/articles/information-architecture-ia/)  
+- [Information architecture: A beginner’s guide)](https://www.wix.com/blog/information-architecture)  
 - [Mermaid.js documentatie](https://mermaid.js.org/syntax/entityRelationshipDiagram.html)  
 - [Student onderzoek naar information architecture](https://blogs.city.ac.uk/sayici-inm452-2016/2017/01/07/inm401-information-architecture-coursework/)
 
