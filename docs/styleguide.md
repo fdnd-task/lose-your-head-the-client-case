@@ -15,12 +15,14 @@ In deze workshop ga je een kleurenpallet samenstellen die je kan gebruiken voor 
 Een kleurenpallet bestaat uit verschillende kleuren die gebruikt kunnen worden in een ontwerp. Als je de kleuren voor een ontwerp goed vastlegt in een kleurenpalet zorg je ervoor dat het consistent kan worden toegepast.
 
 In styleguides zie je soms dat een kleurenpalet bestaat uit een primaire kleur, secundaire kleur en een aantal steunkleuren. Maar een goed webdesign kan je niet met 5 kleuren maken. er zijn veel meer kleuren nodig voor een goed ontwerp. 
-<img src="styleguide-you-need-more-colors-than-you-think.jpg">
+<img src="styleguide-you-need-more-colors-than-you-think.jpg"><br>
 _Een goed ontwerp heeft veel meer kleuren nodig dan een primaire kleur, secundaire kleur en een aantal steunkleuren - [Refactoring Ul](https://www.refactoringui.com) van Adam Wathan & Steve Schoger_
 
 ### Kleurenpallet samenstellen
 Een tip voor een goed bruikbaar kleurenpalet is: bepaal meerdere varianten per kleur. Omdat je in een ontwerp meer kleuren wil kunnen gebruiken dan alleen de volle kleuren.
-<img src="styleguide-color-palet-with-shades.jpg">
+
+<img src="styleguide-color-palet-with-shades.jpg"><br>
+
 Een kleurenpalet bestaat uit een primaire kleur, secundaire kleur, accent kleuren en een neutrale kleur voor achtergronden, lijnen, teksten en iconen. Per kleur heb je 5-10 lichtere en donkere varianten nodig waar je uit kan kiezen.
 
 #### Opdracht kleuren bepalen
@@ -35,8 +37,7 @@ Bepaal de primaire kleur, secundaire kleur, accent kleuren en neutrale kleur in 
 
 💡 Je kan donkere en lichte variatie maken door de _lightness_ in `HSL()` te veranderen, maar het kan mooier zijn om de _hue_ aan te passen, zodat je een warme, rijke kleurvariatie krijgt.
 
-<img src="styleguide-lightness-of-hue-variaties.jpg">
-
+<img src="styleguide-lightness-of-hue-variaties.jpg"><br>
 _Soms is het mooier om niet de lightness te veranderen maar de hue aan te passen - [Refactoring Ul](https://www.refactoringui.com) van Adam Wathan & Steve Schoge_
 
 #### Bronnen
@@ -53,6 +54,8 @@ Dark mode contrast en leesbaarheid.
 
 -->
 
+
+## Kleur in CSS
 
 <!--
 
