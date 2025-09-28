@@ -1,59 +1,114 @@
 # Lose Your Head - The Client Case
 
-## Styleguide
-Over het ontwerpen van de styleguide en (slimme) code conventies voor je project.
+## Styleguide en kleur
+
+Over het ontwerpen van een kleurenpalet voor de styleguide en (slimme) code conventies voor je project.
+
+Een styleguide is essentieel voor het begrijpen en toepassen van een huisstijl. Een styleguide geeft voorbeelden en uitleg over hoe iets eruit moet zien. Een styleguide helpt bij het ontwerpen en bouwen van een website, zodat de verschillende elementen consistent worden toegepast.
 
 ### Aanpak
+Voor het maken van een styleguide zul je eerst de verschillende onderdelen van de huisstijl in kaart moeten brengen, zoals typografie, beeldgebruikt, formulierelementen en navigatie. Dit doe je met een _Interface inventory_. Lees in de workshop [styleguide](https://github.com/fdnd-task/look-and-feel-corporate-identity/blob/main/docs/styleguide.md) uit sprint 4 hoe je dat doet
 
-<!-- Workshop over kleurgebruik, typografie, layout en compositie voord styleguide -->
+In deze workshop ga je een kleurenpallet samenstellen die je kan gebruiken voor styleguide van jouw. Daarna ga je met je team bedenken hoe je dit slim in code kan gebruiken in je project.
+
+## Kleurenpalet
+Een kleurenpallet bestaat uit verschillende kleuren die gebruikt kunnen worden in een ontwerp. Als je de kleuren voor een ontwerp goed vastlegt in een kleurenpalet zorg je ervoor dat het consistent kan worden toegepast.
+
+In styleguides zie je soms dat een kleurenpalet bestaat uit een primaire kleur, secundaire kleur en een aantal steunkleuren. Maar een goed webdesign kan je niet met 5 kleuren maken. er zijn veel meer kleuren nodig voor een goed ontwerp. 
+<img src="styleguide-you-need-more-colors-than-you-think.jpg">
+_Een goed ontwerp heeft veel meer kleuren nodig dan een primaire kleur, secundaire kleur en een aantal steunkleuren - [Refactoring Ul](https://www.refactoringui.com) van Adam Wathan & Steve Schoger_
+
+### Kleurenpallet samenstellen
+Een tip voor een goed bruikbaar kleurenpalet is: bepaal meerdere varianten per kleur. Omdat je in een ontwerp meer kleuren wil kunnen gebruiken dan alleen de volle kleuren.
+<img src="styleguide-color-palet-with-shades.jpg">
+Een kleurenpalet bestaat uit een primaire kleur, secundaire kleur, accent kleuren en een neutrale kleur voor achtergronden, lijnen, teksten en iconen. Per kleur heb je 5-10 lichtere en donkere varianten nodig waar je uit kan kiezen.
+
+#### Opdracht kleuren bepalen
+Alle teamleden maken in Figma dezelfde pagina met verschillende kleuren en/of kleurvariaties. Zorg dat je minimaal 3 verschillende versies hebt.
+
+Bespreek de verschillende versies en stel 1 ontwerp samen op basis van jullie beste ideeen en uitwerkingen. (Bewaar je variaties)
+
+#### Opdracht kleurvariaties bepalen
+Maak een overzicht van alle kleuren die jullie in het ontwerp hebben gebruikt.  
+
+Bepaal de primaire kleur, secundaire kleur, accent kleuren en neutrale kleur in `HSL()` waarden. Maak daarna 3 donkere varianten per kleur, en 3 lichte varianten per kleur. Zo heb je een kleurenpalet met 7 variaties per kleur.
+
+💡 Je kan donkere en lichte variatie maken door de _lightness_ in `HSL()` te veranderen, maar het kan mooier zijn om de _hue_ aan te passen, zodat je een warme, rijke kleurvariatie krijgt.
+
+<img src="styleguide-lightness-of-hue-variaties.jpg">
+
+_Soms is het mooier om niet de lightness te veranderen maar de hue aan te passen - [Refactoring Ul](https://www.refactoringui.com) van Adam Wathan & Steve Schoge_
+
+#### Bronnen
+
+
+[Refactoring Ul](https://www.refactoringui.com) van Adam Wathan & Steve Schoge
+
 
 <!--
-Sprint 4: 
 
-Interface inventory
+KLeur en toegankelijkheid. Waar moet je op letten? 
 
-Je begint met het in kaart brengen van alle onderdelen van de huisstijl en gemaakte websites. Het resultaat is een interface inventory, een verzameling van alle gemaakte interface elementen zoals typografie, images, media, buttons en andere formulier elementen.
+Dark mode contrast en leesbaarheid. 
 
-Jullie gaan met de studenten die dezelfde opdracht hebben de onderdelen van de huisstijl verzamelen in het Figma document van de opdrachtgever (of maak een gedeeld Figma bestand aan als die er nog niet is).
-Kopieer de artboards van de Interface Inventory template naar jullie Figma document, in een nieuwe Page, genaamd “Interface inventory”.
-Verzamel per categorie van de interface inventory alle gemaakte en gebruikte stijlen:
-Maak screenshots van alle onderdelen van de websites die jullie hebben gemaakt
-Maak screenshots van alle onderdelen van het aangeleverde ontwerp van de opdrachtgever
-Maak screenshots van alle onderdelen van de door jullie gemaakte Figma ontwerpen
-Bespreek de interface inventory met een mentor, zodat jullie een goed beeld krijgen van de verschillende onderdelen die in gebruik zijn.
-Voorbeeld van een Interface inventory van alle buttons die gebruikt worden op een bank website. Bron Interface Inventory van Brad Frost
-
-Styleguide samenstellen
-
-Nu je een inventarisatie hebt gemaakt van alle onderdelen kunnen jullie een styleguide maken. Bepaal voor de basiselementen kleur, typografie en formulier elementen hoe die eruit moeten zien, door deze stappen te volgen:
-
-Bespreek het verzamelde materiaal uit de interface inventory en onderzoek of je overeenkomsten kunt ontdekken tussen de verschillende huisstijl onderdelen.
-Kopieer de artboards van de Styleguide template naar jullie Figma document.
-Maak een ontwerp voor de verschillende huisstijl onderdelen:
-
-- Bepaal de verschillende kleuren voor de huisstijl in RGB of HSL formaat, maak een voorbeeld en schrijf een korte uitleg.
-Ditch RGB voor HSL
+-->
 
 
-- Bepaal alle typografische elementen zoals headings, text, links, lijsten en/of tabellen, ontwerp voorbeelden en schrijf een korte uitleg.
-Hier ook micro en macro typo noemen
+<!--
 
-- Bepaal de formulier elementen zoals buttons, inputs, selects en radio's, ontwerp voorbeelden en schrijf een korte uitleg.
+## CSS Color
+Over CSS color
+Op verschillende mogelijkheden wijzen. 
+HSL
+NIeuwe kleuren ... hoe heet dat eigenlijk? 
 
-- Layout en compositie
 
 
-Gedeelde Stylesheet maken
+Ontwikkeling van kleur in CSS
+Komma's. 
+Maar wat met fallback?
 
-Op basis van de styleguide gaan jullie een gezamenlijke stylesheet maken. Jullie gaan als team één stylesheet maken met de basis elementen van de huisstijl zoals de kleuren, typografie en formulier elementen. Later deze sprint ga je die misschien uitbreiden met meer gedeelde elementen. Zo zorg je ervoor dat op verschillende websites de huisstijl consistent wordt toegepast.
 
-Slechts één teamlid forkt de repo 'Look and Feel - Styleguide' voor deze opdracht. Deze persoon voegt de teamleden toe als 'Collaborators': Ga naar de settings van de repository, klik op collaborators en voeg de GitHub accounts van de overige teamleden toe.
-Nu kunnen alle teamleden samenwerken op die repository, door deze allemaal te clonen (downloaden). Alle teamleden kunnen nu op hun eigen computer onderdelen van de website coderen, en hun aanpassingen en wijzigingen committen en pushen naar jullie gezamenlijke repository.
-Hernoem het CSS file projectnaam.css naar jouw opdrachtgever (red-pers.css, dda.css, etc.). Hier gaan jullie de CSS schrijven voor de huisstijl. Het begin van de HTML staat al klaar.
-Ontwerp en maak de CSS voor de huisstijl onderdelen, overleg met het team hoe jullie de CSS classes gaan noemen. Schrijf de afspraken over bijvoorbeeld classnames en code conventies op het whiteboard.
-Beschrijf in de Readme alle onderdelen van de styleguide en hoe de code in de stylesheet kan worden toegepast.
-Zet de gezamenlijke stylesheet live door de repo te publiceren met GitHub pages.
-Gebruik de gezamenlijke stylesheet in je eigen project en pas je code aan, zodat je de nieuwe classes gebruikt. Jouw CSS zal kleiner worden, omdat een deel al in de gezamenlijke stylesheet staat.
-Zorg dat jullie veranderingen in de styleguide bijhouden met issues, zodat iemand uit het team het kan aanpassen.
+Ditch RGB for HSL
+
+
+### HSL
+Color wheel. 
+
+Code voorbeeld met custom properties. 
+
+
+
+### Nieuwe kleuren
+
+
+### Darkmode
+
+Color-scheme
+Fall back?
+
+Dark color toegankelijkheid
+
+Relative color
+
+
+### Fallback
+
+
+
+### Toegankelijkheid
+
+
+
+
+
+#### Bronnen
+
+HSL color wheel
+https://codepen.io/websanity/pres/QWNMRq
+
+On Switching from HEX & RGB to HSL
+https://www.sarasoueidan.com/blog/hex-rgb-to-hsl/
+
 
 -->
