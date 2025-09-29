@@ -9,7 +9,7 @@ Over projectmethodiek, standup en de Scrum methode.
 
 Bij elk project rijst dezelfde vraag: **hoe organiseer je het werk zodat iedereen weet wat er moet gebeuren, wanneer het klaar moet zijn, en hoe je samen waarde oplevert?**  
 
-Daar zijn door de jaren heen verschillende projectmethodieken voor ontwikkeld: van klassieke methodes tot modernere methodes waarbij je stap voor stap waarde toevoegt.
+Daar zijn door de jaren heen verschillende projectmethodieken voor ontwikkeld: van klassieke methodes tot moderne methodes.
 
 Vandaag onderzoeken jullie eerst de verschillende methodieken die er bestaan, daarna zoomen we in op Scrum, omdat we die binnen FDND gebruiken.  
 
