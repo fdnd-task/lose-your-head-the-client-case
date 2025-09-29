@@ -7,16 +7,16 @@ Een styleguide is essentieel voor het begrijpen en toepassen van een huisstijl. 
 ### Aanpak
 Voor het maken van een styleguide breng je eerst de verschillende onderdelen van de huisstijl in kaart, zoals typografie, beeldgebruikt, formulierelementen en navigatie. Dit doe je met een _Interface inventory_. Lees in de workshop [styleguide](https://github.com/fdnd-task/look-and-feel-corporate-identity/blob/main/docs/styleguide.md) uit sprint 4 hoe je dat doet
 
-In deze workshop ga je met je team een kleurenpallet samenstellen om te gebruiken voor de styleguide van jouw opdracht. Daarna ga je bedenken hoe je dit slim in code kan opzetten.
+In deze workshop ga je met je team een kleurenpalet samenstellen om te gebruiken voor de styleguide van jouw opdracht. Daarna ga je bedenken hoe je dit slim in code kan opzetten.
 
 ## Kleurenpalet
-Een kleurenpallet bestaat uit verschillende kleuren die gebruikt kunnen worden in een ontwerp. Als je de kleuren voor een ontwerp goed vastlegt in de styleguide kan je met je team goede afspraken maken en zorg je ervoor dat het ontwerp consistent kan worden toegepast.
+Een kleurenpalet bestaat uit verschillende kleuren die gebruikt kunnen worden in een ontwerp. Als je de kleuren voor een ontwerp goed vastlegt in de styleguide kan je met je team goede afspraken maken en zorg je ervoor dat het ontwerp consistent kan worden toegepast.
 
 In styleguides zie je soms dat een kleurenpalet bestaat uit een paar kleuren. Maar een goed webdesign kan je niet met 5 kleuren maken. er zijn veel meer kleuren nodig voor een goed ontwerp. 
 <img src="styleguide-you-need-more-colors-than-you-think.jpg"><br>
-_Een goed ontwerp heeft veel meer kleuren nodig - [Refactoring Ul](https://www.refactoringui.com) van Adam Wathan & Steve Schoger_
+_Een goed ontwerp heeft veel meer kleuren nodig - [Refactoring UI](https://www.refactoringui.com) van Adam Wathan & Steve Schoger_
 
-### Kleurenpallet samenstellen
+### Kleurenpalet samenstellen
 Een tip voor een goed bruikbaar kleurenpalet is: bepaal meerdere donkeren en lichte varianten per kleur. Zo kan je in een ontwerp meer kleuren gebruiken dan alleen de volle kleuren.
 
 <img src="styleguide-color-palet-with-shades.jpg"><br>
@@ -36,7 +36,7 @@ Bepaal de primaire kleur, secundaire kleur, accent kleuren en neutrale kleur in 
 💡 Je kan donkere en lichte variatie maken door de _lightness_ in `HSL()` te veranderen, maar het kan mooier zijn om de _hue_ aan te passen, zodat je een warme, rijke kleurvariatie krijgt.
 
 <img src="styleguide-lightness-of-hue-variaties.jpg"><br>
-_Soms is het mooier om niet de lightness te veranderen maar de hue aan te passen - [Refactoring Ul](https://www.refactoringui.com) van Adam Wathan & Steve Schoge_
+_Soms is het mooier om niet de lightness te veranderen maar de hue aan te passen - [Refactoring UI](https://www.refactoringui.com) van Adam Wathan & Steve Schoge_
 
 #### Opdracht light/darkmode
 Ontwerp allemaal een dark-mode versie (of light-mode als je al een donkere versie hebt). Alle teamleden maken in Figma dezelfde pagina met dark-mode kleuren. Zorg dat je minimaal 3 verschillende versies hebt, bespreek de verschillende versies en stel 1 ontwerp samen op basis van jullie beste ideeen en uitwerkingen. (Bewaar je variaties)
@@ -63,7 +63,7 @@ Using the same amount of leading throughout your page will help to create a sens
 
 #### Bronnen
 
-[Refactoring Ul](https://www.refactoringui.com) van Adam Wathan & Steve Schoge
+[Refactoring UI](https://www.refactoringui.com) van Adam Wathan & Steve Schoge
 
 [Practical UI](https://www.practical-ui.com) van Adham Dannaway
 
