@@ -70,96 +70,107 @@ Using the same amount of leading throughout your page will help to create a sens
 [6 Mistakes to Avoid in Dark UI Design](https://supercharge.design/articles/6-mistakes-to-avoid-in-dark-ui-design)
 
 
-<!--
 ## Color in CSS
 
-CSS code voor de styleguide
+Er zijn veel verschillende manieren om kleur in CSS te definieren. [CSS named color](https://css-tricks.com/snippets/css/named-colors-and-hex-equivalents/), [Hex](https://developer.mozilla.org/en-US/docs/Web/CSS/hex-color), [RGB](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/rgb), [HSL](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/hsl), om er maar een paar te noemen.
 
-Kleur in CSS
+Sinds [CSS Color Module Level 4](https://www.w3.org/TR/css-color-4/) is de syntax voor kleurendefinitie veranderd. Er zijn bijvoorbeeld geen komma's meer nodig voor rgb() en hsl() `color: hsl(180deg, 100%, 50%)` kan nu zo: `color: hsl(180deg 100% 50%)`. Dit wordt ondersteund door een goede baseline van moderne browsers. Maar wat betekent dat eigenlijk voor oude browsers?
 
-### andere kleuren paletten/...
-Vibrant colors 
+Hieronder krijg je een aantal tips en vragen voor kleur in CSS. Dit kan je gebruiken voor de code afspraken die jullie gaan maken voor de styleguide van jullie opdracht. 
 
 ### HSL()
 
-Code voorbeeld met custom properties
+Een meer intuitieve manier van kleur definieren is met `hsl()`, in plaats van rgb waardes wordt een kleur gedefinieerd door de _hue_, _saturation_ en _lightness_.  
 
-HSL color wheel
-https://codepen.io/websanity/pres/QWNMRq
+<img src="styleguide-hsl-color-wheel.jpg"><br>
+_[HSL color wheel Codepen](https://codepen.io/websanity/pres/QWNMRq) van WebSanity_
 
-On Switching from HEX & RGB to HSL
-https://www.sarasoueidan.com/blog/hex-rgb-to-hsl/
+`hsl()` geeft niet alleen een meer gevoelsmatige manier van kleuren definieren. Het zorgt er ook voor dat je met behulp van custom properties verschillende states van een button kan coderen. 
+
+```css
+button {
+  --h: 100; 
+  --s: 50%; 
+  --l: 50%; 
+  --a: 1; 
+  background: hsl(var(--h) var(--s) var(--l) / var(--a)); 
+  
+  &:hover {
+    --l: 75%;  /* Change lightness */ 
+  }
+  
+  &:focus, &:active  {  
+    --s: 75%;  /* Change saturation */ 
+  }
+  
+  &[disabled] {   
+    --s: 0%; /* Make look disabled */
+    --a: 0.5; 
+  }
+}
+```
+
+💡 Dit is een interessant artikel van Sara Soueidan over waarom zij `hsl()` is gaan  gebruiken: 
+[On Switching from HEX & RGB to HSL](https://www.sarasoueidan.com/blog/hex-rgb-to-hsl/)
 
 
+### New CSS Color Functions
+Sinds een paar jaar zijn er meer manieren om kleuren te definineren bijgekomen. Zoals `lab()` en `lch()`. Niet alleen zijn het andere manieren om kleuren te definieren, hiermee kan je ook meer kleuren laten zien dan met `rgb()` en `hsl()`.
+
+<img src="styleguide-hsl-lchl.avif">
+
+💡 Lees meer over deze Color Functions op Smashing magazine: https://www.smashingmagazine.com/2021/11/guide-modern-css-colors/
+
+Omdat schermen steeds beter worden en meer kleuren kunnen laten zien zijn er nieuwe 'color spaces' bedacht zoals `Display-P3`. Als een gebruiker een modern scherm heeft dan kan je een veel mooiere, heldere en fellere kleuren tonen. 
+
+<img src="styleguide-display-p3.jpg"><br>
+_het kleurenspectrum van Display-P3 is een stuk groter dan van rgb_
+
+💡 Lees meer over New CSS Color Features op CSS Tricks, met uitleg en code voorbeelden: https://css-tricks.com/new-css-color-features-preview/
+
+Kan jouw scherm deze kleuren laten zien? Hoe zit het met browser ondersteuning? Hoe zou je dit kunnen gebruiken voor jullie opdracht?
 
 
-### light-dark shorthand
-Color scheme?
+### light-dark() color function
 
+Met de `light-dark()` color function kan je met een shorthand twee kleuren bepalen die worden getoond als een _light_ of _dark_ mode aan staat ingesteld. 
 
+```css
+:root {
+  color-scheme: light dark;
+}
+body {
+  color: light-dark(#333b3c, #efefec);
+  background-color: light-dark(#efedea, #223a2c);
+}
+```
 
-
-### Relative color syntax
-
-
-
-### Fallback
-Paar vragen neerleggen voor studenten om over na te denken en strategie uit te zetten:
-
-Hoe zit het met de comma's in RGB(,,) of in HSL?
-en browsers?
-
-
-
-
-
--->
+Probeer het zelf: https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/light-dark
 
 
 <!--
+### Relative color syntax
 
-## CSS Color
-Over CSS color
-Op verschillende mogelijkheden wijzen. 
-HSL
-NIeuwe kleuren ... hoe heet dat eigenlijk? 
+https://frontendmasters.com/blog/relative-color-syntax-basic-use-cases/
+-->
 
-Ontwikkeling van kleur in CSS
-Komma's. 
-Maar wat met fallback?
+### WCAG 3
 
+In WCAG 3 komt een nieuwe manier van om te meten of teksten goed leesbaar zijn op een achtergondkleur.  APCA (Advanced Perceptual Contrast Algorithm). De methode kijkt verder dan licht-donker contrast en houdt rekening met hoe mensen contrast daadwerkelijk ervaren.
 
-Ditch RGB for HSL
+<img src="styleguide-apca.png"><br>
+_Hier kan je de verschillen zien tussen WCAG2 en ACPA contrast test_
 
+💡 Vind je dit interessant en wil je er meer over lezen? Lees hier wat je hiermee kan doen: 
+https://rox.nl/blog/apca-vervangt-wcag2-contrast
 
-### HSL
-Color wheel. 
+<!-- https://typefully.com/DanHollick/wcag-3-and-apca-sle13GMW2Brp -->
 
-Code voorbeeld met custom properties. 
-
-
-
-### Nieuwe kleuren
-
-
-### Darkmode
-
-Color-scheme
-Fall back?
-
-Dark color toegankelijkheid
-
-Relative color
 
 
 ### Fallback
+CSS is constant in ontwikkeling. Er zijn hele vette kleuren technieken bijgekomen, de notaties veranderen, browsers veranderen ... wat betekent dat voor de toegankelijkheid? Hoe bouw je robuste CSS én omarm je de veranderingen?
 
+Zo is het bijvoorbeeld niet meer nodig om kommas te gebruiken in rgb() en hsl() functies. En sinds een jaar ondersteuenen alle grote moderen browsers dit. Maar niet iederen heeft een moderne browser. De meeste mensen weten niet eens wat die zin betekent ... 
 
-
-### Toegankelijkheid
-
-
-
-
-
--->
+Bedenk een CSS strategie waarmee je de nieuwe kleurenschema's en ontwikkelingen kan gebruiken, terwijl de moeder van Koop nog steeds de website goed genoeg kan gebruiken.
