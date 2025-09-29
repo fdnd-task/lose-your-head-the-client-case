@@ -17,7 +17,7 @@ In styleguides zie je soms dat een kleurenpalet bestaat uit een paar kleuren. Ma
 _Een goed ontwerp heeft veel meer kleuren nodig - [Refactoring UI](https://www.refactoringui.com) van Adam Wathan & Steve Schoger_
 
 ### Kleurenpalet samenstellen
-Een tip voor een goed bruikbaar kleurenpalet is: bepaal meerdere donkeren en lichte varianten per kleur. Zo kan je in een ontwerp meer kleuren gebruiken dan alleen de volle kleuren.
+Een tip voor een goed bruikbaar kleurenpalet is: bepaal meerdere donkere en lichte varianten per kleur. Zo kan je in een ontwerp meer kleuren gebruiken dan alleen de volle kleuren.
 
 <img src="styleguide-color-palet-with-shades.jpg"><br>
 
