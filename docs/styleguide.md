@@ -7,16 +7,16 @@ Een styleguide is essentieel voor het begrijpen en toepassen van een huisstijl. 
 ### Aanpak
 Voor het maken van een styleguide breng je eerst de verschillende onderdelen van de huisstijl in kaart, zoals typografie, beeldgebruikt, formulierelementen en navigatie. Dit doe je met een _Interface inventory_. Lees in de workshop [styleguide](https://github.com/fdnd-task/look-and-feel-corporate-identity/blob/main/docs/styleguide.md) uit sprint 4 hoe je dat doet
 
-In deze workshop ga je met je team een kleurenpallet samenstellen om te gebruiken voor de styleguide van jouw opdracht. Daarna ga je bedenken hoe je dit slim in code kan opzetten.
+In deze workshop ga je met je team een kleurenpalet samenstellen om te gebruiken voor de styleguide van jouw opdracht. Daarna ga je bedenken hoe je dit slim in code kan opzetten.
 
 ## Kleurenpalet
-Een kleurenpallet bestaat uit verschillende kleuren die gebruikt kunnen worden in een ontwerp. Als je de kleuren voor een ontwerp goed vastlegt in de styleguide kan je met je team goede afspraken maken en zorg je ervoor dat het ontwerp consistent kan worden toegepast.
+Een kleurenpalet bestaat uit verschillende kleuren die gebruikt kunnen worden in een ontwerp. Als je de kleuren voor een ontwerp goed vastlegt in de styleguide kan je met je team goede afspraken maken en zorg je ervoor dat het ontwerp consistent kan worden toegepast.
 
 In styleguides zie je soms dat een kleurenpalet bestaat uit een paar kleuren. Maar een goed webdesign kan je niet met 5 kleuren maken. er zijn veel meer kleuren nodig voor een goed ontwerp. 
 <img src="styleguide-you-need-more-colors-than-you-think.jpg"><br>
 _Een goed ontwerp heeft veel meer kleuren nodig - [Refactoring Ul](https://www.refactoringui.com) van Adam Wathan & Steve Schoger_
 
-### Kleurenpallet samenstellen
+### Kleurenpalet samenstellen
 Een tip voor een goed bruikbaar kleurenpalet is: bepaal meerdere donkeren en lichte varianten per kleur. Zo kan je in een ontwerp meer kleuren gebruiken dan alleen de volle kleuren.
 
 <img src="styleguide-color-palet-with-shades.jpg"><br>
