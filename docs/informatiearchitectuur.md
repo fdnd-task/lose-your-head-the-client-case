@@ -42,6 +42,8 @@ Schets een sitemap van de verschillende pagina's van de opdracht die je deze wee
 
 **🛠️ Opdracht 2 (10 min)**
 
+Doe deze oefening op het whiteboard. 
+
 1. Schrijf bovenaan de sitemap de ontwerpvraag van de opdrachtgever.
 2. Onderzoek welke pagina's de website moet krijgen. Gebruik de briefing die je hebt gehad, de documentatie en/of het design dat je hebt gekregen.
 3. Teken de homepage bovenaan en geef deze pagina nummer 0. Teken daarna alle pagina's die onder de homepage vallen, geef ze een titel en een nummer. Teken daarna de pagina's die een niveau dieper horen en geef ze de nummers 1.1, 1.2, ... of 2.1, 2.2, ... als ze onder pagina 2.0 vallen. Teken een niveau dieper als er nog meer pagina's zijn, pas de nummering aan, trek lijnen, etc ...
@@ -57,6 +59,8 @@ Wie is jouw eindgebruiker? Wie gaat het project gebruiken? Bedenk wat een doel k
 *Voorbeeld van een user journey dmv een schets*
 
 **🛠️ Opdracht 3 (10 min)**
+
+Doe deze oefening op het whiteboard. 
 
 1. Maak één user journey voor jouw eindgebruiker
 2. Geef op een duidelijke manier aan wat de stappen zijn
@@ -87,6 +91,8 @@ graph TD
 
 **🛠️ Opdracht 5 (30 min)**
 
+Doe deze oefening op het whiteboard. 
+
 1. Bedenk aan de hand van de wireframes, sitemap en user journey wat voor tabellen jouw project nodig heeft. Let op data die wordt herhaald (zoals de artikelen, schrijver en onderwerpen uit het voorbeeld hierboven).
 2. Schets een datamodel; bedenk logische titels voor de tabellen, noteer de kolom naam en de datatypes.
 3. Bedenk welke tabelen aan elkaar gerelateerd moeten zijn.
@@ -104,11 +110,13 @@ graph TD
 - [Mermaid.js documentatie](https://mermaid.js.org/syntax/entityRelationshipDiagram.html)  
 - [Student onderzoek naar information architecture](https://blogs.city.ac.uk/sayici-inm452-2016/2017/01/07/inm401-information-architecture-coursework/)
 
+
 ### 💪 Extra uitdagingen
 
 - Maak een conventie voor je datamodel (bijv. dat je het up-to-date houdt als inzichten veranderen) en beschrijf dat in `CONTRIBUTING.md`
 - Vergelijk jullie datamodel met het model van andere teams: wat valt je op?
-- Maak de sitemap, user journey en datamodel in [mermaid.live](https://mermaid.live/edit) en voeg die toe aan je `README.md`
+- Maak de sitemap, user journey en datamodel in [mermaid.live](https://mermaid.live/edit) of [PlantUML](https://www.plantuml.com/plantuml) en voeg die toe aan je `README.md`
+
 
 ### ✒️ Leervragen
 
