@@ -171,6 +171,6 @@ https://rox.nl/blog/apca-vervangt-wcag2-contrast
 ### Fallback
 CSS is constant in ontwikkeling. Er zijn hele vette kleuren technieken bijgekomen, de notaties veranderen, browsers veranderen ... wat betekent dat voor de toegankelijkheid? Hoe bouw je robuste CSS én omarm je de veranderingen?
 
-Zo is het bijvoorbeeld niet meer nodig om kommas te gebruiken in rgb() en hsl() functies. En sinds een jaar ondersteuenen alle grote moderen browsers dit. Maar niet iederen heeft een moderne browser. De meeste mensen weten niet eens wat die zin betekent ... 
+Zo is het bijvoorbeeld niet meer nodig om kommas te gebruiken in `rgb()` en `hsl()` functies. En sinds een jaar ondersteunen alle grote moderen browsers dit. Maar niet iedereen heeft een moderne browser. De meeste "normale" mensen weten niet eens wat deze zin betekent ... 
 
-Bedenk een CSS strategie waarmee je de nieuwe kleurenschema's en ontwikkelingen kan gebruiken, terwijl de moeder van Koop nog steeds de website goed genoeg kan gebruiken.
+Bedenk voor jullie styleguide een CSS strategie waarmee je de nieuwe kleurenschema's en ontwikkelingen kan gebruiken, terwijl de moeder van Koop nog steeds de website goed genoeg kan gebruiken.
