@@ -50,7 +50,16 @@ _Zwart heeft 0% brightness en wit 100%, dit contrast kan onprettig zijn om naar 
 
 <img src="styleguide-color-and-leading.jpg">
 
+<!-- 
+Ik weet deze bron niet meer. Dit is de bijhorende tekst: 
 
+6. Know the connection between color and leading
+Contrast and color are extremely important when choosing line heights, and distance between letters. On darker backgrounds, most professional designers will recommend using more leading than on a lighter background. 
+
+Dark colors can add weight to a design, like tight leading. Try to avoid jumping between different leading options from one part of your webpage to the next. 
+
+Using the same amount of leading throughout your page will help to create a sense of balance. Remember, the contrast between your background and text colors should be high to support better readability. Although, if you’re using two colors closer together in shade, a greater amount of leading may improve legibility. 
+-->
 
 #### Bronnen
 
@@ -58,14 +67,8 @@ _Zwart heeft 0% brightness en wit 100%, dit contrast kan onprettig zijn om naar 
 
 [Practical UI](https://www.practical-ui.com) van Adham Dannaway
 
+[6 Mistakes to Avoid in Dark UI Design](https://supercharge.design/articles/6-mistakes-to-avoid-in-dark-ui-design)
 
-<!--
-
-KLeur en toegankelijkheid. Waar moet je op letten? 
-
-Dark mode contrast en leesbaarheid. 
-
--->
 
 <!--
 ## CSS code voor de styleguide
