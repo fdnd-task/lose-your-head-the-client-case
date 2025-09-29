@@ -115,13 +115,13 @@ button {
 
 
 ### New CSS Color Functions
-Sinds een paar jaar zijn er meer manieren om kleuren te definineren bijgekomen. Zoals `lab()` en `lch()`. Hiermee kan je ook meer kleuren laten zien dan met `rgb()` en `hsl()`.
+Sinds een paar jaar zijn er meerdetr kleuren functies bijgekomen. Zoals `lab()` en `lch()`. Hiermee kan je ook meer kleuren laten zien dan met `rgb()` en `hsl()`.
 
 <img src="styleguide-hsl-lchl.avif">
 
 💡 Lees meer over deze Color Functions op Smashing magazine: https://www.smashingmagazine.com/2021/11/guide-modern-css-colors/
 
-Omdat schermen steeds beter worden en meer kleuren kunnen laten zien zijn er nieuwe 'color spaces' bedacht zoals `Display-P3`. Als een gebruiker een modern scherm heeft dan kan je een veel mooiere, heldere kleuren tonen. 
+Omdat schermen steeds beter worden en meer kleuren kunnen laten zien zijn er nieuwe 'color spaces' bedacht zoals `Display-P3`. Als een gebruiker een modern scherm heeft dan kan je veel mooiere, heldere kleuren tonen. 
 
 <img src="styleguide-display-p3.jpg"><br>
 _het kleurenspectrum van Display-P3 is een stuk groter dan van rgb_
@@ -133,7 +133,7 @@ _het kleurenspectrum van Display-P3 is een stuk groter dan van rgb_
 
 ### light-dark() color function
 
-Met de `light-dark()` color function kan je met een shorthand twee kleuren bepalen die worden getoond als een _light_ of _dark_ mode aan staat ingesteld. 
+Met de `light-dark()` color function kan je met een shorthand twee kleuren bepalen die worden getoond als een _light_ of _dark_ mode staat ingesteld. 
 
 ```css
 :root {
@@ -156,7 +156,7 @@ https://frontendmasters.com/blog/relative-color-syntax-basic-use-cases/
 
 ### WCAG 3
 
-In WCAG 3 komt een nieuwe manier van om te meten of teksten goed leesbaar zijn op een achtergondkleur.  APCA (Advanced Perceptual Contrast Algorithm). De methode kijkt verder dan licht-donker contrast en houdt rekening met hoe mensen contrast daadwerkelijk ervaren.
+In WCAG 3 komt een nieuwe manier om te meten of teksten goed leesbaar zijn op een achtergondkleu: APCA (Advanced Perceptual Contrast Algorithm). Deze methode kijkt verder dan licht-donker contrast en houdt rekening met hoe mensen contrast daadwerkelijk ervaren.
 
 <img src="styleguide-apca.png"><br>
 _Hier kan je de verschillen zien tussen WCAG2 en ACPA contrast test_
@@ -173,4 +173,4 @@ CSS is constant in ontwikkeling. Er zijn hele vette kleuren technieken bijgekome
 
 Zo is het bijvoorbeeld niet meer nodig om kommas te gebruiken in `rgb()` en `hsl()` functies. En sinds een jaar ondersteunen alle grote moderen browsers dit. Maar niet iedereen heeft een moderne browser. De meeste "normale" mensen weten niet eens wat deze zin betekent ... 
 
-👉 Bedenk voor jullie styleguide een CSS strategie waarmee je de nieuwe kleurenschema's en ontwikkelingen kan toepassen, terwijl de moeder van Koop nog steeds de website goed genoeg kan gebruiken.
+👉 Bedenk voor jullie styleguide een CSS strategie waarmee je de nieuwe kleurenschema's en ontwikkelingen kan toepassen, terwijl de moeder van Koop nog steeds de website goed kan bekijken.
