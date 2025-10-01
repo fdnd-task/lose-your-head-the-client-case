@@ -23,7 +23,7 @@ Deze leertaak wordt behandeld in Sprint 14. er worden verschillende workshops aa
 - [Sprint Planning](sprint-planning.md)
 - [Informatiearchitectuur ](informatiearchitectuur.md)
 - [Code/Design-review - week 1](code-design-review-week-1.md)
-- [Styleguide](styleguide.md)
+- [Styleguide en kleur](styleguide.md)
 - [Projectinrichting](projectinrichting.md)
 - [Code/Design-review - week 2](code-design-review-week-2.md)
 - [Sveltekit principes](sveltekit-principes.md)
