@@ -147,6 +147,7 @@ body {
 
 Probeer het zelf: https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/light-dark
 
+👉 Dit kan je gebruiken voor de code afspraken voor jullie opdracht.
 
 <!--
 ### Relative color syntax
@@ -156,7 +157,7 @@ https://frontendmasters.com/blog/relative-color-syntax-basic-use-cases/
 
 ### WCAG 3
 
-In WCAG 3 komt een nieuwe manier om te meten of teksten goed leesbaar zijn op een achtergondkleu: APCA (Advanced Perceptual Contrast Algorithm). Deze methode kijkt verder dan licht-donker contrast en houdt rekening met hoe mensen contrast daadwerkelijk ervaren.
+In WCAG 3 komt een nieuwe manier om te meten of teksten goed leesbaar zijn op een achtergondkleur: APCA (Advanced Perceptual Contrast Algorithm). Deze methode kijkt verder dan licht-donker contrast en houdt rekening met hoe mensen contrast daadwerkelijk ervaren.
 
 <img src="styleguide-apca.png"><br>
 _Hier kan je de verschillen zien tussen WCAG2 en ACPA contrast test_
