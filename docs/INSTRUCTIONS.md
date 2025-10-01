@@ -11,10 +11,6 @@ Deze leertaak hoort bij sprint 14: Lose your Head. Dit is een opdracht die je in
 Je leert hoe je aan de hand van een user story een (gedeelte van een) website kan ontwerpen en bouwen op basis van een headless CMS.
 
 ## Werkwijze
-Bij elke leertaak wordt de development-lifecycle doorlopen. Hierdoor ontwikkel je een standaard aanpak voor frontend praktijkvraagstukken, werk je systematisch aan leertaken, ervaar je de relevantie van het geleerde en verwerf je de kennis, houding en vaardigheden die de beroepspraktijk van je vraagt.
-De development lifecycle kent de volgende stappen:
-
-## Werkwijze
 
 Deze sprint begin met de opdracht voor een opdrachtgever. Je kiest een project en daarna krijg je een briefing waarin de opdrachtgever de opdracht toelicht. Je gaat hier de komende 5 sprints aan werken met een team van 3. 
 
