@@ -75,7 +75,7 @@ Er zijn veel verschillende manieren om kleur in CSS te definieren. [CSS named co
 
 Sinds [CSS Color Module Level 4](https://www.w3.org/TR/css-color-4/) is de syntax voor kleurendefinitie veranderd. Er zijn bijvoorbeeld geen komma's meer nodig voor rgb() en hsl() `color: hsl(180deg, 100%, 50%)` kan nu zo: `color: hsl(180deg 100% 50%)`. Dit wordt ondersteund door een goede baseline van moderne browsers. Maar wat betekent dat eigenlijk voor oude browsers?
 
-👉 Hieronder krijg je een aantal tips en vragen voor kleur in CSS. Dit kan je gebruiken voor de code afspraken die jullie gaan maken voor de styleguide van jullie opdracht. 
+👉 Hieronder krijg je een aantal tips en vragen voor kleur in CSS. Dit kan je gebruiken voor de code afspraken die jullie gaan maken voor de styleguide van jullie opdracht.  <!-- Het zou heel mooi zijn om in het gemaakte werk in semester 3 dit soort zaken terug te zien in de styleguide en code afspraken-->
 
 ### HSL()
 
@@ -118,7 +118,8 @@ button {
 ### New CSS Color Functions
 Sinds een paar jaar zijn er meerdere kleuren functies bijgekomen. Zoals `lab()` en `lch()`. Hiermee kan je ook meer kleuren laten zien dan met `rgb()` en `hsl()`.
 
-<img src="styleguide-hsl-lchl.avif">
+<img src="styleguide-hsl-lchl.avif"><br>
+_lch-kleuren worden anders opgebouwd dan bijvorbeeld hsl-kleuren, dat geeft soms mooiere en frissere kleuren_
 
 Omdat schermen steeds beter worden en meer kleuren kunnen laten zien zijn er nieuwe 'color spaces' bedacht zoals `Display-P3`. Als een gebruiker een modern scherm heeft dan kan je veel mooiere, heldere kleuren tonen. 
 
@@ -126,6 +127,7 @@ Omdat schermen steeds beter worden en meer kleuren kunnen laten zien zijn er nie
 _het kleurenspectrum van Display-P3 is een stuk groter dan van rgb_
 
 👉 Kan jouw scherm deze kleuren laten zien? Hoe zit het met browser ondersteuning? Hoe zou je dit kunnen gebruiken voor jullie opdracht?
+<!-- Het zou heel mooi zijn als een student ziet dat lch veel 'mooier' is dan hsl, waarom dan geen lch() gebruikenin plaats van hsl()? Ga maar onderzoeken hoe zit het met de ondersteuning door browsers en devices? En doe een suggestie voor jullie styleguide -->
 
 #### Extra bronnen
 - CSS Tricks over New CSS Color Features, met uitleg en code voorbeelden: https://css-tricks.com/new-css-color-features-preview/
