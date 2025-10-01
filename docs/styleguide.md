@@ -48,7 +48,8 @@ _Zwart heeft 0% brightness en wit 100%, dit contrast kan onprettig zijn om naar 
 
 💡 Let op dat de leesbaarheid van teksten in dark mode kan veranderen. Witte tekst op een donkere achtergrond heeft meer line-height nodig dan donkere tekst op een witte achtergrond. Probeer dit maar eens uit in jullie Figma ontwerp. 
 
-<img src="styleguide-color-and-leading.jpg">
+<img src="styleguide-color-and-leading.jpg"><br>
+_Dit voorbeeld laat zien dat een lichte tekst op een donkere achtergrond een grotere regelafstand nodig heeft._
 
 <!-- 
 Ik weet deze bron niet meer. Dit is de bijhorende tekst: 
