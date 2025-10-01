@@ -7,9 +7,9 @@ Een styleguide is essentieel voor het begrijpen en toepassen van een huisstijl. 
 ### Aanpak
 Voor het maken van een styleguide breng je eerst de verschillende onderdelen van de huisstijl in kaart, zoals typografie, beeldgebruik, formulierelementen en navigatie. Dit doe je met een _Interface inventory_. Lees in de workshop [styleguide](https://github.com/fdnd-task/look-and-feel-corporate-identity/blob/main/docs/styleguide.md) uit Sprint 4 hoe je dat doet
 
-In deze workshop ga je met je team een kleurenpalet samenstellen om te gebruiken voor de styleguide van jouw opdracht. Daarna ga je bedenken hoe je dit slim in code kan opzetten.
+In deze workshop ga je met je team een kleurenpalet samenstellen om te gebruiken voor de styleguide van jouw opdracht. Daarna ga je bedenken hoe je dit slim in code kan opzetten met behulp van een aantal (moderne) tips over kleur in CSS.
 
-## Kleurenpalet
+## Kleurenpalet samenstellen
 Een kleurenpalet bestaat uit verschillende kleuren die gebruikt kunnen worden in een ontwerp. Als je de kleuren voor een ontwerp goed vastlegt in de styleguide kan je met je team goede afspraken maken en zorg je ervoor dat het ontwerp consistent kan worden toegepast.
 
 In styleguides zie je soms dat een kleurenpalet bestaat uit een paar kleuren. Maar een goed webdesign kan je niet met 5 kleuren maken. Er zijn veel meer kleuren nodig voor een goed ontwerp. 
@@ -23,12 +23,12 @@ Een tip voor een goed bruikbaar kleurenpalet is: bepaal meerdere donkere en lich
 
 Een kleurenpalet bestaat meestal uit een primaire kleur, secundaire kleur (of contrast kleur), accent kleuren en een neutrale kleur voor achtergronden, lijnen, teksten of iconen. Per kleur heb je 5–10 lichtere en donkere varianten nodig waar je uit kan kiezen.
 
-#### Opdracht kleuren bepalen
+#### 🛠️ Opdracht: Kleuren bepalen
 Alle teamleden maken in Figma dezelfde pagina met verschillende kleuren en/of kleurvariaties. Zorg dat je minimaal 3 verschillende versies hebt.
 
 Bespreek de verschillende versies en stel 1 ontwerp samen op basis van jullie beste ideeen en uitwerkingen. (Bewaar je variaties)
 
-#### Opdracht kleurvariaties bepalen
+#### 🛠️ Opdracht: Kleurvariaties bepalen
 Maak een overzicht van alle kleuren die jullie in het ontwerp hebben gebruikt.  
 
 Bepaal de primaire kleur, secundaire kleur, accent kleuren en neutrale kleur in `HSL()` waarden in Figma. Maak daarna 3 donkere varianten per kleur, en 3 lichte varianten per kleur. Zo krijg je een kleurenpalet met 7 variaties per kleur.
@@ -38,7 +38,7 @@ Bepaal de primaire kleur, secundaire kleur, accent kleuren en neutrale kleur in 
 <img src="styleguide-lightness-of-hue-variaties.jpg"><br>
 _Soms is het mooier om niet de lightness te veranderen maar de hue aan te passen - [Refactoring UI](https://www.refactoringui.com) van Adam Wathan & Steve Schoge_
 
-#### Opdracht light/darkmode
+#### 🛠️ Opdracht: light/darkmode
 Ontwerp allemaal een dark-mode versie (of light-mode als je al een donkere versie hebt). Alle teamleden maken in Figma dezelfde pagina met dark-mode kleuren. Zorg dat je minimaal 3 verschillende versies hebt, bespreek de verschillende versies en stel 1 ontwerp samen op basis van jullie beste ideeen en uitwerkingen. (Bewaar je variaties)
 
 💡 Let op dat wit op zwart een te hoog contrast kan hebben. Vooral als een gebruiker het scherm heel fel heeft staan. Probeer eens donker grijs op de achtergrond. En hoe ziet dit eruit met hele licht grijze teksten?
@@ -61,13 +61,11 @@ Dark colors can add weight to a design, like tight leading. Try to avoid jumping
 Using the same amount of leading throughout your page will help to create a sense of balance. Remember, the contrast between your background and text colors should be high to support better readability. Although, if you’re using two colors closer together in shade, a greater amount of leading may improve legibility. 
 -->
 
-#### Bronnen
+#### Extra bronnen
 
-[Refactoring UI](https://www.refactoringui.com) van Adam Wathan & Steve Schoge
-
-[Practical UI](https://www.practical-ui.com) van Adham Dannaway
-
-[6 Mistakes to Avoid in Dark UI Design](https://supercharge.design/articles/6-mistakes-to-avoid-in-dark-ui-design)
+- [Refactoring UI](https://www.refactoringui.com) van Adam Wathan & Steve Schoge
+- [Practical UI](https://www.practical-ui.com) van Adham Dannaway
+- [6 Mistakes to Avoid in Dark UI Design](https://supercharge.design/articles/6-mistakes-to-avoid-in-dark-ui-design)
 
 
 ## Color in CSS
@@ -110,26 +108,27 @@ button {
 }
 ```
 
-💡 Dit is een interessant artikel van Sara Soueidan over waarom zij `hsl()` is gaan  gebruiken: 
-[On Switching from HEX & RGB to HSL](https://www.sarasoueidan.com/blog/hex-rgb-to-hsl/)
+👉 Bedenk met je team hoe je de kleuren in CSS gaan toepassen. 
+
+#### Extra bronnen
+- Dit is een interessant artikel van Sara Soueidan over waarom zij `hsl()` is gaan gebruiken: [On Switching from HEX & RGB to HSL](https://www.sarasoueidan.com/blog/hex-rgb-to-hsl/)
 
 
 ### New CSS Color Functions
-Sinds een paar jaar zijn er meerdetr kleuren functies bijgekomen. Zoals `lab()` en `lch()`. Hiermee kan je ook meer kleuren laten zien dan met `rgb()` en `hsl()`.
+Sinds een paar jaar zijn er meerdere kleuren functies bijgekomen. Zoals `lab()` en `lch()`. Hiermee kan je ook meer kleuren laten zien dan met `rgb()` en `hsl()`.
 
 <img src="styleguide-hsl-lchl.avif">
-
-💡 Lees meer over deze Color Functions op Smashing magazine: https://www.smashingmagazine.com/2021/11/guide-modern-css-colors/
 
 Omdat schermen steeds beter worden en meer kleuren kunnen laten zien zijn er nieuwe 'color spaces' bedacht zoals `Display-P3`. Als een gebruiker een modern scherm heeft dan kan je veel mooiere, heldere kleuren tonen. 
 
 <img src="styleguide-display-p3.jpg"><br>
 _het kleurenspectrum van Display-P3 is een stuk groter dan van rgb_
 
-💡 Lees meer over New CSS Color Features op CSS Tricks, met uitleg en code voorbeelden: https://css-tricks.com/new-css-color-features-preview/
-
 👉 Kan jouw scherm deze kleuren laten zien? Hoe zit het met browser ondersteuning? Hoe zou je dit kunnen gebruiken voor jullie opdracht?
 
+#### Extra bronnen
+- CSS Tricks over New CSS Color Features, met uitleg en code voorbeelden: https://css-tricks.com/new-css-color-features-preview/
+- Meer over deze Color Functions op Smashing magazine: https://www.smashingmagazine.com/2021/11/guide-modern-css-colors/ 
 
 ### light-dark() color function
 
@@ -147,13 +146,22 @@ body {
 
 Probeer het zelf: https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/light-dark
 
-👉 Dit kan je gebruiken voor de code afspraken voor jullie opdracht.
+👉 Hoe kan je de light-dark() color function gebruiken voor jullie opdracht? Gebruik dit in de code afspraken die jullie moeten maken. 
+
 
 <!--
-### Relative color syntax
-
+Extra uitdaging:
+Relative color syntax
 https://frontendmasters.com/blog/relative-color-syntax-basic-use-cases/
 -->
+
+### Fallback
+CSS is constant in ontwikkeling. Er zijn hele vette kleuren technieken bijgekomen, de notaties veranderen, browsers veranderen ... wat betekent dat voor de toegankelijkheid? Hoe bouw je robuste CSS én omarm je de veranderingen?
+
+Zo is het bijvoorbeeld niet meer nodig om kommas te gebruiken in `rgb()` en `hsl()` functies. En sinds een jaar ondersteunen alle grote moderen browsers dit. Maar niet iedereen heeft een moderne browser. De meeste "normale" mensen weten niet eens wat deze zin betekent ... 
+
+👉 Bedenk voor jullie styleguide een CSS strategie waarmee je de nieuwe kleurenschema's en ontwikkelingen kan toepassen, terwijl de moeder van Koop nog steeds jullie website goed kan bekijken.
+
 
 ### WCAG 3
 
@@ -166,12 +174,3 @@ _Hier kan je de verschillen zien tussen WCAG2 en ACPA contrast test_
 https://rox.nl/blog/apca-vervangt-wcag2-contrast
 
 <!-- https://typefully.com/DanHollick/wcag-3-and-apca-sle13GMW2Brp -->
-
-
-
-### Fallback
-CSS is constant in ontwikkeling. Er zijn hele vette kleuren technieken bijgekomen, de notaties veranderen, browsers veranderen ... wat betekent dat voor de toegankelijkheid? Hoe bouw je robuste CSS én omarm je de veranderingen?
-
-Zo is het bijvoorbeeld niet meer nodig om kommas te gebruiken in `rgb()` en `hsl()` functies. En sinds een jaar ondersteunen alle grote moderen browsers dit. Maar niet iedereen heeft een moderne browser. De meeste "normale" mensen weten niet eens wat deze zin betekent ... 
-
-👉 Bedenk voor jullie styleguide een CSS strategie waarmee je de nieuwe kleurenschema's en ontwikkelingen kan toepassen, terwijl de moeder van Koop nog steeds de website goed kan bekijken.
