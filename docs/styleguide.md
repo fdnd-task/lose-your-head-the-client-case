@@ -181,5 +181,6 @@ https://rox.nl/blog/apca-vervangt-wcag2-contrast
 
 Zet de antwoorden in je learning journal:
 
+<!-- Nog een leervraag bedenken bij het eerste onderdeel kleurenpalet samenstellen, misshien over de werkwijz? varieren: convergeren, divergeren. Of over kleurgebruik? you need more colors than you think -->
 - Welke bronnen uit het onderdeel Color in CSS ga je later nog eens lezen? 
 - Onderzoek een robuste code strategie voor het toepassen van moderne color functions en kleurenspectra, mét een nette fallback voor browsers die dit niet ondersteunen.
