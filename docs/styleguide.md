@@ -174,3 +174,12 @@ _Hier kan je de verschillen zien tussen WCAG2 en ACPA contrast test_
 https://rox.nl/blog/apca-vervangt-wcag2-contrast
 
 <!-- https://typefully.com/DanHollick/wcag-3-and-apca-sle13GMW2Brp -->
+
+
+
+## ✒️ Leervragen
+
+Zet de antwoorden in je learning journal:
+
+- Welke bronnen uit het onderdeel Color in CSS ga je later nog eens lezen? 
+- Onderzoek een robuste code strategie voor het toepassen van moderne color functions en kleurenspectra, mét een nette fallback voor browsers die dit niet ondersteunen.
