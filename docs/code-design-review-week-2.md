@@ -24,24 +24,24 @@ Tijdens de Design Critique nemen Justus, Dorien & Joost de SvelteKit opzet door 
 <!-- Stuur inzichten, trends naar Justus -->
 
 ##### Joost
-Herstelkompas
-Designing for Recognition
-Bajeslab
-Buurtcampuskrant
-Milledoni
+[Herstelkompas](https://github.com/fdnd-agency/herstelkompas)
+[Designing for Recognition](https://github.com/fdnd-agency/designingforrecognition)
+[Bajeslab](https://github.com/fdnd-agency/bajeslab)
+[Buurtcampuskrant](https://github.com/fdnd-agency/buurtcampuskrant)
+[Milledoni](https://github.com/fdnd-agency/milledoni)
 
 ##### Dorien
-AdConnect
-Oncollaboration
-SnappThis
-Embassy of the Free Mind
+[AdConnect](https://github.com/fdnd-agency/adconnect)
+[Oncollaboration](https://github.com/fdnd-agency/oncollaboration)
+[SnappThis](https://github.com/fdnd-agency/snappthis)
+[Embassy of the Free Mind](https://github.com/fdnd-agency/embassyofthefreemind)
 Bajeslab
 
 ##### Justus
-Civic Social Media Toolbox
-FootGuard
-Nebula - Xplorer
-BijlmerChronicles
+[Civic Social Media Toolbox](https://github.com/fdnd-agency/civicsocialmediatoolbox)
+[FootGuard](https://github.com/fdnd-agency/footguard)
+[Nebula - Xplorer](https://github.com/fdnd-agency/nebulaxplorer)
+[BijlmerChronicles](https://github.com/fdnd-agency/bijlmerchronicles)
 
 #### Design critique
 
