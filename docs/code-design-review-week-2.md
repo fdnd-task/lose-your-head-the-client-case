@@ -21,6 +21,28 @@ Tijdens de Design Critique nemen Justus, Dorien & Joost de SvelteKit opzet door 
 
 1. Zorg dat de dev branch up to date is.
 
+<!-- Stuur inzichten, trends naar Justus -->
+
+##### Joost
+Herstelkompas
+Designing for Recognition
+Bajeslab
+Buurtcampuskrant
+Milledoni
+
+##### Dorien
+AdConnect
+Oncollaboration
+SnappThis
+Embassy of the Free Mind
+Bajeslab
+
+##### Justus
+Civic Social Media Toolbox
+FootGuard
+Nebula - Xplorer
+BijlmerChronicles
+
 #### Design critique
 
 Jullie hebben met je team een styleguide opgezet en designs gemaakt of gekregen. Vandaag gaan jullie bij elkaar een Design Critique doen op basis van een aantal principes van Dieter Rams's "Good Design":
