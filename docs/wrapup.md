@@ -108,11 +108,10 @@ We doen dan ook een kampvuursessie met een docent erbij.
 
 
 ### ✒️ Leervragen
+<!-- Een drietal vragen die ze kunnen opnemen in hun learning journal, waar de squadleaders dan weer op terug komen op vrijdag. -->
 
 Zet de antwoorden in je learning journal.
 
 1. Hoe heb jij je voorbereid op de sprint review?
 2. [Voor na de sprint review] Hoe heeft de sprint review voorbereiding geholpen?
 3. Wat zou je de volgende keer anders doen?
-
-<!-- Een drietal vragen die ze kunnen opnemen in hun learning journal, waar de squadleaders dan weer op terug komen op vrijdag. -->

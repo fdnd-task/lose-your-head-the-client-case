@@ -66,18 +66,13 @@ _💡 ProTip: Lees al deze artikelen en maak samenvattingen op je Gist, learning
 - [Retrospective formats @ Retromat](https://retromat.org/en/about)
 - Check die lijst van de living standards 🤯
 
-<!--
-### 💪 Extra uitdagingen
- Dit is optioneel voor de hardlopers die iets extra's willen. 
--->
-
 
 ### ✒️ Leervragen
+<!-- Een drietal vragen die ze kunnen opnemen in hun learning journal, waar de squadleaders dan weer op terug komen op vrijdag. -->
 
 Zet de antwoorden in je learning journal.
 
 - Beschrijf hoe het format heeft geholpen bij je retrospective?
 - Benoem de inzichten die je hebt en die je voortaan anders wilt aanpakken
-- 
+- Wat heb je geleerd van je living standards?
 
-<!-- Een drietal vragen die ze kunnen opnemen in hun learning journal, waar de squadleaders dan weer op terug komen op vrijdag. -->
