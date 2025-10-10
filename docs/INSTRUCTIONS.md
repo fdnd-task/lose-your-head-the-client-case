@@ -24,6 +24,7 @@ Deze leertaak wordt behandeld in Sprint 14. er worden verschillende workshops aa
 - [Code/Design-review - week 2](code-design-review-week-2.md)
 - [Sveltekit principes](sveltekit-principes.md)
 - [Wrap up](wrapup.md)
+- [Retrospect](retrospect.md)
 
 ## Definitions of Done
 

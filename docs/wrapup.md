@@ -22,7 +22,57 @@ We gaan samen aan de slag met het updaten van de oplever [todo lijst](https://gi
 
 #### Sprint oplever todo's:
 
-<!-- Kopieer de lijst hier -->
+Wat moet er in de oplevering zitten?
+
+- [`README.md`](#readme)
+- [Alles moet getest zijn](#testen)
+- [Projectboard](#projectboard)
+- [Opdrachtgever](#opdrachtgever)
+- Live staan + live link
+- Geen open pull requests
+
+#### Opdrachtgever
+- Presentatie voorbereid (geen powerpoint!) voor de sprint review
+- Vragen voor de opdrachtgever voorbereiden
+- Agenda opgezet
+- Maakt een afspraak voor de sprint review
+
+#### Projectboard
+- Moscow is toegepast
+- User stories zijn gepokerd en hebben een waarde
+- User stories in juiste fase
+- Epics
+- User stories, als ... wil ik ... zodat ik ...
+- Issues/User stories sluiten
+- Backlog met user stories
+- Optioneel: deadlines op user stories
+
+#### Refactor
+- Structuur van je mappen
+- Netjes uitlijnen van code
+- Ongebruikte code is verwijderd
+- Ongebruikte files zijn verwijderd
+- Comments in code
+- Comments met bronnen
+- Conventies uit `CONTRIBUTING.md` zijn gehandhaafd, inclusief FDND conventies
+- Code opdelen in components
+- Branches die gemerged zijn archiven (staat in FDND conventies hoe dat werkt)
+
+#### README
+- Informatie voor installatie, indien nodig een stukje code voor uitleg
+- Omschrijving van het project
+- Ontwerpkeuzes uitleggen, inclusief screenshots
+- Functionaliteiten uitleg
+- Uitleg hoe kun je bijdragen
+- Link naar de licentie
+- Datamodel vanuit mermaid
+
+#### Testen
+- Performance
+- A11y, tab, kleur, screenreader
+- User test
+- Responsive + Device test + Browser test
+- Html validator
 
 
 ### 2. Voorbereiding sprint review
