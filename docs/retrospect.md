@@ -27,7 +27,7 @@ Afgelopen drie weken hebben jullie met een nieuw team samengewerkt aan het proje
 Jullie gaan een retrospective met elkaar houden volgens een vast format. Lees op [Retromat](https://retromat.org/en/?id=76-121-50-73-102) hoe de onderstaande stappen gaan. 
 
 1. Set the stage - Round of admiration (#76) 
-2. Gather Data - The good the bad and the uglie (#121)
+2. Gather Data - The good the bad and the ugly (#121)
 3. Generate insights - Wish grantedn (#50)
 4. Decide what to do - Pitch (#73)
 5. Close the retrospective - You and me (#102)
