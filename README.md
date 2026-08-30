@@ -4,7 +4,7 @@ Ontwerp en ontwikkel met een team een website voor een opdrachtgever, op basis v
 
 Jullie werken op een gedeelde repository in de organisatie [FDND-Agency](https://github.com/fdnd-agency). 
 
-De uitleg staat beschreven in de [INSTRUCTIONS](https://github.com/fdnd-task/lose-your-head-the-client-case/blob/main/docs/INSTRUCTIONS.md)
+De uitleg staat beschreven in de [WIKI](https://github.com/fdnd-task/lose-your-head-the-client-case/wiki)
 
 ## Licentie
 
